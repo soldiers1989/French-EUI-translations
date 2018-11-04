@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="empty_subject_strings">
+        <item>"Pas d'objet"</item>
+        <item>"Pas d'objet"</item>
+    </string-array>
+    <string-array name="select_dialog_items">
+        <item>1 seconde</item>
+        <item>2 secondes</item>
+        <item>3 secondes</item>
+        <item>4 secondes</item>
+        <item>5 secondes</item>
+        <item>6 secondes</item>
+        <item>7 secondes</item>
+        <item>8 secondes</item>
+        <item>9 secondes</item>
+        <item>10 secondes</item>
+        <item>Autre</item>
+    </string-array>
+    <string-array name="filter_message_list">
+        <item>Tous les messages</item>
+        <item>Messages personnels</item>
+        <item>Messages de notification</item>
+    </string-array>
+    <string-array name="more_action_message_list">
+        <item>Détails</item>
+        <item>Enregistrer la pièce jointe</item>
+        <item>Enregistrer dans la carte SIM</item>
+    </string-array>
+    <string-array name="pref_sms_save_location_choices">
+        <item>Téléphone</item>
+        <item>Carte SIM</item>
+    </string-array>
+    <string-array name="pref_tablet_sms_save_location_choices">
+        <item>appareil</item>
+        <item>Carte SIM</item>
+    </string-array>
+</resources>

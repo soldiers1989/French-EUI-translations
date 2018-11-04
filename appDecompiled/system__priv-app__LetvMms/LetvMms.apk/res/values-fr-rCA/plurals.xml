@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="confirm_delete_conversation">
+        <item quantity="other">%1$s conversations vont être supprimées.</item>
+        <item quantity="one">Supprimer 1 conversation.</item>
+    </plurals>
+    <plurals name="recipient_count">
+        <item quantity="other">%1$s personnes</item>
+    </plurals>
+    <plurals name="search_results_title">
+        <item quantity="other">%1$s messages trouvés lors de la recherche de %2$s</item>
+        <item quantity="one">%1$s message trouvé lors de la recherche de %2$s</item>
+    </plurals>
+    <plurals name="slide_duration">
+        <item quantity="other">%s secondes</item>
+        <item quantity="one">%s seconde</item>
+        <item quantity="few">%s secondes</item>
+    </plurals>
+    <plurals name="audio_time">
+        <item quantity="other">%1$s secondes</item>
+        <item quantity="one">%1$s seconde</item>
+    </plurals>
+    <plurals name="message_view_selected_message_count">
+        <item quantity="other">%d sélectionnés</item>
+        <item quantity="one">%d sélectionné</item>
+    </plurals>
+    <plurals name="read_report_toast_msg">
+        <item quantity="other">"%d confirmations de lecture en cours d'envoi"</item>
+    </plurals>
+    <plurals name="count_mult_mode">
+        <item quantity="other">%1$d sélectionnés</item>
+        <item quantity="one">已选择%1$d项</item>
+        <item quantity="few">已选择%1$d项</item>
+        <item quantity="many">已选择%1$d项</item>
+    </plurals>
+</resources>

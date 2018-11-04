@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="delete_selection">
+        <item quantity="other">Delete selected items?</item>
+        <item quantity="one">Delete selected item?</item>
+    </plurals>
+    <plurals name="le_sticker_count_str">
+        <item quantity="other">Total of %1$d items</item>
+        <item quantity="zero">Total of %1$d items</item>
+        <item quantity="one">Total of %1$d item</item>
+    </plurals>
+    <plurals name="number_of_albums_deleted">
+        <item quantity="other">Delete %1$d albums</item>
+        <item quantity="zero">Delete %1$d albums</item>
+        <item quantity="one">Delete %1$d album</item>
+    </plurals>
+    <plurals name="number_of_images_deleted">
+        <item quantity="other">Delete %1$d pictures</item>
+        <item quantity="zero">Delete %1$d pictures</item>
+        <item quantity="one">Delete %1$d picture</item>
+    </plurals>
+    <plurals name="number_of_images_deleted_have_fav">
+        <item quantity="other">Delete %1$d pictures</item>
+        <item quantity="zero">Delete %1$d pictures</item>
+        <item quantity="one">Delete %1$d picture</item>
+    </plurals>
+    <plurals name="number_of_images_deleted_in_fav">
+        <item quantity="other">Deleting pictures from your favorites folder will also delete the original picture. If you want to remove a picture from your favorites, please use unfavorite. Are you sure you want to delete %1$d pictures?</item>
+        <item quantity="zero">Deleting pictures from your favorites folder will also delete the original picture. If you want to remove a picture from your favorites, please use unfavorite. Are you sure you want to delete %1$d pictures?</item>
+        <item quantity="one">Deleting pictures from your favorites folder will also delete the original picture. If you want to remove a picture from your favorites, please use unfavorite. Are you sure you want to delete %1$d picture?</item>
+    </plurals>
+    <plurals name="number_of_items_deleted">
+        <item quantity="other">Delete %1$d items</item>
+        <item quantity="zero">Delete %1$d items</item>
+        <item quantity="one">Delete %1$d item</item>
+    </plurals>
+    <plurals name="number_of_items_deleted_have_fav">
+        <item quantity="other">Delete %1$d items</item>
+        <item quantity="zero">Delete %1$d items</item>
+        <item quantity="one">Delete %1$d item</item>
+    </plurals>
+    <plurals name="number_of_items_deleted_in_fav">
+        <item quantity="other">Deleting pictures or videos from your favorites folder will also delete the original file. If you want to remove a picture or video from your favorites, please use unfavorite. Are you sure you want to delete %1$d items?</item>
+        <item quantity="zero">Deleting pictures or videos from your favorites folder will also delete the original file. If you want to remove a picture or video from your favorites, please use unfavorite. Are you sure you want to delete %1$d items?</item>
+        <item quantity="one">Deleting pictures or videos from your favorites folder will also delete the original file. If you want to remove a picture or video from your favorites, please use unfavorite. Are you sure you want to delete %1$d item?</item>
+    </plurals>
+    <plurals name="number_of_items_min_select">
+        <item quantity="other">Select at least %1$d images</item>
+        <item quantity="zero">Select at least %1$d images</item>
+        <item quantity="one">Select at least %1$d image</item>
+    </plurals>
+    <plurals name="number_of_items_min_selected">
+        <item quantity="other">%1$d/%2$d items selected</item>
+        <item quantity="zero">%1$d/%2$d items selected</item>
+        <item quantity="one">%1$d/%2$d item selected</item>
+    </plurals>
+    <plurals name="number_of_items_perm_delete">
+        <item quantity="other">Delete %1$d items permanently</item>
+        <item quantity="zero">Delete %1$d items permanently</item>
+        <item quantity="one">Delete %1$d item permanently</item>
+    </plurals>
+    <plurals name="number_of_items_private">
+        <item quantity="other">%1$d items set as privacy</item>
+        <item quantity="zero">%1$d items set as privacy</item>
+        <item quantity="one">%1$d item set as privacy</item>
+    </plurals>
+    <plurals name="number_of_items_remote_tag">
+        <item quantity="other">%1$d items removed</item>
+        <item quantity="zero">%1$d items removed</item>
+        <item quantity="one">%1$d item removed</item>
+    </plurals>
+    <plurals name="number_of_items_restore">
+        <item quantity="other">%1$d items restored</item>
+        <item quantity="zero">%1$d items restored</item>
+        <item quantity="one">%1$d item restored</item>
+    </plurals>
+    <plurals name="number_of_items_selected">
+        <item quantity="other">%1$d items selected</item>
+        <item quantity="zero">%1$d items selected</item>
+        <item quantity="one">%1$d item selected</item>
+    </plurals>
+    <plurals name="number_of_items_trash">
+        <item quantity="other">Delete %1$d items</item>
+        <item quantity="zero">Delete %1$d items</item>
+        <item quantity="one">Delete %1$d item</item>
+    </plurals>
+    <plurals name="number_of_items_unprivate">
+        <item quantity="other">%1$d items restored</item>
+        <item quantity="zero">%1$d items restored</item>
+        <item quantity="one">%1$d item restored</item>
+    </plurals>
+    <plurals name="number_of_videos_deleted">
+        <item quantity="other">Delete %1$d videos</item>
+        <item quantity="zero">Delete %1$d videos</item>
+        <item quantity="one">Delete %1$d video</item>
+    </plurals>
+    <plurals name="number_of_videos_deleted_have_fav">
+        <item quantity="other">Delete %1$d videos</item>
+        <item quantity="zero">Delete %1$d videos</item>
+        <item quantity="one">Delete %1$d video</item>
+    </plurals>
+    <plurals name="number_of_videos_deleted_in_fav">
+        <item quantity="other">Deleting videos from your favorites folder will also delete the original video. If you want to remove a video from your favorites, please use unfavorite. Are you sure you want to delete %1$d videos?</item>
+        <item quantity="zero">Deleting videos from your favorites folder will also delete the original video. If you want to remove a video from your favorites, please use unfavorite. Are you sure you want to delete %1$d videos?</item>
+        <item quantity="one">Deleting videos from your favorites folder will also delete the original video. If you want to remove a video from your favorites, please use unfavorite. Are you sure you want to delete %1$d video?</item>
+    </plurals>
+    <plurals name="number_of_remove_pure_remote_album">
+        <item quantity="other">Remove %1$d items</item>
+        <item quantity="zero">Remove %1$d items</item>
+        <item quantity="one">Remove %1$d item</item>
+    </plurals>
+    <plurals name="number_of_pictures_and_videos_sync">
+        <item quantity="other">syncing %1$d pictures, %2$d videos (%3$d/%4$d)</item>
+        <item quantity="zero">syncing %1$d pictures, %2$d videos (%3$d/%4$d)</item>
+        <item quantity="one">syncing %1$d picture, %2$d video (%3$d/%4$d)</item>
+    </plurals>
+    <plurals name="number_of_pictures_and_videos_total">
+        <item quantity="other">%1$d pictures %2$d videos</item>
+        <item quantity="zero">%1$d pictures %2$d videos</item>
+        <item quantity="one">%1$d picture %2$d video</item>
+    </plurals>
+    <plurals name="number_of_pictures_sync">
+        <item quantity="other">syncing %1$d pictures (%2$d/%3$d)</item>
+        <item quantity="zero">syncing %1$d pictures (%2$d/%3$d)</item>
+        <item quantity="one">syncing %1$d picture (%2$d/%3$d)</item>
+    </plurals>
+    <plurals name="number_of_pictures_total">
+        <item quantity="other">%1$d pictures</item>
+        <item quantity="zero">%1$d pictures</item>
+        <item quantity="one">%1$d picture</item>
+    </plurals>
+    <plurals name="number_of_videos_sync">
+        <item quantity="other">syncing %1$d videos (%2$d/%3$d)</item>
+        <item quantity="zero">syncing %1$d videos (%2$d/%3$d)</item>
+        <item quantity="one">syncing %1$d video (%2$d/%3$d)</item>
+    </plurals>
+    <plurals name="number_of_videos_total">
+        <item quantity="other">%1$d videos</item>
+        <item quantity="zero">%1$d videos</item>
+        <item quantity="one">%1$d video</item>
+    </plurals>
+    <plurals name="le_pictures_and_videos_upload_finish">
+        <item quantity="other">%1$d photos and %2$d videos synced</item>
+        <item quantity="zero">%1$d photos and %2$d videos synced</item>
+        <item quantity="one">%1$d photo and %2$d video synced</item>
+    </plurals>
+    <plurals name="le_pictures_and_videos_waiting_for_upload">
+        <item quantity="other">%1$d photos or videos waiting for uploading</item>
+        <item quantity="zero">%1$d photos or videos waiting for uploading</item>
+        <item quantity="one">%1$d photo or video waiting for uploading</item>
+    </plurals>
+    <plurals name="le_pictures_upload_finish">
+        <item quantity="other">%1$d photos synced</item>
+        <item quantity="zero">%1$d photos synced</item>
+        <item quantity="one">%1$d photo synced</item>
+    </plurals>
+    <plurals name="le_pictures_waiting_for_download">
+        <item quantity="other">%1$d photos waiting for downloading</item>
+        <item quantity="zero">%1$d photos waiting for downloading</item>
+        <item quantity="one">%1$d photo waiting for downloading</item>
+    </plurals>
+    <plurals name="le_smart_sync_notification_title_strings">
+        <item quantity="other">%1$d albums:</item>
+        <item quantity="zero">%1$d albums:</item>
+        <item quantity="one">%1$d album:</item>
+    </plurals>
+    <plurals name="le_sync_state_upload_error">
+        <item quantity="other">Failed to upload %1$d images or videos. Will try again later.</item>
+        <item quantity="zero">Failed to upload %1$d images or videos. Will try again later.</item>
+        <item quantity="one">Failed to upload %1$d image or video. Will try again later.</item>
+    </plurals>
+    <plurals name="le_sync_state_upload_net_error">
+        <item quantity="other">%1$d images or videos will be uploaded over Wi-Fi or mobile network.</item>
+        <item quantity="zero">%1$d images or videos will be uploaded over Wi-Fi or mobile network.</item>
+        <item quantity="one">%1$d image or video will be uploaded over Wi-Fi or mobile network.</item>
+    </plurals>
+    <plurals name="le_sync_state_upload_power_error">
+        <item quantity="other">%1$d images or videos will be uploaded when battery capacity is over %2$s or when charging.</item>
+        <item quantity="zero">%1$d images or videos will be uploaded when battery capacity is over %2$s or when charging.</item>
+        <item quantity="one">%1$d image or video will be uploaded when battery capacity is over %2$s or when charging.</item>
+    </plurals>
+    <plurals name="le_sync_state_upload_wifi_error">
+        <item quantity="other">%1$d images or videos will be uploaded when Wi-Fi is available.</item>
+        <item quantity="zero">%1$d images or videos will be uploaded when Wi-Fi is available.</item>
+        <item quantity="one">%1$d image or video will be uploaded when Wi-Fi is available.</item>
+    </plurals>
+    <plurals name="le_sync_state_wait_for_upload">
+        <item quantity="other">%1$d images or videos will be uploaded</item>
+        <item quantity="zero">%1$d images or videos will be uploaded</item>
+        <item quantity="one">%1$d image or video will be uploaded</item>
+    </plurals>
+    <plurals name="le_videos_upload_finish">
+        <item quantity="other">%1$d videos synced</item>
+        <item quantity="zero">%1$d videos synced</item>
+        <item quantity="one">%1$d video synced</item>
+    </plurals>
+    <plurals name="number_of_media_uploading">
+        <item quantity="other">Uploading %1$d/%2$d</item>
+        <item quantity="zero">Uploading %1$d/%2$d</item>
+        <item quantity="one">Uploading %1$d/%2$d</item>
+    </plurals>
+    <plurals name="pattern_day">
+        <item quantity="other">" Days "</item>
+        <item quantity="one">" Day "</item>
+    </plurals>
+    <plurals name="pattern_hour">
+        <item quantity="other">" Hours "</item>
+        <item quantity="one">" Hour "</item>
+    </plurals>
+    <plurals name="pattern_minute">
+        <item quantity="other">" Minutes "</item>
+        <item quantity="one">" Minute "</item>
+    </plurals>
+    <plurals name="pattern_second">
+        <item quantity="other">" Seconds "</item>
+        <item quantity="one">" Second "</item>
+    </plurals>
+</resources>

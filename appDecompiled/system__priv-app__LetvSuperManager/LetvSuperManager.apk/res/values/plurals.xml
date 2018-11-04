@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="le_string_total_found_ads_count">
+        <item quantity="other">%1$s Ads apps</item>
+        <item quantity="one">%1$s Ads app</item>
+    </plurals>
+    <plurals name="le_string_total_found_virus_count">
+        <item quantity="other">%1$s high-risk apps</item>
+        <item quantity="one">%1$s high-risk app</item>
+    </plurals>
+    <plurals name="le_string_app_num">
+        <item quantity="other">%d apps</item>
+        <item quantity="one">%d app</item>
+    </plurals>
+    <plurals name="process_count_unit">
+        <item quantity="other">%d items</item>
+        <item quantity="one">%d item</item>
+    </plurals>
+    <plurals name="le_string_card_safe_found_virus">
+        <item quantity="other">Discover %1$s high risk applications</item>
+        <item quantity="one">Discover %1$s high risk application</item>
+    </plurals>
+    <plurals name="le_string_card_safe_uninstall_confirm">
+        <item quantity="other">Are you sure to uninstall %1$s high risk applications?</item>
+        <item quantity="one">Are you sure to uninstall %1$s high risk application?</item>
+    </plurals>
+    <plurals name="pattern_day">
+        <item quantity="other">" Days "</item>
+        <item quantity="one">" Day "</item>
+    </plurals>
+    <plurals name="pattern_hour">
+        <item quantity="other">" Hours "</item>
+        <item quantity="one">" Hour "</item>
+    </plurals>
+    <plurals name="pattern_minute">
+        <item quantity="other">" Minutes "</item>
+        <item quantity="one">" Minute "</item>
+    </plurals>
+    <plurals name="pattern_second">
+        <item quantity="other">" Seconds "</item>
+        <item quantity="one">" Second "</item>
+    </plurals>
+    <plurals name="string_noti_memory_speedup_toast">
+        <item quantity="other">Close %1$s background processes, clean memory %2$sMB</item>
+        <item quantity="one">Close %1$s background process, clean memory %2$sMB</item>
+    </plurals>
+</resources>

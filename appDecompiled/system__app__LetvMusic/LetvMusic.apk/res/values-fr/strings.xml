@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">"Revenir à l'accueil"</string>
+    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
+    <string name="abc_action_bar_up_description">Revenir en haut de la page</string>
+    <string name="abc_action_menu_overflow_description">"Plus d'options"</string>
+    <string name="abc_action_mode_done">OK</string>
+    <string name="abc_activity_chooser_view_see_all">Tout afficher</string>
+    <string name="abc_activitychooserview_choose_application">Sélectionner une application</string>
+    <string name="abc_capital_off">DÉSACTIVÉ</string>
+    <string name="abc_capital_on">ACTIVÉ</string>
+    <string name="abc_search_hint">Rechercher…</string>
+    <string name="abc_searchview_description_clear">Effacer la requête</string>
+    <string name="abc_searchview_description_query">Requête de recherche</string>
+    <string name="abc_searchview_description_search">Rechercher</string>
+    <string name="abc_searchview_description_submit">Envoyer la requête</string>
+    <string name="abc_searchview_description_voice">Recherche vocale</string>
+    <string name="abc_shareactionprovider_share_with">Partager avec</string>
+    <string name="abc_shareactionprovider_share_with_application">Partager avec %s</string>
+    <string name="abc_toolbar_collapse_description">Réduire</string>
+    <string name="status_bar_notification_info_overflow">>999</string>
+    <string name="app_name">LeCommonPlayer</string>
+    <string name="cache_video">Cache</string>
+    <string name="cancel_play">Arrêter</string>
+    <string name="cinema_sound_disabling">Désactivation du son cinéma.</string>
+    <string name="cinema_sound_enabled">"Son cinéma activé. 
+Profitez maintenant d'un son Surround."</string>
+    <string name="cinema_sound_enabled_no_headset">"Son cinéma activé. 
+Utilisez des écouteurs pour une qualité optimale."</string>
+    <string name="cinema_sound_enabling">Activation du son cinéma...</string>
+    <string name="cinema_sound_enabling_adjusted">Le son Dolby ne peut pas être fourni avec la résolution actuelle. Basculement vers une autre résolution...</string>
+    <string name="common_play_error">Impossible de lire la vidéo. Veuillez actualiser et réessayer.</string>
+    <string name="common_request_error">"Échec de la demande d'adresse de diffusion. Veuillez actualiser et réessayer."</string>
+    <string name="content_dlna">"Lecture sur %s
+. Vous pouvez utiliser votre téléphone comme une télécommande."</string>
+    <string name="continue_play">Reprendre</string>
+    <string name="continue_previous_play">Vous avez arrêté à %2$s sur %1$s. Reprendre la lecture...</string>
+    <string name="default_play_loading">Chargement. Veuillez patienter...</string>
+    <string name="dlna_no_message">Vous devez installer la télécommande du supertéléphone Le pour utiliser cette fonction.</string>
+    <string name="download_speed">%1$d kbit/s</string>
+    <string name="download_to_super_tv">Télécharger vers le supertéléviseur</string>
+    <string name="exit_player">Quitter</string>
+    <string name="low_level_not_support_cinema">Modification de la résolution. La diffusion %1$s ne prend pas en charge le son Dolby</string>
+    <string name="low_level_not_support_cinema_general">"Modification de la résolution. L'option actuelle ne prend pas en charge le son Dolby"</string>
+    <string name="mobile_network_warning_dialog">Le visionnage sur un réseau 2G/3G/4G entraînera des frais supplémentaires</string>
+    <string name="play_3d">3D</string>
+    <string name="play_cinema_sound">Son cinéma</string>
+    <string name="play_cinema_sound_disabled">Son cinéma désactivé</string>
+    <string name="play_cinema_sound_enabled">Son cinéma activé</string>
+    <string name="play_in_pip">Petite fenêtre</string>
+    <string name="play_list_end">Lecture vidéo terminée</string>
+    <string name="play_soon">Sur le point de commencer</string>
+    <string name="player_complain">"Problème de 
+lecture saccadée"</string>
+    <string name="player_network_change_to_wifi">Vous utilisez un réseau Wi-Fi</string>
+    <string name="player_network_none">Aucune connexion Internet. Veuillez vérifier votre réseau et réessayer.</string>
+    <string name="player_refresh_and_retry">Actualiser pour réessayer</string>
+    <string name="player_time_distinguish">/</string>
+    <string name="playing_under_mobile_network">Vous utilisez un réseau 2G/3G/4G.</string>
+    <string name="program_list">Liste de programmation</string>
+    <string name="push_to_dlna">DLNA</string>
+    <string name="push_to_super_tv">Diffuser vers le supertéléviseur</string>
+    <string name="push_to_tv">Projeter</string>
+    <string name="select_chanel">Sélectionner les chaînes</string>
+    <string name="select_video">"Sélectionner l'épisode"</string>
+    <string name="str_shutdown_dlna">Arrêter la diffusion</string>
+    <string name="stream_switch_done">"Basculé vers &lt;font color='#00a0c9'>%s&lt;/font>"</string>
+    <string name="stream_switching">Modification de la résolution...</string>
+    <string name="stubborn_complain_fake">"Envoyé. 
+Traitement en cours"</string>
+    <string name="stubborn_complain_success">"Envoyé. (%1$s)
+Traitement en cours"</string>
+    <string name="three_d_disabling">Désactivation des effets 3D...</string>
+    <string name="three_d_enabled_with_helmet">"Effets 3D activés. 
+Les vidéos peuvent être transmises vers le casque pour le visionnage."</string>
+    <string name="three_d_enabled_without_helmet">"Effet 3D activé. 
+Portez votre casque pour visionner des films en 3D"</string>
+    <string name="three_d_enabling">Activation des effets 3D...</string>
+    <string name="to_be_continue">"Restez à l'écoute"</string>
+    <string name="use_headset_to_enjoy">Utilisez des écouteurs pour une qualité optimale</string>
+</resources>

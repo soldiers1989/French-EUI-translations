@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="device_action_type">
+        <item>Renommer</item>
+        <item>Supprimer</item>
+    </string-array>
+    <string-array name="device_type_array">
+        <item>Télévision</item>
+        <item>Décodeur</item>
+        <item>A/C</item>
+        <item>Boîte Intelligente</item>
+        <item>Télécommande Universelle</item>
+    </string-array>
+    <string-array name="signal_type">
+        <item>Vidéo</item>
+        <item>Télévision</item>
+        <item>Ordinateur</item>
+        <item>HDMI 1</item>
+        <item>HDMI 2</item>
+        <item>HDMI 3</item>
+    </string-array>
+</resources>

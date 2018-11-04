@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="show_dev_countdown">
+        <item quantity="other">"Vous êtes maintenant à %1$d étapes d'être un développeur."</item>
+        <item quantity="one">"Vous êtes maintenant à %1$d étape d'être un développeur."</item>
+    </plurals>
+    <plurals name="security_settings_fingerprint_preference_summary">
+        <item quantity="other">%1$d empreinte digitale configurée</item>
+        <item quantity="one">%1$d empreintes digitales configurées</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">Le mot de passe doit contenir au moins %d lettres.</item>
+        <item quantity="one">Le mot de passe doit contenir au moins 1 lettre.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">Le mot de passe doit contenir au moins %d lettres minuscules.</item>
+        <item quantity="one">Le mot de passe doit contenir au moins 1 lettre minuscule.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">Le mot de passe doit contenir au moins %d lettres majuscules.</item>
+        <item quantity="one">Le mot de passe doit contenir au moins 1 lettre majuscule.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">Le mot de passe doit contenir au moins %d chiffres.</item>
+        <item quantity="one">Le mot de passe doit contenir au moins 1 chiffre.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">Le mot de passe doit contenir au moins %d symboles spéciaux.</item>
+        <item quantity="one">Le mot de passe doit contenir au moins 1 symbole spécial.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">"Le mot de passe doit contenir au moins %d caractères autres qu'une lettre."</item>
+        <item quantity="one">"Le mot de passe doit contenir au moins 1 caractère autre qu'une lettre."</item>
+    </plurals>
+    <plurals name="manage_notification_access_summary_nonzero">
+        <item quantity="other">Les applications %d peuvent lire les notifications</item>
+        <item quantity="one">"L'application %d peut lire les notifications"</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_minute">
+        <item quantity="other">"Alarmes seulement pendant %1$d minute, jusqu'à %2$s"</item>
+        <item quantity="one">"Alarmes seulement pendant %1$d minutes, jusqu'à %2$s"</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_hour">
+        <item quantity="other">"Alarmes seulement pendant %1$d heure, jusqu'à %2$s"</item>
+        <item quantity="one">"Alarmes seulement pendant %1$d heures, jusqu'à %2$s"</item>
+    </plurals>
+    <plurals name="runtime_permissions_additional_count">
+        <item quantity="other">%d autorisation supplémentaire</item>
+        <item quantity="one">%d autorisations supplémentaires</item>
+    </plurals>
+    <plurals name="memory_usage_apps_summary">
+        <item quantity="other">%1$d application a utilisé de la mémoire au cours de la période suivante : %2$s</item>
+        <item quantity="one">%1$d applications ont utilisé de la mémoire au cours de la période suivante : %2$s</item>
+    </plurals>
+</resources>

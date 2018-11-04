@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="suw_next_button_label">Suivant</string>
+    <string name="suw_back_button_label">Retour</string>
+    <string name="suw_more_button_label">Plus</string>
+    <string name="setup_wizard_next_button_label">Suivant</string>
+    <string name="setup_wizard_back_button_label">Précédent</string>
+    <string name="setup_wizard_title">Assistant de configuration LeEco</string>
+    <string name="panel_footer_text_next">Continuer</string>
+    <string name="panel_footer_text_skip">Ignorer</string>
+    <string name="panel_footer_text_finish">Terminer</string>
+    <string name="setupguide_strings_done_button_txt">Terminé</string>
+    <string name="title">Sélectionner votre langue</string>
+    <string name="inputmethod_pinyin_9_keys">Pinyin 9 touches</string>
+    <string name="inputmethod_pinyin_all_keys">Pinyin clavier complet</string>
+    <string name="inputmethod_wubi">Wubi</string>
+    <string name="inputmethod_bihua">Bihua</string>
+    <string name="inputmethod_shouxie">Saisie graphique sensible</string>
+    <string name="title_usage_terms">"Conditions d'utilisation LeEco"</string>
+    <string name="useragreement">"Contrat d'utilisation"</string>
+    <string name="useragreement_for_c1">"Accord de licence d'utilisateur final du logiciel"</string>
+    <string name="privacypolicy">Politique sur la vie privée</string>
+    <string name="agreement">Accepter et continuer</string>
+    <string name="agreement_oversea">Continuer</string>
+    <string name="title_usage_terms_description">"Sélectionner J'accepte pour utiliser les services EUI"</string>
+    <string name="title_usage_terms_description_oversea">"En touchant Continuer, vous convenez que 
+vous avez lu et accepté toutes les conditions énoncées
+dans le contrat d'utilisation et la politique sur la vie privée."</string>
+    <string name="sim_damaged_title">Carte %d endommagée</string>
+    <string name="sim_locked_title">Carte %d verrouillée</string>
+    <string name="sim_missing_title">Carte %d non insérée</string>
+    <string name="sim_damaged_nomal_toast">La carte SIM est endommagée. Veuillez insérer une carte SIM valide.</string>
+    <string name="sim_damaged_puk_lock_toast">La carte SIM est verrouillée. Veuillez contacter votre opérateur.</string>
+    <string name="sim_checking_title">Configurer la carte SIM</string>
+    <string name="sim_detect_title">Carte %d détectée</string>
+    <string name="single_sim_damaged_title">La carte SIM est endommagée</string>
+    <string name="single_sim_locked_title">La carte SIM est verrouillée</string>
+    <string name="single_sim_missing_title">Carte SIM non insérée</string>
+    <string name="single_sim_detect_title">La carte SIM est détectée</string>
+    <string name="single_sim_check_error_title">"La carte SIM n'a pas été reconnue"</string>
+    <string name="sim_missing_text">Veuillez insérer votre carte SIM</string>
+    <string name="mobiledate">Données mobiles</string>
+    <string name="description_mobile">"Accéder à l'Internet avec les données mobiles quand la connexion Wi-Fi est désactivée"</string>
+    <string name="button_not_use_sim_text">Ne pas utiliser</string>
+    <string name="sim_check_error_title">"La carte %d n'a pas été reconnue"</string>
+    <string name="sim_check_error_description">Aucune carte SIM détectée actuellement</string>
+    <string name="title_other_service">Autres services</string>
+    <string name="title_location_service">Activer le service de localisation</string>
+    <string name="title_location_service_description">"Le service de localisation permet à l'application Maps ou à d'autres applications d'utiliser les réseaux Wi-Fi, GPS et mobiles pour vous localiser."</string>
+    <string name="title_location_service_description_oversea">"Le service de localisation permet à l'application Maps ou à d'autres applications d'utiliser la fonction GPS pour vous localiser."</string>
+    <string name="title_user_plan_service">"Commentaires sur l'expérience de l'utilisateur"</string>
+    <string name="title_user_plan_service_description">"Pour améliorer la qualité du produit et la satisfaction de l'utilisateur, nous vous invitons à nous soumettre vos commentaires sur votre expérience d'utilisation. La collecte de données respecte en tous points notre "<u>Politique sur la vie privée</u>.</string>
+    <string name="dialogcanel">Annuler</string>
+    <string name="SIM_1">Carte SIM1</string>
+    <string name="SIM_2">Carte SIM2</string>
+    <string name="title_google_service">Services Google</string>
+    <string name="use_google_service">Configurer le compte Google</string>
+    <string name="google_service_description">"Configurez votre compte Google pour utiliser les services Google.
+
+Si vous avez déjà un compte Google, connectez-vous directement.
+Sinon, créez un nouveau compte maintenant."</string>
+    <string name="title_country_region">Sélectionner le pays ou la région</string>
+    <string name="title_display_mode">"Sélectionner le format d'affichage"</string>
+    <string name="title_display_mode_description">"Régler la taille et la disposition de l'affichage
+Vous pouvez le faire à tout moment sous Paramètres > Affichage > Taille d'affichage."</string>
+    <string name="display_mode_normal">Standard (actuel)</string>
+    <string name="display_mode_large">Zoom</string>
+    <string name="display_mode_small">Délicat</string>
+    <string name="display_mode_confirm_description">"Changer d'affichage entraîne le redémarrage de votre téléphone. Continuer ?"</string>
+    <string name="display_mode_confirm_button">Continuer</string>
+    <string name="title_fingerprint_guide">Ajouter une empreinte digitale</string>
+    <string name="title_fingerprint_success">Ajoutée avec succès</string>
+    <string name="title_fingerprint_guide_description">"L'empreinte digitale ajoutée peut être utilisée pour déverrouiller le téléphone
+ et le paiement dans les situations où le paiement par empreinte est pris en charge."</string>
+    <string name="title_fingerprint_success_description">Vous pouvez modifier ce paramètre sous Paramètres > Empreintes digitales > Gestion des empreintes digitales</string>
+    <string name="btn_start_fingerprint">Démarrer</string>
+    <string name="btn_start_fingerprint_add_more">Enregistrer une autre empreinte digitale</string>
+    <string name="title_fingerprint_has_added_titile">Enregistrée :</string>
+    <string name="title_fingerprint_guide_description_topful">"Vous pouvez ajouter jusqu'à %d empreintes digitales.
+ Celles-ci peuvent être utilisées pour le déverrouillage de l'écran
+ et le paiement dans les situations où le paiement par empreinte est pris en charge."</string>
+    <string name="slogen_part1">Partager le LeEco World</string>
+    <string name="lock_screen_intro_dialog_text_frp">"Après avoir ajouté un compte Google et défini un mode de verrouillage de l'écran, la fonction de protection de l'appareil sera activée automatiquement. Avec le gestionnaire d'appareil Android, vous pouvez localiser votre téléphone et en effacer toutes les données si celui-ci est perdu ou volé. Pour utiliser ce téléphone, toute autre personne devra saisir le nom d'utilisateur et le mot de passe de votre compte Google, même après la suppression des données du téléphone."</string>
+    <string name="lock_screen_intro_dialog_text">"Après avoir ajouté un compte Google et défini un mode de verrouillage de l'écran, la fonction de protection de l'appareil sera activée automatiquement. Avec le gestionnaire d'appareil Android, vous pouvez localiser votre téléphone et en effacer toutes les données si celui-ci est perdu ou volé."</string>
+    <string name="got_it_button_label">Compris</string>
+    <string name="lock_screen_intro_title">Activer la fonction de protection de votre téléphone</string>
+    <string name="lock_screen_intro_radio_generic">Définir un code PIN, un motif ou un mot de passe</string>
+    <string name="lock_screen_intro_radio_no">Non, merci</string>
+    <string name="lock_screen_intro_text">"Activer la fonction de protection de l'appareil peut empêcher d'autres personnes d'utiliser ce téléphone sans votre autorisation."<u>En apprendre davantage</u></string>
+    <string name="lock_screen_intro_success">"Vous avez correctement défini le mode de verrouillage de l'écran. "<u>En savoir plus</u></string>
+    <string name="skip_button_label">Ignorer</string>
+    <string name="lock_screen_intro_skip_dialog_text_frp">"Les fonctions de protection de l'appareil ne seront pas activées. Vous ne pourrez pas empêcher d'autres personnes d'utiliser ce téléphone s'il est perdu, volé ou réinitialisé."</string>
+    <string name="lock_screen_intro_skip_dialog_text">"La fonction de protection de l'appareil ne sera pas activée. Vous ne pourrez pas empêcher d'autres personnes d'utiliser ce téléphone s'il est perdu ou volé."</string>
+    <string name="skip_anyway_button_label">Passer quand même</string>
+    <string name="dont_skip_button_label">Ne pas ignorer</string>
+    <string name="title_font_size">Sélectionner la taille de police</string>
+    <string name="title_font_size_des">Vous pouvez redéfinir ceci sous Paramètres > Affichage > Taille de police.</string>
+    <string name="title_font_size_sample">Exemple de texte</string>
+    <string name="title_font_size_sample_des">Sélectionner une taille de police ci-dessous</string>
+    <string name="title_restore_selector">Restaurer ou transférer</string>
+    <string name="title_restore_item_lecloud">"Restaurer à partir d'une sauvegarde LeCLoud"</string>
+    <string name="title_restore_item_eui_transfer">"Restaurer à partir d'un téléphone précédent"</string>
+    <string name="title_restore_item_new">Utiliser comme nouveau ecophone</string>
+    <string name="title_ota_fingerprint_guide">"Mise à niveau de l'identification"</string>
+    <string name="title_ota_fingerprint_guide_description_l2m">"Ajoutez de nouvelles empreintes digitales afin d'améliorer 
+le taux de reconnaissance d'empreintes."</string>
+    <string name="title_ota_fingerprint_guide_description_ultrasound">"Cette mise à jour supprimera l'empreinte digitale d'origine."</string>
+    <string name="btn_start_fingerprint_for_ultrasound_ota">Ajouter une nouvelle empreinte digitale</string>
+    <string name="btn_start_fingerprint_for_ultrasound_skip">Supprimer toutes les empreintes digitales</string>
+    <string name="remove_fingerprint_for_ultrasound_ota_fail_message">"Échec de la mise à jour de l'empreinte digitale. Veuillez réessayer."</string>
+    <string name="sim_open">Activer</string>
+    <string name="sim_close">Désactiver</string>
+    <string name="confirm">OK</string>
+    <string name="install">Installer</string>
+</resources>

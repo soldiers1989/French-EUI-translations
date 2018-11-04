@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="notification_template_icon_bg">#3333b5e5</item>
+    <item type="drawable" name="grayBg">#ff333333</item>
+    <item type="drawable" name="dialer_contact_divider_color">#ffc6c7cb</item>
+    <item type="drawable" name="dialpad_choice_color">#ffffffff</item>
+    <item type="drawable" name="default_black">#ff000000</item>
+    <item type="drawable" name="dialpad_background_color">#ffffffff</item>
+    <item type="drawable" name="dialpad_button_divider">#ffffffff</item>
+    <item type="drawable" name="directory_header_bg_color">#ffeeeef0</item>
+    <item type="drawable" name="le_list_item_selected">#ffdfdfe2</item>
+    <item type="drawable" name="le_list_item_normal">#ffffffff</item>
+    <item type="drawable" name="dial_button_container">#ffffffff</item>
+    <item type="drawable" name="dialpad_calllog_container">#fffcfcfd</item>
+    <item type="drawable" name="seletcitem_nopressed">#ffffffff</item>
+    <item type="drawable" name="selectitem_pressed">#fff4f4f4</item>
+    <item type="drawable" name="dial_contact_bg">#fffcfcfd</item>
+    <item type="drawable" name="dialpad_tabbg">#ffffffff</item>
+    <item type="drawable" name="dialpad_top">#ffffffff</item>
+    <item type="drawable" name="le_dial_empt_item_bg">#fffcfcfd</item>
+    <item type="drawable" name="keypad_choice_ok_normalcolor">#ff2395ee</item>
+    <item type="drawable" name="keypad_choice_ok_pressedcolor">#ff518ef1</item>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="abc_action_bar_embed_tabs">true</bool>
+    <bool name="abc_allow_stacked_button_bar">true</bool>
+    <bool name="config_dockAppEnabled">true</bool>
+    <bool name="abc_config_actionMenuItemAllCaps">true</bool>
+    <bool name="abc_config_closeDialogWhenTouchOutside">true</bool>
+    <bool name="abc_config_showMenuShortcutsWhenKeyboardPresent">false</bool>
+    <bool name="config_not_show_alarm_full_screen">true</bool>
+    <bool name="default_circle_indicator_centered">true</bool>
+    <bool name="default_circle_indicator_snap">false</bool>
+    <bool name="le_add_keyguard_wallpaper_window">false</bool>
+    <bool name="le_color_auto_change">true</bool>
+    <bool name="le_led_light_battery_policy">true</bool>
+    <bool name="le_led_light_notification_policy">true</bool>
+    <bool name="le_need_show_ime_switch_notification">false</bool>
+    <bool name="le_zen_mode_config_support">false</bool>
+</resources>

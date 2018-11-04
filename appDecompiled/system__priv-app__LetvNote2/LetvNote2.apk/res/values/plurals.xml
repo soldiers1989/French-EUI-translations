@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="alarm_minute">
+        <item quantity="other">Reminder set for %1$d minutes from now</item>
+        <item quantity="one">Reminder set for 1 minute from now</item>
+    </plurals>
+    <plurals name="count_mult_mode">
+        <item quantity="other">%1$d selected</item>
+        <item quantity="one">1 selected</item>
+    </plurals>
+    <plurals name="pattern_day">
+        <item quantity="other">" Days "</item>
+        <item quantity="one">" Day "</item>
+    </plurals>
+    <plurals name="pattern_hour">
+        <item quantity="other">" Hours "</item>
+        <item quantity="one">" Hour "</item>
+    </plurals>
+    <plurals name="pattern_minute">
+        <item quantity="other">" Minutes "</item>
+        <item quantity="one">" Minute "</item>
+    </plurals>
+    <plurals name="pattern_second">
+        <item quantity="other">" Seconds "</item>
+        <item quantity="one">" Second "</item>
+    </plurals>
+    <plurals name="number_of_items_perm_delete">
+        <item quantity="other">Delete %1$d items permanently</item>
+        <item quantity="zero">Delete %1$d items permanently</item>
+        <item quantity="one">Delete %1$d item permanently</item>
+    </plurals>
+</resources>

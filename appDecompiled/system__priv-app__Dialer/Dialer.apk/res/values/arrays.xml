@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="mtk_incoming_call_widget_video_without_sms_audio_targets">
+        <item>@drawable/ic_lockscreen_answer_video</item>
+        <item>@null</item>
+        <item>@drawable/ic_lockscreen_decline</item>
+        <item>@null</item>
+    </array>
+    <string-array name="mtk_incoming_call_widget_video_without_sms_audio_target_descriptions">
+        <item>@string/description_target_answer_video_call</item>
+        <item>@null</item>
+        <item>@string/description_target_decline</item>
+        <item>@null</item>
+    </string-array>
+    <string-array name="mtk_incoming_call_widget_video_without_sms_audio_direction_descriptions">
+        <item>@string/description_direction_right</item>
+        <item>@null</item>
+        <item>@string/description_direction_left</item>
+        <item>@null</item>
+    </string-array>
+    <array name="incoming_call_widget_audio_without_sms_targets">
+        <item>@drawable/ic_lockscreen_answer</item>
+        <item>@null</item>
+        <item>@drawable/ic_lockscreen_decline</item>
+        <item>@null</item>
+    </array>
+    <string-array name="incoming_call_widget_audio_without_sms_target_descriptions">
+        <item>@string/description_target_answer</item>
+        <item>@null</item>
+        <item>@string/description_target_decline</item>
+        <item>@null</item>
+    </string-array>
+    <string-array name="incoming_call_widget_audio_without_sms_direction_descriptions">
+        <item>@string/description_direction_right</item>
+        <item>@null</item>
+        <item>@string/description_direction_left</item>
+        <item>@null</item>
+    </string-array>
+    <array name="incoming_call_widget_audio_with_sms_targets">
+        <item>@drawable/ic_lockscreen_answer</item>
+        <item>@drawable/ic_lockscreen_text</item>
+        <item>@drawable/ic_lockscreen_decline</item>
+        <item>@null</item>
+    </array>
+    <string-array name="incoming_call_widget_audio_with_sms_target_descriptions">
+        <item>@string/description_target_answer</item>
+        <item>@string/description_target_send_sms</item>
+        <item>@string/description_target_decline</item>
+        <item>@null</item>
+    </string-array>
+    <string-array name="incoming_call_widget_audio_with_sms_direction_descriptions">
+        <item>@string/description_direction_right</item>
+        <item>@string/description_direction_up</item>
+        <item>@string/description_direction_left</item>
+        <item>@null</item>
+    </string-array>
+    <array name="incoming_call_widget_video_without_sms_targets">
+        <item>@drawable/ic_lockscreen_answer</item>
+        <item>@null</item>
+        <item>@drawable/ic_lockscreen_decline</item>
+        <item>@drawable/ic_lockscreen_answer_video</item>
+    </array>
+    <string-array name="incoming_call_widget_video_without_sms_target_descriptions">
+        <item>@string/description_target_answer_video_call</item>
+        <item>@null</item>
+        <item>@string/description_target_decline</item>
+        <item>@string/description_target_answer_audio_call</item>
+    </string-array>
+    <string-array name="incoming_call_widget_video_without_sms_direction_descriptions">
+        <item>@string/description_direction_right</item>
+        <item>@null</item>
+        <item>@string/description_direction_left</item>
+        <item>@string/description_direction_down</item>
+    </string-array>
+    <array name="incoming_call_widget_video_with_sms_targets">
+        <item>@drawable/ic_lockscreen_answer_video</item>
+        <item>@drawable/ic_lockscreen_text</item>
+        <item>@drawable/ic_lockscreen_decline</item>
+        <item>@drawable/ic_lockscreen_answer</item>
+    </array>
+    <string-array name="incoming_call_widget_video_with_sms_target_descriptions">
+        <item>@string/description_target_answer_video_call</item>
+        <item>@string/description_target_send_sms</item>
+        <item>@string/description_target_decline</item>
+        <item>@string/description_target_answer_audio_call</item>
+    </string-array>
+    <string-array name="incoming_call_widget_video_with_sms_direction_descriptions">
+        <item>@string/description_direction_right</item>
+        <item>@string/description_direction_up</item>
+        <item>@string/description_direction_left</item>
+        <item>@string/description_direction_down</item>
+    </string-array>
+    <array name="incoming_call_widget_video_request_targets">
+        <item>@drawable/ic_lockscreen_answer_video</item>
+        <item>@drawable/ic_lockscreen_decline_video</item>
+    </array>
+    <string-array name="incoming_call_widget_video_request_target_descriptions">
+        <item>@string/description_target_accept_upgrade_to_video_request</item>
+        <item>@null</item>
+        <item>@string/description_target_decline_upgrade_to_video_request</item>
+        <item>@null</item>
+    </string-array>
+    <string-array name="incoming_call_widget_video_request_target_direction_descriptions">
+        <item>@string/description_direction_right</item>
+        <item>@null</item>
+        <item>@string/description_direction_left</item>
+        <item>@null</item>
+    </string-array>
+    <array name="sim_icons">
+        <item>@drawable/ic_sim_icon_1</item>
+        <item>@drawable/ic_sim_icon_2</item>
+        <item>@null</item>
+    </array>
+    <array name="background_colors">
+        <item>#ff00796b</item>
+        <item>#ff3367d6</item>
+        <item>#ff303f9f</item>
+        <item>#ff7b1fa2</item>
+        <item>#ffc2185b</item>
+        <item>#ffc53929</item>
+    </array>
+    <array name="background_colors_dark">
+        <item>#ff00695c</item>
+        <item>#ff2a56c6</item>
+        <item>#ff283593</item>
+        <item>#ff6a1b9a</item>
+        <item>#ffad1457</item>
+        <item>#ffb93221</item>
+    </array>
+    <string-array name="absent_num">
+        <item>ABSENT NUMBER</item>
+        <item>ABSENTNUMBER</item>
+    </string-array>
+    <string-array name="voicemail_notification_vibrate_when_values">
+        <item>always</item>
+        <item>silent</item>
+        <item>never</item>
+    </string-array>
+    <string-array name="number_opt">
+        <item>Create contact</item>
+        <item>Add to existing contact</item>
+        <item>Delete</item>
+        <item>Call logs on top</item>
+        <item>Add to blacklist</item>
+        <item>Flag</item>
+    </string-array>
+    <string-array name="markLables">
+        <item>Harassing phone call</item>
+        <item>Scam</item>
+        <item>Agent</item>
+        <item>Marketing</item>
+        <item>Delivery</item>
+        <item>Express</item>
+        <item>Custom</item>
+    </string-array>
+    <string-array name="labelOrders">
+        <item>g</item>
+        <item>a</item>
+        <item>b</item>
+        <item>c</item>
+        <item>d</item>
+        <item>e</item>
+        <item>f</item>
+    </string-array>
+    <string-array name="markLables_for_yellopage">
+        <item>Harassing phone call</item>
+        <item>Scam</item>
+        <item>Agent</item>
+        <item>Marketing</item>
+        <item>Delivery</item>
+        <item>Express</item>
+        <item>Custom</item>
+    </string-array>
+    <string-array name="blackItmes">
+        <item>Block calls and messages</item>
+        <item>Block calls</item>
+        <item>Block messages</item>
+    </string-array>
+    <string-array name="leBlockPrimaryItmes">
+        <item>Choose what to block</item>
+        <item>Remove from blacklist</item>
+    </string-array>
+    <array name="letter_tile_colors">
+        <item>#ffdb4437</item>
+        <item>#ffe91e63</item>
+        <item>#ff9c27b0</item>
+        <item>#ff673ab7</item>
+        <item>#ff3f51b5</item>
+        <item>#ff4285f4</item>
+        <item>#ff039be5</item>
+        <item>#ff0097a7</item>
+        <item>#ff009688</item>
+        <item>#ff0f9d58</item>
+        <item>#ff689f38</item>
+        <item>#ffef6c00</item>
+        <item>#ffff5722</item>
+        <item>#ff757575</item>
+    </array>
+    <array name="letter_tile_colors_dark">
+        <item>#ffc53929</item>
+        <item>#ffc2185b</item>
+        <item>#ff7b1fa2</item>
+        <item>#ff512da8</item>
+        <item>#ff303f9f</item>
+        <item>#ff3367d6</item>
+        <item>#ff0277bd</item>
+        <item>#ff006064</item>
+        <item>#ff00796b</item>
+        <item>#ff0b8043</item>
+        <item>#ff33691e</item>
+        <item>#ffe65100</item>
+        <item>#ffe64a19</item>
+        <item>#ff424242</item>
+    </array>
+    <string-array name="filterOperator">
+        <item>All calls</item>
+        <item>Missed calls</item>
+        <item>SIM card 1 calls</item>
+        <item>SIM card 2 calls</item>
+    </string-array>
+    <string-array name="filter_calllog_list">
+        <item>All</item>
+        <item>Missed</item>
+        <item>SIM1 calls</item>
+        <item>SIM2 calls</item>
+    </string-array>
+    <string-array name="filter_calllog_list_single_sim">
+        <item>All</item>
+        <item>Missed</item>
+    </string-array>
+    <string-array name="filter_calllog_list_single_sim_with_hometime">
+        <item>All</item>
+        <item>Missed</item>
+        <item>HomeTime</item>
+    </string-array>
+    <string-array name="filter_calllog_list_with_hometime">
+        <item>All</item>
+        <item>Missed</item>
+        <item>SIM1 calls</item>
+        <item>SIM2 calls</item>
+        <item>HomeTime</item>
+    </string-array>
+    <string-array name="dialer_setting_more_options">
+        <item>Paste number from clipboard</item>
+        <item>Settings</item>
+        <item>Feedback</item>
+    </string-array>
+    <string-array name="comb_factor_list">
+        <item>launcherActivityLabel</item>
+        <item>show_all_contacts_title</item>
+    </string-array>
+    <string-array name="layout_name_list">
+        <item>comb_factor_list_calllog</item>
+        <item>layout_name_list_calllog</item>
+        <item>comb_factor_list_contact</item>
+        <item>layout_name_list_contact</item>
+    </string-array>
+    <integer-array name="comb_factor_list_calllog">
+        <item>2818</item>
+        <item>2819</item>
+        <item>2882</item>
+        <item>2883</item>
+        <item>2946</item>
+        <item>2947</item>
+        <item>3330</item>
+        <item>3331</item>
+        <item>3394</item>
+        <item>3395</item>
+        <item>3458</item>
+        <item>3459</item>
+        <item>2306</item>
+        <item>2307</item>
+        <item>2370</item>
+        <item>2371</item>
+        <item>2434</item>
+        <item>2435</item>
+        <item>0</item>
+    </integer-array>
+    <string-array name="layout_name_list_calllog">
+        <item>leui_main_fsw_sim1_other_0</item>
+        <item>leui_main_fsw_sim1_cn_0</item>
+        <item>leui_main_fsw_sim1_other_0</item>
+        <item>leui_main_fsw_sim1_cn_0</item>
+        <item>leui_main_fsw_sim2_other_0</item>
+        <item>leui_main_fsw_sim2_cn_0</item>
+        <item>leui_main_fsw_26key_sim1_other_0</item>
+        <item>leui_main_fsw_26key_sim1_cn_0</item>
+        <item>leui_main_fsw_26key_sim1_other_0</item>
+        <item>leui_main_fsw_26key_sim1_cn_0</item>
+        <item>leui_main_fsw_26key_sim2_other_0</item>
+        <item>leui_main_fsw_26key_sim2_cn_0</item>
+        <item>leui_main_fsw_dialpad_choice_guide_other</item>
+        <item>leui_main_fsw_dialpad_choice_guide_cn</item>
+        <item>leui_main_fsw_dialpad_choice_guide_other</item>
+        <item>leui_main_fsw_dialpad_choice_guide_cn</item>
+        <item>leui_main_fsw_dialpad_choice_guide_other</item>
+        <item>leui_main_fsw_dialpad_choice_guide_cn</item>
+    </string-array>
+    <integer-array name="comb_factor_list_contact">
+        <item>2</item>
+        <item>3</item>
+    </integer-array>
+    <string-array name="layout_name_list_contact">
+        <item>leui_main_fsw_contact_other</item>
+        <item>leui_main_fsw_contact_cn</item>
+    </string-array>
+</resources>

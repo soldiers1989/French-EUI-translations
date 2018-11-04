@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="confirm_delete_conversation">
+        <item quantity="other">Delete %1$s conversations</item>
+        <item quantity="one">Delete 1 conversation.</item>
+    </plurals>
+    <plurals name="message_count_notification_overflow">
+        <item quantity="other">+%1$s other messages</item>
+        <item quantity="one">+%1$s other message</item>
+    </plurals>
+    <plurals name="recipient_count">
+        <item quantity="other">%1$s recipients</item>
+        <item quantity="one">%1$s recipient</item>
+    </plurals>
+    <plurals name="search_results_title">
+        <item quantity="other">%1$s messages found when searching for %2$s</item>
+        <item quantity="one">%1$s message found when searching for %2$s</item>
+    </plurals>
+    <plurals name="slide_duration">
+        <item quantity="other">%s seconds</item>
+        <item quantity="one">%s second</item>
+        <item quantity="few">%s seconds</item>
+    </plurals>
+    <plurals name="audio_time">
+        <item quantity="other">%1$s seconds</item>
+        <item quantity="one">%1$s second</item>
+    </plurals>
+    <plurals name="message_view_selected_message_count">
+        <item quantity="other">%d selected</item>
+        <item quantity="one">%d selected</item>
+    </plurals>
+    <plurals name="read_report_toast_msg">
+        <item quantity="other">Sending %d read reports</item>
+        <item quantity="one">Sending %d read report</item>
+    </plurals>
+    <plurals name="leui_file_attachment_vcard_name_plurals">
+        <item quantity="other">%1$s and %2$s other people.vcf</item>
+        <item quantity="one">%s.vcf</item>
+        <item quantity="few">%1$s and %2$s other people.vcf</item>
+        <item quantity="many">%1$s and %2$s other people.vcf</item>
+    </plurals>
+    <plurals name="pattern_day">
+        <item quantity="other">" Days "</item>
+        <item quantity="one">" Day "</item>
+    </plurals>
+    <plurals name="pattern_hour">
+        <item quantity="other">" Hours "</item>
+        <item quantity="one">" Hour "</item>
+    </plurals>
+    <plurals name="pattern_minute">
+        <item quantity="other">" Minutes "</item>
+        <item quantity="one">" Minute "</item>
+    </plurals>
+    <plurals name="pattern_second">
+        <item quantity="other">" Seconds "</item>
+        <item quantity="one">" Second "</item>
+    </plurals>
+</resources>

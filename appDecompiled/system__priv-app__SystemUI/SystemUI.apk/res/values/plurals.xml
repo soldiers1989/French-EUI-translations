@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="pattern_day">
+        <item quantity="other">" Days "</item>
+        <item quantity="one">" Day "</item>
+    </plurals>
+    <plurals name="pattern_hour">
+        <item quantity="other">" Hours "</item>
+        <item quantity="one">" Hour "</item>
+    </plurals>
+    <plurals name="pattern_minute">
+        <item quantity="other">" Minutes "</item>
+        <item quantity="one">" Minute "</item>
+    </plurals>
+    <plurals name="pattern_second">
+        <item quantity="other">" Seconds "</item>
+        <item quantity="one">" Second "</item>
+    </plurals>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">There are %d screens in the overview</item>
+        <item quantity="one">There is 1 screen in the overview</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">Incorrect PIN code of the SIM card, you can try another %d times.</item>
+        <item quantity="one">Incorrect PIN code of the SIM card, you can try another %d time. If the problem persists, please contact your carrier to unlock your device.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">Incorrect PUK code of the SIM card, you can try another %d times. If the problem persists, your SIM card will be locked permanently.</item>
+        <item quantity="one">Incorrect PUK code of the SIM card, you can try another %d time. If the problem persists, your SIM card will be locked permanently.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pattern">
+        <item quantity="other">The device has been locked for %d hours. Please confirm the unlock pattern.</item>
+        <item quantity="one">The device has been locked for %d hour. Please confirm the unlock pattern.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pin">
+        <item quantity="other">The device has been locked for %d hours. Please confirm the PIN code.</item>
+        <item quantity="one">The device has been locked for %d hour. Please confirm the PIN code.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="other">The device has been locked for %d hours. Please confirm the password.</item>
+        <item quantity="one">The device has been locked for %d hour. Please confirm the password.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code_leui">
+        <item quantity="other">Incorrect SIM %1$d PIN. %2$d attempts remaining.</item>
+        <item quantity="one">Incorrect SIM %1$d PIN. %2$d attempt remaining.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code_leui_single_card">
+        <item quantity="other">Incorrect SIM PIN. %1$d attempts remaining.</item>
+        <item quantity="one">Incorrect SIM PIN. %1$d attempt remaining.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code_lastone_leui">
+        <item quantity="other">Incorrect SIM %1$d PIN. %2$d attempts remaining. You can only use the PUK code to unlock your SIM card if you fail again.</item>
+        <item quantity="one">Incorrect SIM %1$d PIN. %2$d attempt remaining. You can only use the PUK code to unlock your SIM card if you fail again.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code_lastone_leui_single_card">
+        <item quantity="other">Incorrect SIM PIN. %1$d attempts remaining. You can only use the PUK code to unlock your SIM card if you fail again.</item>
+        <item quantity="one">Incorrect SIM PIN. %1$d attempt remaining. You can only use the PUK code to unlock your SIM card if you fail again.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code_pukked_lastone_leui">
+        <item quantity="other">Enter PIN to unlock SIM %1$d PIN. %2$d attempts remaining. You can only use the PUK code to unlock your SIM card if you fail again.</item>
+        <item quantity="one">Enter PIN to unlock SIM %1$d PIN. %2$d attempt remaining. You can only use the PUK code to unlock your SIM card if you fail again.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code_pukked_lastone_leui_single_card">
+        <item quantity="other">Enter PIN to unlock SIM PIN. %1$d attempts remaining. You can only use the PUK code to unlock your SIM card if you fail again.</item>
+        <item quantity="one">Enter PIN to unlock SIM PIN. %1$d attempt remaining. You can only use the PUK code to unlock your SIM card if you fail again.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code_leui">
+        <item quantity="other">Incorrect SIM %1$d PUK code. %2$d attempts remaining.</item>
+        <item quantity="one">Incorrect SIM %1$d PUK code. %2$d attempt remaining.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code_leui_single_card">
+        <item quantity="other">Incorrect SIM PUK code. %1$d attempts remaining.</item>
+        <item quantity="one">Incorrect SIM PUK code. %1$d attempt remaining.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code_lastone_leui">
+        <item quantity="other">Incorrect SIM %1$d PUK code. %2$d attempts remaining. The SIM card will be locked permanently if you fail again.</item>
+        <item quantity="one">Incorrect SIM %1$d PUK code. %2$d attempt remaining. The SIM card will be locked permanently if you fail again.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code_lastone_leui_single_card">
+        <item quantity="other">Incorrect SIM PUK code. %1$d attempts remaining. The SIM card will be locked permanently if you fail again.</item>
+        <item quantity="one">Incorrect SIM PUK code. %1$d attempt remaining. The SIM card will be locked permanently if you fail again.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code_pukked_lastone_leui">
+        <item quantity="other">Enter SIM %1$d PUK code. %2$d attempts remaining. The SIM card will be locked permanently if you fail again.</item>
+        <item quantity="one">Enter SIM %1$d PUK code. %2$d attempt remaining. The SIM card will be locked permanently if you fail again.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code_pukked_lastone_leui_single_card">
+        <item quantity="other">Enter SIM PUK code. %1$d attempts remaining. The SIM card will be locked permanently if you fail again.</item>
+        <item quantity="one">Enter SIM PUK code. %1$d attempt remaining. The SIM card will be locked permanently if you fail again.</item>
+    </plurals>
+    <plurals name="finger_print_not_recognized_last_tip">
+        <item quantity="other">%d more attempts</item>
+        <item quantity="one">%d more attempt</item>
+    </plurals>
+</resources>

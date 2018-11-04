@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="conversationlist_item_delete_normal">#ffeb3e2e</item>
+    <item type="drawable" name="conversationlist_item_delete_press">#ffd13a30</item>
+    <item type="drawable" name="notification_template_icon_bg">#3333b5e5</item>
+    <item type="drawable" name="transparent">#00000000</item>
+    <item type="drawable" name="upgrade_btn_normal">#ffffffff</item>
+    <item type="drawable" name="upgrade_dialog_bg">#ffffffff</item>
+    <item type="drawable" name="upgrade_dialog_divider">#ffa1a1a1</item>
+</resources>

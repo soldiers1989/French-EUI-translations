@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="link_preview_overlay_radius">7.0dip</dimen>
+    <dimen name="tv_controller_clock_am_size">14.0sp</dimen>
+    <dimen name="tv_controller_seekbar_marginend">40.0dip</dimen>
+    <dimen name="tv_controller_seekbar_marginbottom">-24.0dip</dimen>
+    <dimen name="tv_controller_seekbar_maxheight">15.0dip</dimen>
+    <dimen name="tv_controller_seekbar_paddingstart">50.0dip</dimen>
+    <dimen name="tv_controller_seekbar_paddingend">100.0dip</dimen>
+    <dimen name="tv_controller_duration_marginbottom">14.0dip</dimen>
+    <dimen name="tv_controller_duration_marginend">32.0dip</dimen>
+    <dimen name="tv_controller_duration_textsize">26.0sp</dimen>
+    <dimen name="tv_controller_filename_marginstart">42.0dip</dimen>
+    <dimen name="tv_controller_filename_margintop">40.0dip</dimen>
+    <dimen name="tv_controller_filename_textsize">28.0sp</dimen>
+    <dimen name="tv_controller_clockam_marginend">42.0dip</dimen>
+    <dimen name="tv_controller_clockam_marginbottom">4.0dip</dimen>
+    <dimen name="color_picker_gradient_margin">14.5dip</dimen>
+    <dimen name="color_button_height">60.0dip</dimen>
+    <dimen name="dropdown_item_height">44.0dip</dimen>
+    <dimen name="dropdown_item_divider_height">1.0px</dimen>
+    <dimen name="config_min_scaling_span">27.0mm</dimen>
+    <dimen name="config_min_scaling_touch_major">48.0dip</dimen>
+    <dimen name="keyboard_accessory_chip_height">32.0dip</dimen>
+    <dimen name="keyboard_accessory_half_padding">4.0dip</dimen>
+    <dimen name="keyboard_accessory_height">48.0dip</dimen>
+    <dimen name="keyboard_accessory_padding">8.0dip</dimen>
+    <dimen name="keyboard_accessory_text_size">14.0sp</dimen>
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="add_picture_list">
+        <item>Prendre une photo</item>
+        <item>Ajouter à partir de la galerie</item>
+    </string-array>
+    <string-array name="edit_picture_list">
+        <item>"Modifier l'image"</item>
+        <item>"Supprimer l'image"</item>
+    </string-array>
+    <string-array name="popup_window_list">
+        <item>Renommer</item>
+        <item>Supprimer</item>
+    </string-array>
+    <string-array name="share_bottom_list">
+        <item>Partager en tant que texte</item>
+        <item>"Partager en tant qu'image"</item>
+        <item>Coller au bureau</item>
+    </string-array>
+    <string-array name="popup_more_func_list">
+        <item>Définir comme privé</item>
+        <item>Supprimer</item>
+    </string-array>
+    <string-array name="popup_more_func_list_decrypt">
+        <item>Déplacer vers un dossier privé</item>
+        <item>Supprimer</item>
+    </string-array>
+    <string-array name="text_format_list">
+        <item>Titre</item>
+        <item>Sous-titre</item>
+        <item>Texte principal</item>
+        <item>· Liste à puces</item>
+        <item>- Liste avec tirets</item>
+        <item>1. Liste numérotée</item>
+    </string-array>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="le_add_keyguard_wallpaper_window">false</bool>
+    <bool name="le_led_light_battery_policy">true</bool>
+    <bool name="le_led_light_notification_policy">true</bool>
+    <bool name="le_need_show_ime_switch_notification">false</bool>
+    <bool name="le_zen_mode_config_support">false</bool>
+</resources>

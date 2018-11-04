@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">Le NIP de la carte SIM incorrect. Il vous reste %d tentatives.</item>
+        <item quantity="one">Le NIP de la carte SIM incorrect. Il vous reste %d tentative.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">Code PUK de la carte SIM incorrect, vous pouvez essayer encore %d fois. Si le problème persiste, votre carte SIM sera définitivement verrouillée.</item>
+        <item quantity="one">Code PUK de la carte SIM incorrect, vous pouvez essayer encore %d fois. Si le problème persiste, votre carte SIM sera définitivement verrouillée.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code_leui">
+        <item quantity="other">NIP de carte SIM %1$d incorrect. %2$d tentatives restantes.</item>
+        <item quantity="one">NIP de carte SIM %1$d incorrect. %2$d tentative restante.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code_leui_single_card">
+        <item quantity="other">NIP de la carte SIM incorrect %1$d tentatives restantes.</item>
+        <item quantity="one">NIP de la carte SIM incorrect %1$d tentative restante.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code_lastone_leui">
+        <item quantity="other">NIP de carte SIM %1$d incorrect. %2$d tentatives restantes. Si vous échouez de nouveau, vous ne pourrez utiliser que le code PUK pour déverrouiller votre carte SIM.</item>
+        <item quantity="one">NIP de carte SIM %1$d incorrect. %2$d tentative restante. Si vous échouez de nouveau, vous ne pourrez utiliser que le code PUK pour déverrouiller votre carte SIM.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code_lastone_leui_single_card">
+        <item quantity="other">NIP de la carte SIM incorrect %1$d tentatives restantes. Si vous échouez de nouveau, vous ne pourrez utiliser que le code PUK pour déverrouiller votre carte SIM.</item>
+        <item quantity="one">NIP de la carte SIM incorrect %1$d tentative restante. Si vous échouez de nouveau, vous ne pourrez utiliser que le code PUK pour déverrouiller votre carte SIM.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code_pukked_lastone_leui">
+        <item quantity="other">Entrez le NIP pour déverrouiller le NIP de la carte SIM %1$d. %2$d tentatives restantes. Si vous échouez de nouveau, vous ne pourrez utiliser que le code PUK pour déverrouiller votre carte SIM.</item>
+        <item quantity="one">Entrez le NIP pour déverrouiller le NIP de la carte SIM %1$d. %2$d tentative restante. Si vous échouez de nouveau, vous ne pourrez utiliser que le code PUK pour déverrouiller votre carte SIM.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code_pukked_lastone_leui_single_card">
+        <item quantity="other">Entrez le NIP pour déverrouiller le NIP de la carte SIM. %1$d tentatives restantes. Si vous échouez de nouveau, vous ne pourrez utiliser que le code PUK pour déverrouiller votre carte SIM.</item>
+        <item quantity="one">Entrez le NIP pour déverrouiller le NIP de la carte SIM. %1$d tentative restante. Si vous échouez de nouveau, vous ne pourrez utiliser que le code PUK pour déverrouiller votre carte SIM.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code_leui">
+        <item quantity="other">Code PUK de la carte SIM %1$d incorrect. %2$d tentatives restantes.</item>
+        <item quantity="one">Code PUK de la carte SIM %1$d incorrect. %2$d tentative restante.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code_leui_single_card">
+        <item quantity="other">Code PUK de la carte SIM incorrect. %1$d tentatives restantes.</item>
+        <item quantity="one">Code PUK de la carte SIM incorrect. %1$d tentative restante.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code_lastone_leui">
+        <item quantity="other">Code PUK de la carte SIM %1$d incorrect. %2$d tentatives restantes. La carte SIM sera verrouillée définitivement si vous échouez de nouveau.</item>
+        <item quantity="one">Code PUK de la carte SIM %1$d incorrect. %2$d tentative restante. La carte SIM sera verrouillée définitivement si vous échouez de nouveau.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code_lastone_leui_single_card">
+        <item quantity="other">Code PUK de la carte SIM incorrect. %1$d tentatives restantes. La carte SIM sera verrouillée définitivement si vous échouez de nouveau.</item>
+        <item quantity="one">Code PUK de la carte SIM incorrect. %1$d tentative restante. La carte SIM sera verrouillée définitivement si vous échouez de nouveau.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code_pukked_lastone_leui">
+        <item quantity="other">Entrez le code PUK de la carte SIM %1$d. %2$d tentatives restantes. La carte SIM sera verrouillée définitivement si vous échouez de nouveau.</item>
+        <item quantity="one">Entrez le code PUK de la carte SIM %1$d. %2$d tentative restante. La carte SIM sera verrouillée définitivement si vous échouez de nouveau.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code_pukked_lastone_leui_single_card">
+        <item quantity="other">Entrez le code PUK de la carte SIM. %1$d tentatives restantes. La carte SIM sera verrouillée définitivement si vous échouez de nouveau.</item>
+        <item quantity="one">Entrez le code PUK de la carte SIM. %1$d tentative restante. La carte SIM sera verrouillée définitivement si vous échouez de nouveau.</item>
+    </plurals>
+    <plurals name="finger_print_not_recognized_last_tip">
+        <item quantity="other">%d tentatives supplémentaires</item>
+        <item quantity="one">%d tentative supplémentaire</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_password_attempts_dialog_message_leui">
+        <item quantity="other">Le téléphone est verrouillé. Veuillez réessayer dans %d secondes.</item>
+        <item quantity="one">Le téléphone est verrouillé. Veuillez réessayer dans %d seconde.</item>
+    </plurals>
+</resources>

@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_keyword_call_record">Unable to modify app ID</string>
+    <string name="app_name">Recorder</string>
+    <string name="audio_db_album_name">Record</string>
+    <string name="audio_db_artist_name">Your Voice memos</string>
+    <string name="audio_qulity_title">Audio quality</string>
+    <string name="back">Back</string>
+    <string name="before_yesterday">Two days ago</string>
+    <string name="cancel">Cancel</string>
+    <string name="choose">Select</string>
+    <string name="continue_record">Continue</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="edit_recorder_name">Edit recording name</string>
+    <string name="empty_view_open_network">Turn on mobile data</string>
+    <string name="empty_view_open_wlan">Turn on Wi-Fi</string>
+    <string name="few_days">days ago</string>
+    <string name="input_new_recorder_name">Enter a name for new voice memo</string>
+    <string name="le_licence_dialog_btn_agree">Agree and continue</string>
+    <string name="le_licence_dialog_btn_exit">Exit</string>
+    <string name="le_licence_dialog_cb_text">Do not show again</string>
+    <string name="le_licence_dialog_content_without_agreement">You will use the %1$s provided by LeEco and this requires permissions to %2$s. Do you agree?</string>
+    <string name="le_licence_dialog_permission_contacts_calllog_location_net">access contacts, call history, location information and connect to the network</string>
+    <string name="le_licence_dialog_permission_contacts_location_net">access contacts, location information and connect to the network</string>
+    <string name="le_licence_dialog_permission_contacts_net">read contact information and network connection</string>
+    <string name="le_licence_dialog_permission_location_net">access location information and connect to the network</string>
+    <string name="le_licence_dialog_permission_net">connect to the network</string>
+    <string name="le_licence_dialog_title">Terms &amp; Conditions</string>
+    <string name="mic_scene">Scene settings</string>
+    <string name="new_recorder">New recording</string>
+    <string name="new_recorder_xliff">Recording_%s</string>
+    <string name="no_change_recordname">Name unedited</string>
+    <string name="no_recorder">No recordings</string>
+    <string name="no_selected_share">No recordings selected</string>
+    <string name="pause_play">Pause</string>
+    <string name="pause_record">Pause</string>
+    <string name="play">Play</string>
+    <string name="play_mode_summary">Play recordings through earpiece speaker when enabled</string>
+    <string name="play_mode_title">Earpiece mode</string>
+    <string name="play_record_error">It can not play the recording file during the call</string>
+    <string name="play_record_pause">Paused</string>
+    <string name="play_record_playing">Playing</string>
+    <string name="please_select_reoord">Tap to select</string>
+    <string name="ready_record">Ready</string>
+    <string name="record">Voice Memo</string>
+    <string name="record_error">Recording error</string>
+    <string name="record_exception">Microphone is being used and recording is not available</string>
+    <string name="record_existed">A recording by that name already exists</string>
+    <string name="record_file_name_format">Recording-MMddyy-HH-mm-ss</string>
+    <string name="record_files">Recording file</string>
+    <string name="record_name_cannot_null">Recording name cannot be empty</string>
+    <string name="record_note">Recordings</string>
+    <string name="record_over_max_time">Recording exceeds 1 hour</string>
+    <string name="record_paused">Recording paused</string>
+    <string name="record_silence_title">Mute while recording</string>
+    <string name="recording">Recording...</string>
+    <string name="rename">Edit</string>
+    <string name="save">Save</string>
+    <string name="saving_record">Saving...</string>
+    <string name="scene_title">Scene settings</string>
+    <string name="screen_widget_summary">Use recorder when screen is locked</string>
+    <string name="screen_widget_title">Lock-screen widget</string>
+    <string name="select_all">Select all</string>
+    <string name="select_none">Deselect all</string>
+    <string name="send">Send</string>
+    <string name="share">Share</string>
+    <string name="start_time_format">MM-dd-yyyy</string>
+    <string name="stop">Stop</string>
+    <string name="storage_full">Storage space is full</string>
+    <string name="voice_recording">Call recording</string>
+    <string name="week_ago">1 week ago</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="empty_view_not_logged_in">Not logged in</string>
+    <string name="le_licence_dialog_access_multimedia_files">access multimedia files</string>
+    <string name="le_licence_dialog_and">" and "</string>
+    <string name="le_licence_dialog_calllog">call history</string>
+    <string name="le_licence_dialog_comma">", "</string>
+    <string name="le_licence_dialog_contact">read contacts</string>
+    <string name="le_licence_dialog_location">location information</string>
+    <string name="le_licence_dialog_make_calls">make calls</string>
+    <string name="le_licence_dialog_modify_delete_call_records">modify/delete call records</string>
+    <string name="le_licence_dialog_modify_delete_contacts">modify/delete contacts</string>
+    <string name="le_licence_dialog_modify_delete_messages">modify/delete messages</string>
+    <string name="le_licence_dialog_net">connection to the network</string>
+    <string name="le_licence_dialog_permission_contacts_calllog_net">read contacts, call history, and connection to the network</string>
+    <string name="le_licence_dialog_read_mms_messages">read MMS messages</string>
+    <string name="le_licence_dialog_read_sms_messages">read SMS messages</string>
+    <string name="le_licence_dialog_read_sms_mms_messages">read SMS/MMS messages</string>
+    <string name="le_licence_dialog_send_messages">send messages</string>
+    <string name="le_licence_dialog_turn_on_bluetooth">turn on bluetooth</string>
+    <string name="le_licence_dialog_turn_on_camera">turn on camera</string>
+    <string name="le_licence_dialog_turn_on_recording">turn on recording</string>
+    <string name="le_licence_dialog_use_nfc">use NFC</string>
+    <string name="create_file_success">create file success</string>
+    <string name="decrypt_private_recordings_hint">Once moved out, the recording(s) will no longer be password-protected. Continue?</string>
+    <string name="encrypt">Encrypt</string>
+    <string name="encrypt_private_recordings_hint">Once set to private, the recording(s) will be locked again when you lock the screen. Continue?</string>
+    <string name="error_database_conflict">Name already in use</string>
+    <string name="error_database_record_not_exists">Record does not exist</string>
+    <string name="file_name_dup_can_not_be_decrypt">Duplicate file name. Unable to move the file out of the Private folder.</string>
+    <string name="file_name_dup_can_not_be_encrypt">Duplicate file name. Unable to set the file to private.</string>
+    <string name="le_do_not_show_again">Do not show again</string>
+    <string name="new_name_decrypt">%1$s-Copy-%2$d%3$s</string>
+    <string name="private_recordings">Private recordings</string>
+    <string name="private_voice_recording">Private Call recordings</string>
+    <string name="action_menu_setting">Settings</string>
+    <string name="devices_storage_low">Insufficient storage available.</string>
+    <string name="call_record_count_xliff">%d</string>
+    <string name="call_record_filename_xliff">%d</string>
+    <string name="decrypt_private_recordings_hint_cloud">After removal of privacy, the privacy of the recording will restored to the original location. Do you want to move out of privacy?</string>
+    <string name="empty_view_no_follows">No follows</string>
+    <string name="encrypt_private_recordings_hint_cloud">Set to privacy, you can view the privacy of the recording, in order to protect you privacy, when you set the recording for privacy, you will delete the cloud backup</string>
+    <string name="le_account_check_content">You can sync your recordings to the cloud by logging in to your LeEco account. Enable syncing services now?</string>
+    <string name="le_account_login_and_turn_on">Log in and enable</string>
+    <string name="le_account_not_now">Cancel</string>
+    <string name="le_action_menu_feedback">Feedback</string>
+    <string name="le_click_to_down_load">Tap to download</string>
+    <string name="le_continue">Continue</string>
+    <string name="le_delete_both_hint">If you just want to free up some local space, you are advised to retain the cloud backup.</string>
+    <string name="le_delete_forever">Confirm</string>
+    <string name="le_download_complete">Download complete</string>
+    <string name="le_download_err_network">Poor connection. Try again later.</string>
+    <string name="le_download_no_network">No network connection</string>
+    <string name="le_download_then_set_private">You need to download the file to local storage before setting it to private.</string>
+    <string name="le_download_then_share">You need to download the file to local storage before share.</string>
+    <string name="le_flow_down_load">Download</string>
+    <string name="le_flow_hint">The recording file size is %s. Download using mobile data?</string>
+    <string name="le_name_illegal">Name contains special symbols</string>
+    <string name="le_rename_hint_content">Recording name will be updated on all devices once renamed</string>
+    <string name="new_recorder_name">Recording_%s</string>
+    <string name="actionMore">More</string>
+    <string name="adb_prompt_info">Please select on your phone whether can install the app by The ADB command?</string>
+    <string name="add_to">Add to</string>
+    <string name="all_allow">Allow</string>
+    <string name="allow">Allow</string>
+    <string name="allow_value">0</string>
+    <string name="always">always</string>
+    <string name="always_allow">Always ask</string>
+    <string name="always_allow_value">3</string>
+    <string name="application_info_label">App details</string>
+    <string name="apply_adb_install">Apply for install the app by The ADB command ?</string>
+    <string name="cancel_btn_v2">Cancel</string>
+    <string name="cancel_storage">Cancel</string>
+    <string name="cost">Maybe cause cost</string>
+    <string name="data_usage_background_forbid_notification_msg">To enable background data, go to settings</string>
+    <string name="data_usage_background_forbid_notification_title">Background data usage disabled</string>
+    <string name="data_usage_limit_warn_text">You have used 90% of your data limit</string>
+    <string name="date_format">EE MMMMMMM dd</string>
+    <string name="decrypt">Decrypt</string>
+    <string name="deny">Deny</string>
+    <string name="detail">detail</string>
+    <string name="disconnect_data_connection">Disconnect data connection</string>
+    <string name="empty_view_data_exception">Data exception</string>
+    <string name="empty_view_empty_folder">Empty folder</string>
+    <string name="empty_view_network_exception">Network exception. Tap to try again</string>
+    <string name="empty_view_no_account">"You don't have a LeEco account"</string>
+    <string name="empty_view_no_alarms">No alarms</string>
+    <string name="empty_view_no_blacklists">No blacklists</string>
+    <string name="empty_view_no_contacts">No contacts</string>
+    <string name="empty_view_no_content">No content</string>
+    <string name="empty_view_no_conversations">No conversations</string>
+    <string name="empty_view_no_data">No data</string>
+    <string name="empty_view_no_discussions">No discussions</string>
+    <string name="empty_view_no_downloaded_files">No downloaded files</string>
+    <string name="empty_view_no_downloads">No downloads</string>
+    <string name="empty_view_no_email">No emails</string>
+    <string name="empty_view_no_events">No events</string>
+    <string name="empty_view_no_favorites">No favorites</string>
+    <string name="empty_view_no_file">No files</string>
+    <string name="empty_view_no_history1">No history</string>
+    <string name="empty_view_no_history2">No history</string>
+    <string name="empty_view_no_history_orders">No history orders</string>
+    <string name="empty_view_no_msg">No messages</string>
+    <string name="empty_view_no_music">No music</string>
+    <string name="empty_view_no_network">No network connection</string>
+    <string name="empty_view_no_network_connections">No network connection</string>
+    <string name="empty_view_no_notifications_access_permissions">No notifications access permissions</string>
+    <string name="empty_view_no_pic">No images</string>
+    <string name="empty_view_no_purchase_history">No purchase history</string>
+    <string name="empty_view_no_recoding_history">No recoding history</string>
+    <string name="empty_view_no_results_found">No results found</string>
+    <string name="empty_view_no_roaming_plan">"You haven't purchased any international roaming plan"</string>
+    <string name="empty_view_no_stationery">No stationery</string>
+    <string name="empty_view_no_video">No videos</string>
+    <string name="empty_view_no_wallpaper">No wallpapers</string>
+    <string name="empty_view_reload">Retry</string>
+    <string name="empty_view_service_not_installed">Service not installed. Please download the print plug-in from LeStore.</string>
+    <string name="global_action_reboot">Reboot</string>
+    <string name="hour">H</string>
+    <string name="le_aerr_application">%1$s has encountered a problem.</string>
+    <string name="le_aerr_process">%1$s has encountered a problem.</string>
+    <string name="le_and">,</string>
+    <string name="le_anr_activity_application">No response from %2$s.</string>
+    <string name="le_anr_activity_process">Activities from %1$s are not responding.</string>
+    <string name="le_anr_application_process">No response from %1$s.</string>
+    <string name="le_anr_process">"%1$s process isn't responding."</string>
+    <string name="le_datetime_buddhism">BE</string>
+    <string name="le_dialpad_select_sim_card">Select SIM card to use</string>
+    <string name="le_dialpad_select_sim_card_cancel">Cancel</string>
+    <string name="le_display_sim_name">SIM 0%1$s</string>
+    <string name="le_download">Download</string>
+    <string name="le_download_err_nospc">No enough storage space, download failed.</string>
+    <string name="le_force_close">Confirm</string>
+    <string name="le_map_name">Map</string>
+    <string name="le_numeric_date_format_ymd">yyyy-M-d EEE</string>
+    <string name="le_pai_voice_share">VoiceShare</string>
+    <string name="le_permission_des_content" formatted="false">%s app is requesting %s permission to allow corresponding functions to perform normally.</string>
+    <string name="le_permission_dialog_btn_agree">Go to Settings</string>
+    <string name="le_permission_dialog_btn_exit">Exit</string>
+    <string name="le_permission_request">Permission application</string>
+    <string name="le_ptr_from_bottom_pull_label">@string/le_ptr_pull_label</string>
+    <string name="le_ptr_from_bottom_refreshing_label">@string/le_ptr_refreshing_label</string>
+    <string name="le_ptr_from_bottom_release_label">@string/le_ptr_release_label</string>
+    <string name="le_ptr_pull_label">Pull to refresh…</string>
+    <string name="le_ptr_refreshing_label">Loading…</string>
+    <string name="le_ptr_release_label">Release to refresh…</string>
+    <string name="le_recipient_edit_imeActionLabel">确定</string>
+    <string name="le_share_default_select_tips">Choose this setting by default, do not show again</string>
+    <string name="le_special_holiday_father">父亲节</string>
+    <string name="le_special_holiday_mother">母亲节</string>
+    <string name="le_status_chushi">初十</string>
+    <string name="le_status_day">日</string>
+    <string name="le_status_ershi">二十</string>
+    <string name="le_status_format1">yyyy年MM月dd日</string>
+    <string name="le_status_format2">1900年1月31日</string>
+    <string name="le_status_leap">闰</string>
+    <string name="le_status_month">月</string>
+    <string name="le_status_sanshi">三十</string>
+    <string name="le_status_year">年</string>
+    <string name="le_timedia_datestr" formatted="false">%s/%s/%s</string>
+    <string name="le_timedia_timestr" formatted="false">%s:%s</string>
+    <string name="ledatetime_lunar">Lunar</string>
+    <string name="ledatetime_title">Date and time settings</string>
+    <string name="lenewdate_am">a.m.</string>
+    <string name="lenewdate_datestr">M/d E</string>
+    <string name="lenewdate_pm">p.m.</string>
+    <string name="lenewdate_timeset">Time settings</string>
+    <string name="lenewdate_timestr" formatted="false">%s:%s</string>
+    <string name="lenewdate_title">Date settings</string>
+    <string name="lenewdate_today">Today</string>
+    <string name="leui_safe_volume_cancle">cancle</string>
+    <string name="leui_safe_volume_continue">continue</string>
+    <string name="leui_safe_volume_title">Continue to increase the volume is easy to damage hearing</string>
+    <string name="leui_smart_sound_name">Smart Sound</string>
+    <string name="leui_volume_icon_description_incall">Call</string>
+    <string name="leui_volume_icon_description_incall_outspeak">Speaker</string>
+    <string name="leui_volume_icon_description_media">Media</string>
+    <string name="leui_volume_icon_description_ringer">Ringtone</string>
+    <string name="locked_tip">phone has locked</string>
+    <string name="minute">M</string>
+    <string name="mute_key_silent">Adjust volume while turn it off</string>
+    <string name="newfunction_default_BottomBtnText">Try it now</string>
+    <string name="newfunction_openthisfunction">Turn this feature</string>
+    <string name="newfunction_twoitem_topcontent">Recommended users to synchronize local album to cloud,After checking the user-friendly system to retrieve pictures</string>
+    <string name="newfunction_twoitem_toptitle">Album Cloud Sync</string>
+    <string name="off">Off</string>
+    <string name="on">On</string>
+    <string name="open_otg_text">Are you ready to open The OTG Storage Device ?</string>
+    <string name="open_storage">Open</string>
+    <string name="open_storage_text">Are you ready to open The Storage Device ?</string>
+    <string name="pattern_detail_future" formatted="false">%-m/%-e/%Y %H:%M</string>
+    <string name="pattern_detail_future_12" formatted="false">%-m/%-e/%Y %I:%M %p</string>
+    <string name="pattern_detail_over_century" formatted="false">%-m/%-e/%Y %H:%M</string>
+    <string name="pattern_detail_over_century_12" formatted="false">%-m/%-e/%Y %I:%M %p</string>
+    <string name="pattern_detail_over_week" formatted="false">%-m/%-e %H:%M</string>
+    <string name="pattern_detail_over_week_12" formatted="false">%-m/%-e %I:%M %p</string>
+    <string name="pattern_detail_over_year" formatted="false">%-m/%-e/%y %H:%M</string>
+    <string name="pattern_detail_over_year_12" formatted="false">%-m/%-e/%y %I:%M %p</string>
+    <string name="pattern_detail_today_12" formatted="false">%l:%M %p</string>
+    <string name="pattern_detail_within_week" formatted="false">%a %H:%M</string>
+    <string name="pattern_detail_within_week_12" formatted="false">%a %I:%M %p</string>
+    <string name="pattern_detail_yesterday" formatted="false">Yesterday %H:%M</string>
+    <string name="pattern_detail_yesterday_12" formatted="false">Yesterday %l:%M %p</string>
+    <string name="pattern_group_over_month">%-m</string>
+    <string name="pattern_group_over_year" formatted="false">%y%-m</string>
+    <string name="pattern_group_today">Today</string>
+    <string name="pattern_group_within_month">Within this month</string>
+    <string name="pattern_group_within_week">This week</string>
+    <string name="pattern_group_yesterday">Yesterday</string>
+    <string name="pattern_list_future" formatted="false">%Y/%-m/%-e</string>
+    <string name="pattern_list_over_century" formatted="false">%Y/%-m/%-e</string>
+    <string name="pattern_list_over_week" formatted="false">%-m/%-e</string>
+    <string name="pattern_list_over_year" formatted="false">%y/%-m/%-e</string>
+    <string name="pattern_list_today_12" formatted="false">%l:%M %p</string>
+    <string name="pattern_list_yesterday">Yesterday</string>
+    <string name="pattern_month_day" formatted="false">%-m/%-e</string>
+    <string name="pattern_time_complete_12" formatted="false">%I:%M %p</string>
+    <string name="pattern_time_simple_12" formatted="false">%l:%M %p</string>
+    <string name="pattern_today">Today</string>
+    <string name="pattern_tomorrow">Tomorrow</string>
+    <string name="pattern_yesterday">Yesterday</string>
+    <string name="perm_wakeLock_stats">Read app power usage log</string>
+    <string name="permdesc_read_phone_bind_key">”Allows applications to access security KEY.“</string>
+    <string name="permdesc_wakeLock_stats">Read app power usage log</string>
+    <string name="permission_remember_choice">Remember my choice</string>
+    <string name="permlab_read_phone_bind_key">“Access security KEY”</string>
+    <string name="placeholder_symbol_4">aaaa</string>
+    <string name="privacy_guard_dialog_summary">%1$s requests %2$s.</string>
+    <string name="prohibit">Deny</string>
+    <string name="prohibit_value">1</string>
+    <string name="reboot">Reboot</string>
+    <string name="reboot_btn">Swipe down to power off</string>
+    <string name="reboot_btn_v2">Reboot</string>
+    <string name="reboot_confirm">Your phone will be rebooted.</string>
+    <string name="reboot_confirm_question">Reboot now?</string>
+    <string name="reboot_tip">Because of you, I grew up every day</string>
+    <string name="refuse_adb_install">refused to install the app by The ADB command !</string>
+    <string name="send_give">Send to</string>
+    <string name="send_to">Send to</string>
+    <string name="setup_self">Auto setup</string>
+    <string name="share_browser_add_bookmark">Collection</string>
+    <string name="share_browser_add_collect">addToFavourate</string>
+    <string name="share_browser_add_home">Add home</string>
+    <string name="share_browser_copy_link">Copy</string>
+    <string name="share_browser_save_page">Save</string>
+    <string name="share_browser_search">Search</string>
+    <string name="share_browser_send_deskTop">Usual use</string>
+    <string name="share_cancel">Cancel</string>
+    <string name="share_email_share_to_letv_cloud">shareToLetvCloud</string>
+    <string name="share_gallery_detail">Details</string>
+    <string name="share_gallery_download">Download</string>
+    <string name="share_gallery_set_contact_photo">Contact</string>
+    <string name="share_gallery_set_ppt">Slideshow</string>
+    <string name="share_gallery_set_wallpaper">Wallpaper</string>
+    <string name="share_gallery_to_dlna">TV</string>
+    <string name="share_show_more">More</string>
+    <string name="share_title">Share or send to</string>
+    <string name="share_to">Share to</string>
+    <string name="shutdow_btn">Shutdown</string>
+    <string name="shutdown_tip">Because of you, I grew up every day</string>
+    <string name="weibo_name">Weibo</string>
+    <string name="le_share_give">傳送給</string>
+    <string name="le_share_to">傳送至</string>
+    <string name="blue_value">\#FF1D87E4</string>
+    <string name="config_voiceAssistClassName">com.letv.android.voiceassistant.VoiceAssistant</string>
+    <string name="config_voiceAssistPackageName">com.letv.android.voiceassistant</string>
+    <string name="create_file_lost">create file fail</string>
+    <string name="get_max_amplitude_native">getMaxAmplitude 时发生native getMaxAmplitude failed</string>
+    <string name="green_value">\#FF1C9D17</string>
+    <string name="le_default_activation_title_text">激活码:</string>
+    <string name="le_dialpad_select_sim_card_sim1">SIM1</string>
+    <string name="le_dialpad_select_sim_card_sim2">SIM2</string>
+    <string name="le_permission_high_light">"&lt;font color='#518ef1'>%s&lt;/font>"</string>
+    <string name="le_prepare_illegal_e">播放准备非法状态异常</string>
+    <string name="le_prepare_ioe">播放准备IO异常</string>
+    <string name="lepinned">pinned</string>
+    <string name="mic_is_occupy">@string/record_exception</string>
+    <string name="orange_value">\#FFFDA728</string>
+    <string name="pattern_date_complete" formatted="false">%m-%d</string>
+    <string name="pattern_date_simple" formatted="false">%-m-%-d</string>
+    <string name="pattern_detail_today" formatted="false">%H:%M</string>
+    <string name="pattern_group_future" formatted="false">%Y/%-m</string>
+    <string name="pattern_group_over_century" formatted="false">%Y/%-m</string>
+    <string name="pattern_list_today" formatted="false">%H:%M</string>
+    <string name="pattern_list_within_week">%a</string>
+    <string name="pattern_time_complete" formatted="false">%H:%M</string>
+    <string name="pattern_time_simple" formatted="false">%k:%M</string>
+    <string name="pattern_week_complete">%A</string>
+    <string name="pause">pause</string>
+    <string name="privacy_guard_dialog_title">Privacy Guard</string>
+    <string name="red_value">\#FFE94C38</string>
+    <string name="ringtone_silent">Mute</string>
+    <string name="scale_x">scaleX</string>
+    <string name="scale_y">scaleY</string>
+    <string name="share_send_to">Send to</string>
+    <string name="src_non_exist">源不存在</string>
+    <string name="start">start</string>
+    <string name="start_recorder_illegal_state_exception">前置状态错误,不能开始录音</string>
+    <string name="start_recorder_runtime_exception">RuntimeException: start failed.不能开始录音</string>
+    <string name="target_exist">目标存在</string>
+    <string name="target_non_exist">目标不存在</string>
+    <string name="timeseparator">:</string>
+</resources>

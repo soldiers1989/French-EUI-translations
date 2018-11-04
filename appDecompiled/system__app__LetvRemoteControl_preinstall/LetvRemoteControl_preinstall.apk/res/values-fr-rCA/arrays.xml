@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="device_action_type">
+        <item>Rebaptiser</item>
+        <item>Effacer</item>
+    </string-array>
+    <string-array name="device_type_array">
+        <item>La télé</item>
+        <item>Set-top boxes</item>
+        <item>Climatisation</item>
+        <item>Caja inteligente</item>
+        <item>Control remoto universal</item>
+    </string-array>
+    <string-array name="signal_type">
+        <item>Vidéo</item>
+        <item>TV</item>
+        <item>Ordinateur</item>
+        <item>HDMI1</item>
+        <item>HDMI2</item>
+        <item>HDMI3</item>
+    </string-array>
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="app_default_set_normal">#fffde8e6</item>
+    <item type="drawable" name="app_default_set_press">#fffbd3d0</item>
+    <item type="drawable" name="bottom_widget_bg">#fff7f7f7</item>
+    <item type="drawable" name="class_zero_background">#7f040000</item>
+    <item type="drawable" name="compose_bottom_widget_bg">#ffffffff</item>
+    <item type="drawable" name="compose_panel_bg">#ffffffff</item>
+    <item type="drawable" name="compose_window_bg">#fff2f2f2</item>
+    <item type="drawable" name="conversation_top_bar_background">#fff6f6f7</item>
+    <item type="drawable" name="conversationlist_item_delete_normal">#ffeb3e2e</item>
+    <item type="drawable" name="conversationlist_item_delete_press">#fff03e26</item>
+    <item type="drawable" name="conversationlist_window_bg">#ffffffff</item>
+    <item type="drawable" name="delete_color_normal">#00000000</item>
+    <item type="drawable" name="delete_color_press">#15000000</item>
+    <item type="drawable" name="draft_prefix_text_color">#fff03e26</item>
+    <item type="drawable" name="le_msg_compose_bottom">#ffffffff</item>
+    <item type="drawable" name="le_msg_conv_bottom_bar">#fff7f7f7</item>
+    <item type="drawable" name="le_notification_bg_normal_pressed">#1affffff</item>
+    <item type="drawable" name="le_phrase_check_status_color">#ffe5e5e5</item>
+    <item type="drawable" name="le_phrase_uncheck_status_color">#ffffffff</item>
+    <item type="drawable" name="le_setting_window_background">#ffffffff</item>
+    <item type="drawable" name="le_share_panel_phrase_divider_color">#ffd9d9d9</item>
+    <item type="drawable" name="le_suggest_contact_normal">#ffffffff</item>
+    <item type="drawable" name="le_suggest_contact_selected">#ffe5e5e5</item>
+    <item type="drawable" name="light_blue_background">#ffecfbff</item>
+    <item type="drawable" name="search_list_bg">#ffffffff</item>
+    <item type="drawable" name="sub_selected_view_disable">#b2dfdfe2</item>
+    <item type="drawable" name="sub_view_bg_normal_color">#ffffffff</item>
+    <item type="drawable" name="sub_view_bg_press_color">#ffe5e5e5</item>
+    <item type="drawable" name="text_color">#ffffffff</item>
+    <item type="drawable" name="text_color_black">#ff000000</item>
+    <item type="drawable" name="text_color_blue">#cc33b5e5</item>
+    <item type="drawable" name="text_color_offwhite">#55ffffff</item>
+    <item type="drawable" name="text_color_red">#ffeb3e2e</item>
+    <item type="drawable" name="white_background">#ffffffff</item>
+</resources>

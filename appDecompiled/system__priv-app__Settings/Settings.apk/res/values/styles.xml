@@ -1,0 +1,1324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AlertDialogEui">
+        <item name="android:fullDark">@null</item>
+        <item name="android:topDark">@null</item>
+        <item name="android:centerDark">@null</item>
+        <item name="android:bottomDark">@null</item>
+        <item name="android:fullBright">@null</item>
+        <item name="android:topBright">@null</item>
+        <item name="android:centerBright">@null</item>
+        <item name="android:bottomBright">@null</item>
+        <item name="android:bottomMedium">@null</item>
+        <item name="android:centerMedium">@null</item>
+        <item name="android:layout">@layout/alert_dialog_eui</item>
+    </style>
+    <style name="Animation.Eui" parent="@android:style/Animation" />
+    <style name="Animation.Eui.Activity" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/le_activity_start_in_eui</item>
+        <item name="android:activityOpenExitAnimation">@anim/le_activity_start_out_eui</item>
+        <item name="android:activityCloseEnterAnimation">@anim/le_activity_finish_in_eui</item>
+        <item name="android:activityCloseExitAnimation">@anim/le_activity_finish_out_eui</item>
+        <item name="android:taskOpenEnterAnimation">@anim/le_task_open_enter_eui</item>
+        <item name="android:taskOpenExitAnimation">@anim/le_task_open_exit_eui</item>
+        <item name="android:taskCloseEnterAnimation">@anim/le_task_close_enter_eui</item>
+        <item name="android:taskCloseExitAnimation">@anim/le_task_close_exit_eui</item>
+        <item name="android:taskToFrontEnterAnimation">@anim/le_task_open_enter_eui</item>
+        <item name="android:taskToFrontExitAnimation">@anim/le_task_open_exit_eui</item>
+        <item name="android:taskToBackEnterAnimation">@anim/le_task_close_enter_eui</item>
+        <item name="android:taskToBackExitAnimation">@anim/le_task_close_exit_eui</item>
+        <item name="android:wallpaperOpenEnterAnimation">@anim/le_wallpaper_open_enter_eui</item>
+        <item name="android:wallpaperOpenExitAnimation">@anim/le_wallpaper_open_exit_eui</item>
+        <item name="android:wallpaperCloseEnterAnimation">@anim/le_wallpaper_close_enter_eui</item>
+        <item name="android:wallpaperCloseExitAnimation">@anim/le_wallpaper_close_exit_eui</item>
+    </style>
+    <style name="Eui" />
+    <style name="Eui.Light" parent="@style/Eui" />
+    <style name="LeEmptyView" />
+    <style name="LeEmptyView.Button.Holo" parent="@style/Widget.Eui.Button.Holo">
+        <item name="android:layout_width">156.0dip</item>
+        <item name="android:layout_height">34.0dip</item>
+        <item name="android:layout_marginTop">20.0dip</item>
+    </style>
+    <style name="LeEmptyView.NetworkAbnormal" parent="@style/LeEmptyView">
+        <item name="android:icon">@drawable/le_ic_prompt_network_exception_reload</item>
+        <item name="android:description">@string/empty_view_network_exception</item>
+        <item name="primaryText">@string/empty_view_open_network</item>
+        <item name="secondText">@string/empty_view_open_wlan</item>
+        <item name="actionType">NETWORK_ABNORMAL</item>
+    </style>
+    <style name="LeEmptyView.NoData" parent="@style/LeEmptyView">
+        <item name="android:icon">@drawable/le_ic_prompt_no_access</item>
+        <item name="android:description">@string/empty_view_data_exception</item>
+        <item name="primaryText">@string/empty_view_reload</item>
+    </style>
+    <style name="LeEmptyView.NoNetwork" parent="@style/LeEmptyView">
+        <item name="android:icon">@drawable/le_ic_prompt_no_net</item>
+        <item name="android:description">@string/empty_view_no_network</item>
+        <item name="primaryText">@string/empty_view_open_network</item>
+        <item name="secondText">@string/empty_view_open_wlan</item>
+        <item name="actionType">NO_NETWORK</item>
+    </style>
+    <style name="LeEmptyView.TextView" parent="@style/LeEmptyView">
+        <item name="android:theme">@style/Theme.Eui.Light</item>
+        <item name="android:textColor">?promptColor</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:paddingLeft">24.0dip</item>
+        <item name="android:paddingTop">15.0dip</item>
+        <item name="android:paddingRight">24.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:lineSpacingExtra">3.0dip</item>
+    </style>
+    <style name="Preference">
+        <item name="android:layout">@layout/preference_material_settings</item>
+    </style>
+    <style name="Preference.Eui" parent="@style/Preference">
+        <item name="android:layout">@layout/preference_eui</item>
+    </style>
+    <style name="Preference.Eui.Category" parent="@style/Preference.Eui">
+        <item name="android:layout">@layout/preference_category_eui</item>
+        <item name="android:selectable">false</item>
+        <item name="android:shouldDisableView">false</item>
+    </style>
+    <style name="Preference.Eui.CheckBoxPreference" parent="@style/Preference.Eui">
+        <item name="android:layout">@layout/preference_eui</item>
+        <item name="android:widgetLayout">@layout/preference_widget_checkbox_eui</item>
+    </style>
+    <style name="Preference.Eui.DialogPreference" parent="@style/Preference.Eui">
+        <item name="android:positiveButtonText">@android:string/ok</item>
+        <item name="android:negativeButtonText">@android:string/cancel</item>
+    </style>
+    <style name="Preference.Eui.DialogPreference.YesNoPreference" parent="@style/Preference.Eui.DialogPreference">
+        <item name="android:positiveButtonText">@android:string/yes</item>
+        <item name="android:negativeButtonText">@android:string/no</item>
+    </style>
+    <style name="Preference.Eui.Information" parent="@style/Preference.Eui">
+        <item name="android:enabled">false</item>
+        <item name="android:layout">@layout/preference_information_eui</item>
+        <item name="android:shouldDisableView">false</item>
+    </style>
+    <style name="Preference.Eui.SwitchPreference" parent="@style/Preference.Eui">
+        <item name="android:widgetLayout">@layout/preference_widget_switch_eui</item>
+        <item name="android:switchTextOn"></item>
+        <item name="android:switchTextOff"></item>
+    </style>
+    <style name="TextAppearance.Eui" parent="@android:style/TextAppearance.Material">
+        <item name="android:textSize">@dimen/text_size_body_1_eui</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:textColorHighlight">?android:textColorHighlight</item>
+        <item name="android:textColorHint">?android:textColorHint</item>
+        <item name="android:textColorLink">?android:textColorLink</item>
+        <item name="android:fontFamily">helve-neue</item>
+    </style>
+    <style name="TextAppearance.Eui.Body1" parent="@style/TextAppearance.Eui">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+    <style name="TextAppearance.Eui.Body2" parent="@style/TextAppearance.Eui">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+    <style name="TextAppearance.Eui.Button" parent="@style/TextAppearance.Eui">
+        <item name="android:textSize">@dimen/text_size_button_eui</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">helve-neue</item>
+    </style>
+    <style name="TextAppearance.Eui.Large" parent="@style/TextAppearance.Eui">
+        <item name="android:textSize">@dimen/text_size_large_eui</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+    <style name="TextAppearance.Eui.Large.Inverse" parent="@style/TextAppearance.Eui.Large">
+        <item name="android:textColor">?android:textColorPrimaryInverse</item>
+        <item name="android:textColorHighlight">?android:textColorHighlightInverse</item>
+        <item name="android:textColorHint">?android:textColorHintInverse</item>
+        <item name="android:textColorLink">?android:textColorLinkInverse</item>
+    </style>
+    <style name="TextAppearance.Eui.Medium" parent="@style/TextAppearance.Eui">
+        <item name="android:textSize">@dimen/text_size_medium_eui</item>
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+    <style name="TextAppearance.Eui.Medium.Inverse" parent="@style/TextAppearance.Eui.Medium">
+        <item name="android:textColor">?android:textColorSecondaryInverse</item>
+        <item name="android:textColorHighlight">?android:textColorHighlightInverse</item>
+        <item name="android:textColorHint">?android:textColorHintInverse</item>
+        <item name="android:textColorLink">?android:textColorLinkInverse</item>
+    </style>
+    <style name="TextAppearance.Eui.SearchResult" parent="@style/TextAppearance.Eui" />
+    <style name="TextAppearance.Eui.SearchResult.Subtitle" parent="@style/TextAppearance.Eui.Subhead" />
+    <style name="TextAppearance.Eui.SearchResult.Title" parent="@style/TextAppearance.Eui.Title" />
+    <style name="TextAppearance.Eui.Small" parent="@style/TextAppearance.Eui">
+        <item name="android:textSize">@dimen/text_size_small_eui</item>
+        <item name="android:textColor">?android:textColorTertiary</item>
+    </style>
+    <style name="TextAppearance.Eui.Small.Inverse" parent="@style/TextAppearance.Eui.Small">
+        <item name="android:textColor">?android:textColorTertiaryInverse</item>
+        <item name="android:textColorHighlight">?android:textColorHighlightInverse</item>
+        <item name="android:textColorHint">?android:textColorHintInverse</item>
+        <item name="android:textColorLink">?android:textColorLinkInverse</item>
+    </style>
+    <style name="TextAppearance.Eui.Subhead" parent="@style/TextAppearance.Eui">
+        <item name="android:textSize">@dimen/text_size_subhead_eui</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:fontFamily">helve-neue</item>
+    </style>
+    <style name="TextAppearance.Eui.Title" parent="@style/TextAppearance.Eui">
+        <item name="android:textSize">@dimen/text_size_title_eui</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:fontFamily">helve-neue</item>
+    </style>
+    <style name="TextAppearance.Eui.Widget" parent="@style/TextAppearance.Eui" />
+    <style name="TextAppearance.Eui.Widget.ActionBar.Menu" parent="@style/TextAppearance.Eui.Widget.Button">
+        <item name="android:textColor">?android:colorAccent</item>
+    </style>
+    <style name="TextAppearance.Eui.Widget.ActionBar.Title" parent="@style/TextAppearance.Eui.Title">
+        <item name="android:textSize">@dimen/text_size_title_eui_toolbar</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+    <style name="TextAppearance.Eui.Widget.Button" parent="@style/TextAppearance.Eui.Button" />
+    <style name="Theme.Eui" parent="@android:style/Theme.Material">
+        <item name="android:colorForeground">@color/foreground_eui_dark</item>
+        <item name="android:colorBackground">@color/background_eui_dark</item>
+        <item name="android:backgroundDimAmount">0.5</item>
+        <item name="android:disabledAlpha">@dimen/disabled_alpha_eui_dark</item>
+        <item name="android:textAppearance">@style/TextAppearance.Eui</item>
+        <item name="android:textColorPrimary">@color/primary_text_eui_dark</item>
+        <item name="android:textColorPrimaryDisableOnly">@color/primary_text_eui_dark</item>
+        <item name="android:textColorSecondary">@color/secondary_text_eui_dark</item>
+        <item name="android:textColorPrimaryInverse">@color/primary_text_eui_light</item>
+        <item name="android:textColorSecondaryInverse">@color/secondary_text_eui_light</item>
+        <item name="android:textColorHintInverse">@color/hint_foreground_eui_light</item>
+        <item name="android:textAppearanceLarge">@style/TextAppearance.Eui.Large</item>
+        <item name="android:textAppearanceMedium">@style/TextAppearance.Eui.Medium</item>
+        <item name="android:textAppearanceSmall">@style/TextAppearance.Eui.Small</item>
+        <item name="android:textAppearanceLargeInverse">@style/TextAppearance.Eui.Large.Inverse</item>
+        <item name="android:textAppearanceMediumInverse">@style/TextAppearance.Eui.Medium.Inverse</item>
+        <item name="android:textAppearanceSmallInverse">@style/TextAppearance.Eui.Small.Inverse</item>
+        <item name="android:buttonStyle">@style/Widget.Eui.Button.Dark</item>
+        <item name="android:progressBarStyle">@style/Widget.Eui.ProgressBar</item>
+        <item name="android:progressBarStyleHorizontal">@style/Widget.Eui.ProgressBar.Horizontal</item>
+        <item name="android:seekBarStyle">@style/Widget.Eui.SeekBar</item>
+        <item name="android:textColorHint">@color/hint_foreground_eui_dark</item>
+        <item name="android:windowAnimationStyle">@style/Animation.Eui.Activity</item>
+        <item name="android:colorForegroundInverse">@color/foreground_eui_light</item>
+        <item name="android:textAppearanceButton">@style/TextAppearance.Eui.Widget.Button</item>
+        <item name="android:textColorTertiary">@color/secondary_text_eui_dark</item>
+        <item name="android:textColorTertiaryInverse">@color/secondary_text_eui_light</item>
+        <item name="android:listDivider">@drawable/list_divider_eui</item>
+        <item name="android:textColorPrimaryInverseDisableOnly">@color/primary_text_eui_light</item>
+        <item name="android:textAppearanceSearchResultSubtitle">@style/TextAppearance.Eui.SearchResult.Subtitle</item>
+        <item name="android:textAppearanceSearchResultTitle">@style/TextAppearance.Eui.SearchResult.Title</item>
+        <item name="android:colorBackgroundCacheHint">@color/background_cache_hint_selector_eui</item>
+        <item name="android:actionBarStyle">@style/Widget.Eui.ActionBar.Solid</item>
+        <item name="android:actionModeBackground">@drawable/actionbar_background_eui</item>
+        <item name="android:actionModeCloseDrawable">@drawable/le_ic_menu_clear_eui</item>
+        <item name="android:actionBarSize">@dimen/action_bar_default_height_eui</item>
+        <item name="android:actionOverflowButtonStyle">@style/Widget.Eui.ActionButton.Overflow</item>
+        <item name="android:textColorAlertDialogListItem">@color/primary_text_eui_dark</item>
+        <item name="android:homeAsUpIndicator">@drawable/le_ic_ab_back_eui</item>
+        <item name="android:buttonBarButtonStyle">@style/Widget.Eui.Button.AlertDialog</item>
+        <item name="android:actionMenuTextAppearance">@style/TextAppearance.Eui.Widget.ActionBar.Menu</item>
+        <item name="android:colorControlNormal">@color/seekbar_track_color_eui</item>
+        <item name="android:colorControlHighlight">@color/ripple_eui_dark</item>
+        <item name="android:actionBarTheme">@style/ThemeOverlay.Eui.ActionBar</item>
+        <item name="android:colorPrimary">@color/primary_eui_dark</item>
+        <item name="android:colorPrimaryDark">@color/primary_dark_eui_dark</item>
+        <item name="android:colorAccent">@color/accent_eui_dark</item>
+        <item name="android:actionModeWebSearchDrawable">@drawable/le_ic_menu_search_eui</item>
+        <item name="android:searchViewStyle">@style/Widget.Eui.SearchView</item>
+        <item name="android:toolbarStyle">@style/Widget.Eui.Toolbar</item>
+        <item name="leAlertDialogDividerColor">@color/dialog_divider_color_eui</item>
+        <item name="promptColor">@color/le_empty_prompt_color_dark</item>
+    </style>
+    <style name="Theme.Eui.Light" parent="@android:style/Theme.Material.Light">
+        <item name="android:colorForeground">@color/foreground_eui_light</item>
+        <item name="android:colorBackground">@color/background_eui_light</item>
+        <item name="android:backgroundDimAmount">0.5</item>
+        <item name="android:disabledAlpha">@dimen/disabled_alpha_eui_light</item>
+        <item name="android:textAppearance">@style/TextAppearance.Eui</item>
+        <item name="android:textColorPrimary">@color/primary_text_eui_light</item>
+        <item name="android:textColorPrimaryDisableOnly">@color/primary_text_eui_light</item>
+        <item name="android:textColorSecondary">@color/secondary_text_eui_light</item>
+        <item name="android:textColorPrimaryInverse">@color/primary_text_eui_dark</item>
+        <item name="android:textColorSecondaryInverse">@color/secondary_text_eui_dark</item>
+        <item name="android:textColorHintInverse">@color/hint_foreground_eui_dark</item>
+        <item name="android:textAppearanceLarge">@style/TextAppearance.Eui.Large</item>
+        <item name="android:textAppearanceMedium">@style/TextAppearance.Eui.Medium</item>
+        <item name="android:textAppearanceSmall">@style/TextAppearance.Eui.Small</item>
+        <item name="android:textAppearanceLargeInverse">@style/TextAppearance.Eui.Large.Inverse</item>
+        <item name="android:textAppearanceMediumInverse">@style/TextAppearance.Eui.Medium.Inverse</item>
+        <item name="android:textAppearanceSmallInverse">@style/TextAppearance.Eui.Small.Inverse</item>
+        <item name="android:buttonStyle">@style/Widget.Eui.Button</item>
+        <item name="android:windowTitleSize">@dimen/action_bar_default_height_eui</item>
+        <item name="android:windowTitleStyle">@style/WindowTitleEui</item>
+        <item name="android:scrollbarThumbHorizontal">@drawable/scrollbar_handle_eui_light</item>
+        <item name="android:scrollbarThumbVertical">@drawable/scrollbar_handle_eui_light</item>
+        <item name="android:progressBarStyle">@style/Widget.Eui.ProgressBar</item>
+        <item name="android:progressBarStyleHorizontal">@style/Widget.Eui.ProgressBar.Horizontal</item>
+        <item name="android:seekBarStyle">@style/Widget.Eui.SeekBar.Light</item>
+        <item name="android:preferenceScreenStyle">@style/Preference.Eui</item>
+        <item name="android:preferenceCategoryStyle">@style/Preference.Eui.Category</item>
+        <item name="android:preferenceInformationStyle">@style/Preference.Eui.Information</item>
+        <item name="android:preferenceStyle">@style/Preference.Eui</item>
+        <item name="android:checkBoxPreferenceStyle">@style/Preference.Eui.CheckBoxPreference</item>
+        <item name="android:yesNoPreferenceStyle">@style/Preference.Eui.DialogPreference.YesNoPreference</item>
+        <item name="android:dialogPreferenceStyle">@style/Preference.Eui.DialogPreference</item>
+        <item name="android:editTextPreferenceStyle">@style/Preference.Eui.DialogPreference</item>
+        <item name="android:ringtonePreferenceStyle">@style/Preference.Eui</item>
+        <item name="android:textColorHint">@color/hint_foreground_eui_light</item>
+        <item name="android:windowAnimationStyle">@style/Animation.Eui.Activity</item>
+        <item name="android:colorForegroundInverse">@color/foreground_eui_dark</item>
+        <item name="android:textAppearanceButton">@style/TextAppearance.Eui.Widget.Button</item>
+        <item name="android:textColorTertiary">@color/secondary_text_eui_light</item>
+        <item name="android:textColorTertiaryInverse">@color/secondary_text_eui_dark</item>
+        <item name="android:listDivider">@drawable/list_divider_eui</item>
+        <item name="android:textColorPrimaryInverseDisableOnly">@color/primary_text_eui_dark</item>
+        <item name="android:textAppearanceSearchResultSubtitle">@style/TextAppearance.Eui.SearchResult.Subtitle</item>
+        <item name="android:textAppearanceSearchResultTitle">@style/TextAppearance.Eui.SearchResult.Title</item>
+        <item name="android:colorBackgroundCacheHint">@color/background_cache_hint_selector_eui</item>
+        <item name="android:actionBarStyle">@style/Widget.Eui.ActionBar.Solid.Light</item>
+        <item name="android:actionModeBackground">@drawable/actionbar_background_eui_light</item>
+        <item name="android:actionModeCloseDrawable">@drawable/le_ic_menu_clear_eui</item>
+        <item name="android:actionBarSize">@dimen/action_bar_default_height_eui</item>
+        <item name="android:actionOverflowButtonStyle">@style/Widget.Eui.ActionButton.Overflow</item>
+        <item name="android:textColorAlertDialogListItem">@color/primary_text_eui_light</item>
+        <item name="android:homeAsUpIndicator">@drawable/le_ic_ab_back_eui</item>
+        <item name="android:buttonBarButtonStyle">@style/Widget.Eui.Button.AlertDialog</item>
+        <item name="android:editTextBackground">@drawable/edit_text_eui</item>
+        <item name="android:actionMenuTextAppearance">@style/TextAppearance.Eui.Widget.ActionBar.Menu</item>
+        <item name="android:switchPreferenceStyle">@style/Preference.Eui.SwitchPreference</item>
+        <item name="android:listPreferredItemHeightSmall">56.0dip</item>
+        <item name="android:colorControlNormal">@color/seekbar_track_color_eui_light</item>
+        <item name="android:colorControlHighlight">@color/ripple_eui_light</item>
+        <item name="android:actionBarTheme">@style/ThemeOverlay.Eui.ActionBar</item>
+        <item name="android:textAppearanceListItemSecondary">@style/TextAppearance.Eui.Body1</item>
+        <item name="android:colorPrimary">@color/primary_eui_light</item>
+        <item name="android:colorPrimaryDark">@color/primary_dark_eui_light</item>
+        <item name="android:colorAccent">@color/accent_eui_light</item>
+        <item name="android:actionModeWebSearchDrawable">@drawable/le_ic_menu_search_eui</item>
+        <item name="android:searchViewStyle">@style/Widget.Eui.SearchView</item>
+        <item name="android:toolbarStyle">@style/Widget.Eui.Toolbar</item>
+        <item name="leAlertDialogDividerColor">@color/dialog_divider_color_eui_light</item>
+        <item name="promptColor">@color/le_empty_prompt_color_light</item>
+    </style>
+    <style name="Theme.Eui.Light.PreferenceActivity" parent="@style/Theme.Eui.Light">
+        <item name="android:colorBackground">@color/background_eui_light_preference</item>
+        <item name="android:listDivider">@drawable/list_divider_preference_eui</item>
+        <item name="android:selectableItemBackground">@drawable/item_background_eui</item>
+    </style>
+    <style name="ThemeOverlay.Eui" parent="@android:style/ThemeOverlay" />
+    <style name="ThemeOverlay.Eui.ActionBar" parent="@style/ThemeOverlay.Eui">
+        <item name="android:colorControlNormal">?android:textColorPrimary</item>
+        <item name="android:searchViewStyle">@style/Widget.Eui.SearchView.ActionBar</item>
+    </style>
+    <style name="ThemeOverlay.Eui.Dialog" parent="@android:style/ThemeOverlay.Material.Dialog" />
+    <style name="ThemeOverlay.Eui.Dialog.Alert" parent="@android:style/ThemeOverlay.Material.Dialog.Alert">
+        <item name="android:buttonBarButtonStyle">@style/Widget.Eui.Button.AlertDialog</item>
+        <item name="leAlertDialogDividerColor">@color/dialog_divider_color_eui</item>
+    </style>
+    <style name="ThemeOverlay.Eui.Dialog.Alert.Light" parent="@style/ThemeOverlay.Eui.Dialog.Alert">
+        <item name="leAlertDialogDividerColor">@color/dialog_divider_color_eui_light</item>
+    </style>
+    <style name="ThemeOverlay.Eui.Light" parent="@style/ThemeOverlay.Eui" />
+    <style name="Widget.Eui" parent="@android:style/Widget" />
+    <style name="Widget.Eui.ActionBar" parent="@android:style/Widget.Material.ActionBar">
+        <item name="android:titleTextStyle">@style/TextAppearance.Eui.Widget.ActionBar.Title</item>
+        <item name="android:elevation">0.0dip</item>
+    </style>
+    <style name="Widget.Eui.ActionBar.Solid" parent="@style/Widget.Eui.ActionBar">
+        <item name="android:background">@drawable/actionbar_background_eui</item>
+        <item name="android:backgroundStacked">?android:colorPrimary</item>
+        <item name="android:backgroundSplit">?android:colorPrimary</item>
+    </style>
+    <style name="Widget.Eui.ActionBar.Solid.Light" parent="@style/Widget.Eui.ActionBar.Solid">
+        <item name="android:background">@drawable/actionbar_background_eui_light</item>
+        <item name="android:backgroundStacked">?android:colorPrimary</item>
+        <item name="android:backgroundSplit">?android:colorPrimary</item>
+    </style>
+    <style name="Widget.Eui.ActionButton" parent="@android:style/Widget.Material.ActionButton" />
+    <style name="Widget.Eui.ActionButton.Overflow" parent="@android:style/Widget.Material.ActionButton.Overflow">
+        <item name="android:src">@drawable/le_ic_menu_moreoverflow_eui</item>
+    </style>
+    <style name="Widget.Eui.Avatar" parent="@style/Widget.Eui">
+        <item name="android:layout_width">90.0dip</item>
+        <item name="android:layout_height">90.0dip</item>
+        <item name="android:src">@drawable/le_default_avatar_eui</item>
+        <item name="leAvatarBorder">@android:color/white</item>
+    </style>
+    <style name="Widget.Eui.Avatar.Comment" parent="@style/Widget.Eui.Avatar">
+        <item name="android:layout_width">34.0dip</item>
+        <item name="android:layout_height">34.0dip</item>
+        <item name="leAvatarBorder">@color/le_avatar_border_eui</item>
+    </style>
+    <style name="Widget.Eui.Avatar.List" parent="@style/Widget.Eui.Avatar">
+        <item name="android:layout_width">48.0dip</item>
+        <item name="android:layout_height">48.0dip</item>
+        <item name="leAvatarBorder">@color/le_avatar_border_eui</item>
+    </style>
+    <style name="Widget.Eui.Button" parent="@style/Widget.Eui">
+        <item name="android:textAppearance">?android:textAppearanceButton</item>
+        <item name="android:textColor">@color/le_btn_default_colors</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/le_btn_default_eui</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:minWidth">@dimen/le_button_default_width_eui</item>
+        <item name="android:minHeight">@dimen/le_button_default_height_eui</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:paddingStart">@dimen/le_button_default_corner_size_eui</item>
+        <item name="android:paddingEnd">@dimen/le_button_default_corner_size_eui</item>
+    </style>
+    <style name="Widget.Eui.Button.AlertDialog" parent="@android:style/Widget.Material.Button.Borderless.Colored">
+        <item name="android:textSize">@dimen/dialog_button_text_size_eui</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:background">@drawable/btn_borderless_eui</item>
+        <item name="android:minWidth">64.0dip</item>
+        <item name="android:minHeight">48.0dip</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">helve-neue-regular</item>
+    </style>
+    <style name="Widget.Eui.Button.Dark" parent="@style/Widget.Eui.Button">
+        <item name="android:textColor">@color/le_btn_default_text_colors_eui_dark</item>
+    </style>
+    <style name="Widget.Eui.Button.Holo" parent="@style/Widget.Eui.Button">
+        <item name="android:textColor">@color/le_btn_default_text_colors_holo_eui</item>
+        <item name="android:background">@drawable/le_btn_default_eui_holo</item>
+    </style>
+    <style name="Widget.Eui.Button.Pure" parent="@style/Widget.Eui.Button">
+        <item name="android:textColor">@color/le_btn_default_text_colors_pure_eui</item>
+        <item name="android:background">@drawable/le_btn_default_eui_pure</item>
+    </style>
+    <style name="Widget.Eui.Button.Twostate" parent="@style/Widget.Eui.Button">
+        <item name="android:textSize">@dimen/text_size_btn_eui_twostate</item>
+        <item name="android:textColor">@color/le_btn_default_text_colors_twostate_eui</item>
+        <item name="android:background">@drawable/le_btn_default_eui_twostate</item>
+        <item name="android:minWidth">@dimen/le_button_default_width_eui_twostate</item>
+        <item name="android:minHeight">@dimen/le_button_default_height_eui_twostate</item>
+        <item name="android:paddingStart">6.0dip</item>
+        <item name="android:paddingEnd">6.0dip</item>
+    </style>
+    <style name="Widget.Eui.EditText" parent="@android:style/Widget.Material.EditText">
+        <item name="android:fontFamily">helve-neue</item>
+    </style>
+    <style name="Widget.Eui.EditText.Multiline" parent="@style/Widget.Eui.EditText">
+        <item name="android:textSize">17.0sp</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:textColorHint">@color/le_hint_eui_dark</item>
+        <item name="android:background">@drawable/textfield_background_multiline_eui</item>
+        <item name="android:lineSpacingMultiplier">1.35</item>
+    </style>
+    <style name="Widget.Eui.EditText.Multiline.Light" parent="@style/Widget.Eui.EditText.Multiline">
+        <item name="android:textColorHint">@color/le_hint_eui_light</item>
+    </style>
+    <style name="Widget.Eui.EditText.Multiline.Light.Dialog" parent="@style/Widget.Eui.EditText.Multiline.Light">
+        <item name="android:gravity">start|center|top</item>
+        <item name="android:background">@drawable/textfield_background_multiline_dialog_eui</item>
+        <item name="android:maxLines">6</item>
+        <item name="android:minLines">4</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+    <style name="Widget.Eui.EditText.SingleLine" parent="@style/Widget.Eui.EditText">
+        <item name="android:textSize">17.0sp</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:textColorHint">?android:textColorHint</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+    <style name="Widget.Eui.EditText.SingleLine.Light" parent="@style/Widget.Eui.EditText.SingleLine" />
+    <style name="Widget.Eui.EditText.SingleLine.Light.Dialog" parent="@style/Widget.Eui.EditText.SingleLine.Light">
+        <item name="android:background">@drawable/edit_text_dialog_eui</item>
+        <item name="android:paddingTop">32.0dip</item>
+    </style>
+    <style name="Widget.Eui.FloatingActionButton" parent="@style/Widget.Eui">
+        <item name="android:layout_gravity">end</item>
+        <item name="android:background">@drawable/le_fab_bg_selector</item>
+        <item name="android:clickable">true</item>
+        <item name="android:layout_width">@dimen/le_fab_size</item>
+        <item name="android:layout_height">@dimen/le_fab_size</item>
+        <item name="android:layout_marginBottom">@dimen/le_fab_margin</item>
+        <item name="android:src">@drawable/le_fab_bg_plus</item>
+        <item name="android:layout_marginEnd">@dimen/le_fab_margin</item>
+    </style>
+    <style name="Widget.Eui.ProgressBar" parent="@android:style/Widget.Material.ProgressBar">
+        <item name="android:indeterminateDrawable">@drawable/progress_medium_eui</item>
+    </style>
+    <style name="Widget.Eui.ProgressBar.Horizontal" parent="@android:style/Widget.Material.ProgressBar.Horizontal">
+        <item name="android:indeterminateDrawable">@drawable/seekbar_track_eui</item>
+        <item name="android:progressDrawable">@drawable/seekbar_track_eui</item>
+    </style>
+    <style name="Widget.Eui.SearchView" parent="@android:style/Widget.Material.SearchView">
+        <item name="android:closeIcon">@drawable/le_ic_menu_clear_eui</item>
+        <item name="android:searchIcon">@drawable/le_ic_menu_search_eui</item>
+        <item name="android:searchHintIcon">@drawable/le_ic_menu_search_eui</item>
+    </style>
+    <style name="Widget.Eui.SearchView.ActionBar" parent="@style/Widget.Eui.SearchView">
+        <item name="android:queryBackground">@null</item>
+        <item name="android:submitBackground">@null</item>
+        <item name="android:searchHintIcon">@android:color/transparent</item>
+    </style>
+    <style name="Widget.Eui.SeekBar" parent="@android:style/Widget.Material.SeekBar">
+        <item name="android:background">@drawable/control_background_36dp_eui</item>
+        <item name="android:indeterminateDrawable">@drawable/seekbar_track_eui</item>
+        <item name="android:progressDrawable">@drawable/seekbar_track_eui</item>
+        <item name="android:thumb">@drawable/seekbar_thumb_eui</item>
+        <item name="android:paddingStart">16.0dip</item>
+        <item name="android:paddingEnd">16.0dip</item>
+        <item name="android:splitTrack">false</item>
+    </style>
+    <style name="Widget.Eui.SeekBar.Light" parent="@style/Widget.Eui.SeekBar">
+        <item name="android:thumb">@drawable/seekbar_thumb_eui_light</item>
+    </style>
+    <style name="Widget.Eui.Toolbar" parent="@android:style/Widget.Material.Toolbar">
+        <item name="android:titleTextAppearance">@style/TextAppearance.Eui.Widget.ActionBar.Title</item>
+    </style>
+    <style name="WindowTitleEui">
+        <item name="android:textAppearance">@style/TextAppearance.Eui.Title</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:shadowRadius">0.0</item>
+        <item name="android:textAlignment">viewStart</item>
+    </style>
+    <style name="Animation.SuwWindowAnimation" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/suw_slide_next_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/suw_slide_next_out</item>
+        <item name="android:activityCloseEnterAnimation">@anim/suw_slide_back_in</item>
+        <item name="android:activityCloseExitAnimation">@anim/suw_slide_back_out</item>
+    </style>
+    <style name="SuwContentFrame">
+        <item name="android:paddingLeft">@dimen/suw_layout_margin_sides</item>
+        <item name="android:paddingTop">@dimen/suw_content_frame_padding_top</item>
+        <item name="android:paddingRight">@dimen/suw_layout_margin_sides</item>
+        <item name="android:paddingBottom">@dimen/suw_content_frame_padding_bottom</item>
+    </style>
+    <style name="SuwDescription">
+        <item name="android:textAppearance">@style/TextAppearance.SuwDescription</item>
+        <item name="android:layout_gravity">top</item>
+        <item name="android:layout_marginTop">@dimen/suw_description_margin_top</item>
+        <item name="android:layout_marginBottom">@dimen/suw_description_margin_bottom</item>
+        <item name="android:lineSpacingExtra">@dimen/suw_description_line_spacing_extra</item>
+    </style>
+    <style name="TextAppearance.SuwDescription.Light" parent="@style/TextAppearance.SuwDescription">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="SuwRadioButton">
+        <item name="android:textAppearance">@style/TextAppearance.SuwDescription</item>
+        <item name="android:paddingLeft">@dimen/suw_radio_button_padding_start</item>
+        <item name="android:layout_marginLeft">@dimen/suw_radio_button_margin_start</item>
+        <item name="android:layout_marginTop">@dimen/suw_radio_button_margin_top</item>
+        <item name="android:layout_marginBottom">@dimen/suw_radio_button_margin_bottom</item>
+        <item name="android:lineSpacingExtra">@dimen/suw_radio_button_line_spacing_extra</item>
+        <item name="android:paddingStart">@dimen/suw_radio_button_padding_start</item>
+        <item name="android:layout_marginStart">@dimen/suw_radio_button_margin_start</item>
+    </style>
+    <style name="SuwCheckBox">
+        <item name="android:textAppearance">@style/TextAppearance.SuwDescription.Light</item>
+        <item name="android:textSize">@dimen/suw_check_box_text_size</item>
+        <item name="android:paddingLeft">@dimen/suw_check_box_padding_start</item>
+        <item name="android:layout_marginLeft">@dimen/suw_check_box_margin_start</item>
+        <item name="android:layout_marginTop">@dimen/suw_check_box_margin_top</item>
+        <item name="android:layout_marginBottom">@dimen/suw_check_box_margin_bottom</item>
+        <item name="android:lineSpacingExtra">@dimen/suw_check_box_line_spacing_extra</item>
+        <item name="android:paddingStart">@dimen/suw_check_box_padding_start</item>
+        <item name="android:layout_marginStart">@dimen/suw_check_box_margin_start</item>
+    </style>
+    <style name="SuwCheckBox.Multiline" parent="@style/SuwCheckBox">
+        <item name="android:gravity">top</item>
+    </style>
+    <style name="SuwBaseCardTitle">
+        <item name="android:textAppearance">@style/TextAppearance.SuwCardTitle</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:paddingLeft">@dimen/suw_card_title_padding_start</item>
+        <item name="android:paddingTop">@dimen/suw_card_title_padding_top</item>
+        <item name="android:paddingRight">@dimen/suw_card_title_padding_end</item>
+        <item name="android:paddingBottom">@dimen/suw_card_title_padding_bottom</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:paddingStart">@dimen/suw_card_title_padding_start</item>
+        <item name="android:paddingEnd">@dimen/suw_card_title_padding_end</item>
+    </style>
+    <style name="SuwCardTitle" parent="@style/SuwBaseCardTitle" />
+    <style name="SuwHeaderTitle">
+        <item name="android:textSize">@dimen/suw_header_title_size</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_gravity">top</item>
+        <item name="android:paddingTop">@dimen/suw_header_title_padding_top</item>
+        <item name="android:paddingBottom">@dimen/suw_header_title_padding_bottom</item>
+        <item name="android:layout_marginLeft">@dimen/suw_layout_margin_sides</item>
+        <item name="android:layout_marginRight">@dimen/suw_layout_margin_sides</item>
+        <item name="android:layout_marginBottom">@dimen/suw_header_title_margin_bottom</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:lineSpacingExtra">@dimen/suw_header_title_line_spacing_extra</item>
+    </style>
+    <style name="SuwNavBarTheme">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">?suwNavBarBackgroundColor</item>
+        <item name="android:paddingLeft">@dimen/suw_navbar_padding_sides</item>
+        <item name="android:paddingRight">@dimen/suw_navbar_padding_sides</item>
+        <item name="android:layout_alignParentBottom">true</item>
+    </style>
+    <style name="setup_wizard_navbar_style">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">?setup_wizard_navbar_bg_color</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/setup_wizard_navbar_height</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:paddingStart">@dimen/setup_wizard_navbar_padding_sides</item>
+        <item name="android:paddingEnd">@dimen/setup_wizard_navbar_padding_sides</item>
+    </style>
+    <style name="setup_wizard_navbar_theme_dark">
+        <item name="setup_wizard_navbar_bg_color">@color/setup_wizard_navbar_bg_dark</item>
+        <item name="setup_wizard_navbar_text_color">@color/setup_wizard_navbar_text_dark</item>
+    </style>
+    <style name="setup_wizard_navbar_theme_light">
+        <item name="setup_wizard_navbar_bg_color">@color/setup_wizard_navbar_bg_light</item>
+        <item name="setup_wizard_navbar_text_color">@color/setup_wizard_navbar_text_light</item>
+    </style>
+    <style name="setup_wizard_navbar_button_style" parent="@android:style/Widget.Material.Button.Borderless">
+        <item name="android:textSize">@dimen/setup_wizard_navbar_text_size</item>
+        <item name="android:textColor">?setup_wizard_navbar_text_color</item>
+        <item name="android:background">@drawable/setup_wizard_navbar_btn_bg</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:minWidth">0.0dip</item>
+        <item name="android:drawablePadding">@dimen/setup_wizard_navbar_button_drawable_padding</item>
+        <item name="android:layout_weight">0.0</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:paddingStart">@dimen/setup_wizard_navbar_button_padding_sides</item>
+        <item name="android:paddingEnd">@dimen/setup_wizard_navbar_button_padding_sides</item>
+    </style>
+    <style name="panel_footer_text_style">
+        <item name="android:textSize">@dimen/panel_footer_text_size</item>
+        <item name="android:textColor">@color/panel_footer_text_color</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:leTextWeight">medium</item>
+    </style>
+    <style name="LeSeekBar">
+        <item name="android:focusable">true</item>
+        <item name="android:maxHeight">2.0dip</item>
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:indeterminateDrawable">@drawable/le_cc_brightness_seekbar_primary_background</item>
+        <item name="android:progressDrawable">@drawable/le_cc_brightness_seekbar_primary_background</item>
+        <item name="android:minHeight">2.0dip</item>
+        <item name="android:thumb">@drawable/le_cc_brightness_seekbar_thumb</item>
+        <item name="android:mirrorForRtl">true</item>
+    </style>
+    <style name="actionbar_title_style">
+        <item name="android:textSize">@dimen/actionbar_title_text_size</item>
+        <item name="android:textColor">@color/actionbar_title_text_color</item>
+    </style>
+    <style name="LeUITextAppearanceActionBar">
+        <item name="android:textSize">@dimen/actionbar_menu_text_size</item>
+        <item name="android:textColor">@color/leui_blue</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="LeUIBatteryProgressBar" parent="@android:style/Widget.Material.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@android:drawable/le_seek_bar</item>
+    </style>
+    <style name="Theme.LeUIMainSettingsFSW" parent="@style/Theme.Settings">
+        <item name="android:fswStyle">@style/mainFakeWindowFactor</item>
+    </style>
+    <style name="mainFakeWindowFactor">
+        <item name="android:fswVer">1</item>
+        <item name="android:fswPolicy">factor</item>
+        <item name="android:combFactors">@array/comb_factor_list</item>
+        <item name="android:layoutNames">@array/layout_name_list</item>
+    </style>
+    <style name="Theme.LeUIMainSettings" parent="@style/Theme.Settings">
+        <item name="android:actionBarStyle">@style/LeUISettingsActionBarStyle</item>
+    </style>
+    <style name="Theme.LeUIBackActionBar" parent="@style/Theme.Settings">
+        <item name="android:actionBarStyle">@style/LeUISettingsBackActionBarStyle</item>
+    </style>
+    <style name="LeUISettingsActionBarStyle" parent="@android:style/Widget.Holo.Light.ActionBar.Solid">
+        <item name="android:background">@drawable/leui_action_bar_divider</item>
+        <item name="android:displayOptions">none</item>
+        <item name="android:titleTextStyle">@style/actionbar_title_style</item>
+    </style>
+    <style name="LeUISettingsBackActionBarStyle" parent="@android:style/Widget.Holo.Light.ActionBar.Solid">
+        <item name="android:background">@drawable/leui_action_bar_divider</item>
+        <item name="android:displayOptions">homeAsUp|showTitle</item>
+        <item name="android:titleTextStyle">@style/actionbar_title_style</item>
+    </style>
+    <style name="LeUIAcionMode" parent="@android:style/Widget.Material.ActionMode">
+        <item name="android:titleTextStyle">@style/actionbar_title_style</item>
+    </style>
+    <style name="LeUIDisplayColorModeSettings" parent="@style/Theme.LeUIBackActionBar">
+        <item name="android:actionModeBackground">@drawable/leui_action_bar_divider</item>
+        <item name="android:actionModeStyle">@style/LeUIAcionMode</item>
+    </style>
+    <style name="UserAgreementPriavacyPolicyActionBarStyle" parent="@android:style/Widget.Material.Light.ActionBar">
+        <item name="android:background">@color/bg_setupwizard</item>
+        <item name="android:displayOptions">homeAsUp</item>
+        <item name="android:homeAsUpIndicator">@drawable/le_top_btn_icon_reback</item>
+        <item name="android:elevation">0.0dip</item>
+        <item name="android:statusBarColor">@color/leui_status_bar_background</item>
+    </style>
+    <style name="LeUILongPressWizard">
+        <item name="android:windowBackground">@color/LeUILongPressWizardTransparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@style/LeUILongPressWizardTransparent</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="LeUILongPressWizardTransparent" parent="@android:style/windowAnimationStyle.Leui">
+        <item name="android:activityOpenEnterAnimation">@android:anim/le_wallpaper_close_enter</item>
+        <item name="android:activityOpenExitAnimation">@android:anim/le_wallpaper_open_exit</item>
+        <item name="android:activityCloseEnterAnimation">@android:anim/le_wallpaper_close_enter</item>
+        <item name="android:activityCloseExitAnimation">@android:anim/le_wallpaper_open_exit</item>
+        <item name="android:taskOpenEnterAnimation">@android:anim/le_wallpaper_close_enter</item>
+        <item name="android:taskOpenExitAnimation">@android:anim/le_wallpaper_open_exit</item>
+        <item name="android:taskCloseEnterAnimation">@android:anim/le_wallpaper_close_enter</item>
+        <item name="android:taskCloseExitAnimation">@android:anim/le_wallpaper_open_exit</item>
+        <item name="android:taskToFrontEnterAnimation">@android:anim/le_wallpaper_close_enter</item>
+        <item name="android:taskToFrontExitAnimation">@android:anim/le_wallpaper_open_exit</item>
+        <item name="android:taskToBackEnterAnimation">@android:anim/le_wallpaper_close_enter</item>
+        <item name="android:taskToBackExitAnimation">@android:anim/le_wallpaper_open_exit</item>
+    </style>
+    <style name="info_label">
+        <item name="android:textAppearance">@style/TextAppearance.info_label</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingEnd">4.0dip</item>
+    </style>
+    <style name="info_value">
+        <item name="android:textAppearance">@style/TextAppearance.info_value</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="info_small">
+        <item name="android:textAppearance">@style/TextAppearance.info_small</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="info_layout">
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingTop">10.0dip</item>
+        <item name="android:paddingBottom">10.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:paddingStart">10.0dip</item>
+        <item name="android:paddingEnd">10.0dip</item>
+    </style>
+    <style name="entry_layout">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="form_value">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="TextAppearance" parent="@android:style/TextAppearance.Material" />
+    <style name="TextAppearance.info_label" parent="@style/TextAppearance">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TextAppearance.info_small" parent="@style/TextAppearance">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="TextAppearance.info_value" parent="@style/TextAppearance">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="TextAppearance.PasswordEntry" parent="@android:style/TextAppearance.Material">
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:gravity">center</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="TextAppearance.CryptKeeper_PasswordEntry" parent="@android:style/TextAppearance.Material">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:background">@null</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:imeOptions">actionDone|flagForceAscii</item>
+        <item name="android:textCursorDrawable">@null</item>
+    </style>
+    <style name="TallTitleBarTheme" parent="@android:style/Theme.NoTitleBar">
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="preferenceFrameLayoutWizardStyle">
+        <item name="android:borderTop">0.0dip</item>
+        <item name="android:borderBottom">0.0dip</item>
+        <item name="android:borderLeft">0.0dip</item>
+        <item name="android:borderRight">0.0dip</item>
+    </style>
+    <style name="SyncSwitchPreference" parent="@style/Preference">
+        <item name="android:widgetLayout">@layout/preference_widget_accountsync_totle</item>
+    </style>
+    <style name="PreferenceHeaderPanelSinglePane">
+        <item name="android:background">@color/leui_fragment_background_color</item>
+        <item name="android:layout_marginStart">0.0dip</item>
+        <item name="android:layout_marginEnd">0.0dip</item>
+    </style>
+    <style name="PreferencePanelSinglePane" parent="@android:style/PreferencePanel">
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+        <item name="android:background">@color/leui_fragment_background_color</item>
+        <item name="android:paddingStart">0.0dip</item>
+        <item name="android:paddingEnd">0.0dip</item>
+        <item name="android:layout_marginStart">0.0dip</item>
+        <item name="android:layout_marginEnd">0.0dip</item>
+    </style>
+    <style name="PreferenceHeaderListSinglePane" parent="@android:style/PreferenceHeaderList">
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+        <item name="android:background">@color/leui_listview_background</item>
+        <item name="android:paddingTop">0.0dip</item>
+        <item name="android:paddingBottom">0.0dip</item>
+        <item name="android:layout_marginTop">0.0dip</item>
+        <item name="android:layout_marginBottom">0.0dip</item>
+        <item name="android:paddingStart">@dimen/settings_side_margin</item>
+        <item name="android:paddingEnd">@dimen/settings_side_margin</item>
+        <item name="android:layout_marginStart">0.0dip</item>
+        <item name="android:layout_marginEnd">0.0dip</item>
+    </style>
+    <style name="PreferenceFragmentListSinglePane" parent="@android:style/PreferenceFragmentList">
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+        <item name="android:background">@android:color/preference_category_color</item>
+        <item name="android:paddingStart">@dimen/settings_side_margin</item>
+        <item name="android:paddingEnd">@dimen/settings_side_margin</item>
+        <item name="android:layout_marginStart">0.0dip</item>
+        <item name="android:layout_marginEnd">0.0dip</item>
+    </style>
+    <style name="SettingsPreferenceHeaderPanel" parent="@android:style/PreferenceHeaderPanel" />
+    <style name="SettingsPreferenceHeaderList" parent="@android:style/PreferenceHeaderList" />
+    <style name="PreferenceFragmentStyle" parent="@android:style/PreferenceFragment">
+        <item name="android:layout">@layout/preference_list_fragment</item>
+    </style>
+    <style name="VertDivider">
+        <item name="android:background">@color/divider_color</item>
+        <item name="android:focusable">false</item>
+        <item name="android:clickable">false</item>
+        <item name="android:layout_width">@dimen/vert_divider_width</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="TextAppearance.SetupWizardDescription" parent="@android:style/TextAppearance.Material.Subhead" />
+    <style name="SetupTitle">
+        <item name="android:textSize">@dimen/setup_title_size</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:paddingTop">@dimen/setup_title_padding_top</item>
+        <item name="android:paddingBottom">@dimen/setup_title_padding_bottom</item>
+        <item name="android:clickable">false</item>
+        <item name="android:longClickable">false</item>
+        <item name="android:layout_marginBottom">@dimen/setup_title_margin_bottom</item>
+        <item name="android:lineSpacingExtra">@dimen/setup_title_line_spacing_extra</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:layout_marginStart">@dimen/setup_wizard_margin_sides</item>
+        <item name="android:layout_marginEnd">@dimen/setup_wizard_margin_sides</item>
+    </style>
+    <style name="TrimmedHorizontalProgressBar" parent="@android:style/Widget.Material.ProgressBar.Horizontal">
+        <item name="android:maxHeight">3.0dip</item>
+        <item name="android:indeterminateDrawable">@drawable/progress_indeterminate_horizontal_material_trimmed</item>
+        <item name="android:minHeight">3.0dip</item>
+    </style>
+    <style name="SetupCardTitle">
+        <item name="android:textAppearance">@style/TextAppearance.SetupWizardCardTitle</item>
+        <item name="android:paddingTop">@dimen/setup_wizard_card_title_padding_top</item>
+        <item name="android:paddingBottom">@dimen/setup_wizard_card_title_padding_bottom</item>
+        <item name="android:paddingStart">@dimen/setup_wizard_card_title_padding_start</item>
+        <item name="android:paddingEnd">@dimen/setup_wizard_card_title_padding_end</item>
+    </style>
+    <style name="TextAppearance.SetupWizardCardTitle" parent="@android:style/TextAppearance.Material.Display1">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="SetupAddWifiNetwork">
+        <item name="android:textAppearance">@android:style/TextAppearance.Small</item>
+        <item name="android:textColor">?android:colorAccent</item>
+        <item name="android:gravity">start|center</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:paddingStart">@dimen/setup_list_no_icon_padding</item>
+    </style>
+    <style name="bt_item">
+        <item name="android:gravity">start</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">8.0dip</item>
+        <item name="android:layout_marginStart">16.0dip</item>
+        <item name="android:layout_marginEnd">16.0dip</item>
+    </style>
+    <style name="bt_item_label">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAlignment">viewStart</item>
+    </style>
+    <style name="bt_item_edit_content">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="wifi_item">
+        <item name="android:gravity">start</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingStart">8.0dip</item>
+        <item name="android:paddingEnd">8.0dip</item>
+    </style>
+    <style name="wifi_item_label">
+        <item name="android:textAppearance">@android:style/TextAppearance.Material.Body1</item>
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">@android:color/secondary_text_default_material_light</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:paddingStart">8.0dip</item>
+    </style>
+    <style name="wifi_item_content">
+        <item name="android:textAppearance">@android:style/TextAppearance.Material.Subhead</item>
+        <item name="android:textColor">@android:color/primary_text_default_material_light</item>
+        <item name="android:textAlignment">viewStart</item>
+    </style>
+    <style name="wifi_advanced_toggle" parent="@style/wifi_item_content">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:background">@null</item>
+        <item name="android:button">@null</item>
+        <item name="android:drawableEnd">@drawable/ic_expand</item>
+        <item name="android:paddingStart">8.0dip</item>
+    </style>
+    <style name="wifi_item_edit_content">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:paddingStart">4.0dip</item>
+        <item name="android:layout_marginStart">4.0dip</item>
+    </style>
+    <style name="wifi_section">
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="setup_wizard_button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="ConfirmDeviceCredentialsAnimationStyle" parent="@android:style/Animation.Material.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/confirm_credential_open_enter</item>
+        <item name="android:activityOpenExitAnimation">@anim/confirm_credential_open_exit</item>
+    </style>
+    <style name="Transparent">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+    <style name="CryptKeeperBlankTheme" parent="@android:style/Theme.Material.NoActionBar">
+        <item name="android:background">#ff000000</item>
+    </style>
+    <style name="SecurityPreferenceButtonContainer" parent="@android:style/Widget.Material.Light.SegmentedButton">
+        <item name="android:background">@null</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">16.0dip</item>
+        <item name="android:showDividers">none</item>
+        <item name="android:dividerPadding">8.0dip</item>
+        <item name="android:layout_marginStart">16.0dip</item>
+        <item name="android:layout_marginEnd">16.0dip</item>
+    </style>
+    <style name="SecurityPreferenceButton" parent="@android:style/Widget.Material.Light.Button.Borderless">
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="vpn_label">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="vpn_value">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="TextAppearance.PagerTabs" parent="@android:style/TextAppearance.Material.Widget.TabWidget" />
+    <style name="KeyguardAppWidgetItem">
+        <item name="android:textSize">18.0sp</item>
+    </style>
+    <style name="WifiAssistantText">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="WifiAssistantButton">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:background">@android:color/white</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingStart">@dimen/wifi_assistant_text_padding</item>
+        <item name="android:paddingEnd">@dimen/wifi_assistant_text_padding</item>
+    </style>
+    <style name="WifiAssistantButton.Negative" parent="@style/WifiAssistantButton" />
+    <style name="WifiAssistantButton.Positive" parent="@style/WifiAssistantButton">
+        <item name="android:textColor">@color/wifi_assistant_color_accent</item>
+    </style>
+    <style name="ApnPreference">
+        <item name="android:layout">@layout/apn_preference_layout</item>
+    </style>
+    <style name="AppListSwitchPreference" parent="@android:style/Preference.Material.DialogPreference">
+        <item name="android:widgetLayout">@android:layout/preference_widget_switch</item>
+    </style>
+    <style name="TextAppearance.Medium" parent="@android:style/TextAppearance.Material.Medium" />
+    <style name="TextAppearance.Small" parent="@android:style/TextAppearance.Material.Small" />
+    <style name="TextAppearance.Switch" parent="@android:style/TextAppearance.Material.Title" />
+    <style name="TextAppearance.CategoryTitle" parent="@android:style/TextAppearance.Material.Body2">
+        <item name="android:textColor">?android:colorAccent</item>
+    </style>
+    <style name="TextAppearance.TileTitle" parent="@android:style/TextAppearance.Material.Subhead" />
+    <style name="TextAppearance.TileSubTitle" parent="@android:style/TextAppearance.Material.Body1" />
+    <style name="TextAppearance.RecentsTitle" parent="@style/TextAppearance.CategoryTitle" />
+    <style name="TextAppearance.ResultTitle" parent="@style/TextAppearance.CategoryTitle" />
+    <style name="TextAppearance.FingerprintMessage" parent="@android:style/TextAppearance.Material.Subhead">
+        <item name="android:lineSpacingExtra">@dimen/suw_description_line_spacing_extra</item>
+    </style>
+    <style name="Button.FingerprintButton" parent="@android:style/Widget.Material.Button.Borderless">
+        <item name="android:textColor">?android:colorAccent</item>
+        <item name="android:lineSpacingExtra">@dimen/suw_description_line_spacing_extra</item>
+    </style>
+    <style name="TextAppearance.FingerprintLink" parent="@style/TextAppearance.FingerprintMessage">
+        <item name="android:textColor">?android:colorAccent</item>
+    </style>
+    <style name="TextAppearance.FingerprintErrorText" parent="@android:style/TextAppearance.Material.Body1">
+        <item name="android:textColor">@color/warning</item>
+    </style>
+    <style name="FingerprintLayoutTheme">
+        <item name="suwBackground">@drawable/fp_enrollment_header</item>
+        <item name="suwDecorPaddingTop">@dimen/fingerprint_decor_padding_top</item>
+        <item name="suwIllustrationAspectRatio">@dimen/fingerprint_illustration_aspect_ratio</item>
+    </style>
+    <style name="SetupWizardFingerprintLayoutTheme">
+        <item name="suwBackgroundTile">@drawable/setup_illustration_tile</item>
+        <item name="suwIllustration">@drawable/setup_illustration_lock_screen</item>
+        <item name="suwIllustrationHorizontalTile">@drawable/setup_illustration_horizontal_tile</item>
+    </style>
+    <style name="TextAppearance.ConfirmDeviceCredentialsErrorText" parent="@android:style/TextAppearance.Material.Body1">
+        <item name="android:textColor">@color/warning</item>
+    </style>
+    <style name="TextAppearance.Small.SwitchBar" parent="@style/TextAppearance.Small">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+    <style name="TextAppearance.RemoveDialogContent" parent="@android:style/TextAppearance.Material">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+    <style name="SetupWizardStorageStyle" parent="@style/SuwThemeMaterial.Light">
+        <item name="android:colorAccent">#ff009688</item>
+        <item name="suwDecorPaddingTop">@dimen/fingerprint_decor_padding_top</item>
+    </style>
+    <style name="SetupWizardDisableAppStartingTheme">
+        <item name="android:windowBackground">@null</item>
+    </style>
+    <style name="SetupWizardWifiTheme" parent="@style/Theme.SettingsBase">
+        <item name="android:listPreferredItemHeight">48.0dip</item>
+        <item name="android:windowBackground">@color/bg_setupwizard</item>
+        <item name="android:windowAnimationStyle">@style/AnimationActivity</item>
+        <item name="android:windowSoftInputMode">stateAlwaysHidden|adjustPan</item>
+        <item name="android:actionBarStyle">@style/WifiSetupWizardActionBarStyle</item>
+        <item name="android:alertDialogTheme">@style/Theme.WifiDialog</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:listPreferredItemPaddingStart">@dimen/setup_wizard_margin_sides</item>
+        <item name="android:listPreferredItemPaddingEnd">@dimen/setup_wizard_margin_sides</item>
+        <item name="android:statusBarColor">@color/bg_setupwizard</item>
+        <item name="android:preferencePanelStyle">@android:style/PreferencePanel.Dialog</item>
+        <item name="android:preferenceFrameLayoutStyle">@style/preferenceFrameLayoutWizardStyle</item>
+        <item name="android:lePreferenceSelectableItemBackground">@android:color/transparent</item>
+        <item name="android:leStatusBarIconColor">@color/status_bar</item>
+        <item name="android:leftTextViewTextColor">#ff518ef1</item>
+        <item name="android:rightTextViewTextColor">#ff2974ee</item>
+        <item name="preferenceBackgroundColor">@color/bg_setupwizard</item>
+        <item name="ic_menu_add">@drawable/ic_menu_add_dark</item>
+        <item name="ic_menu_moreoverflow">@android:drawable/ic_menu_moreoverflow_material</item>
+        <item name="ic_wps">@drawable/ic_wps_dark</item>
+        <item name="setup_divider_color">@color/setup_divider_color_dark</item>
+        <item name="wifi_signal_color">@color/setup_wizard_wifi_color_dark</item>
+        <item name="wifi_signal">@drawable/wifi_signal_dark</item>
+        <item name="wifi_setup_list_padding">18.0dip</item>
+        <item name="wifi_setup_list_marginTop">15.0dip</item>
+    </style>
+    <style name="SetupWizardWifiTheme.AddNetWork" parent="@style/SetupWizardWifiTheme">
+        <item name="android:listPreferredItemHeight">54.0dip</item>
+        <item name="wifi_setup_list_padding">46.0dip</item>
+        <item name="wifi_setup_list_marginTop">14.0dip</item>
+    </style>
+    <style name="SetupWizardWifiTheme.DetailInfo" parent="@style/SetupWizardWifiTheme">
+        <item name="wifi_setup_list_marginTop">12.0dip</item>
+    </style>
+    <style name="AnimationActivity" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@null</item>
+        <item name="android:activityOpenExitAnimation">@null</item>
+        <item name="android:activityCloseEnterAnimation">@null</item>
+        <item name="android:activityCloseExitAnimation">@null</item>
+    </style>
+    <style name="SetupWizardTheme" parent="@style/SuwThemeMaterial">
+        <item name="android:windowBackground">?android:colorBackground</item>
+        <item name="android:alertDialogTheme">@style/ThemeOverlay.AlertDialog</item>
+        <item name="android:listPreferredItemPaddingStart">@dimen/suw_layout_margin_sides</item>
+        <item name="android:listPreferredItemPaddingEnd">@dimen/suw_layout_margin_sides</item>
+        <item name="android:preferencePanelStyle">@android:style/PreferencePanel.Dialog</item>
+        <item name="android:regularColor">@color/setup_lock_pattern_view_regular_color_dark</item>
+        <item name="android:errorColor">@color/setup_lock_pattern_view_error_color_dark</item>
+        <item name="android:successColor">@color/setup_lock_pattern_view_success_color_dark</item>
+        <item name="preferenceBackgroundColor">?android:colorBackground</item>
+        <item name="fingerprint_layout_theme">@style/SetupWizardFingerprintLayoutTheme</item>
+        <item name="fingerprint_progress_bar_size">@dimen/setup_fingerprint_progress_bar_size</item>
+        <item name="fingerprint_ring_radius">@dimen/setup_fingerprint_ring_radius</item>
+        <item name="ic_menu_add">@drawable/ic_menu_add_dark</item>
+        <item name="ic_menu_moreoverflow">@android:drawable/ic_menu_moreoverflow_material</item>
+        <item name="ic_wps">@drawable/ic_wps_dark</item>
+        <item name="setup_divider_color">@color/setup_divider_color_dark</item>
+        <item name="side_margin">0.0dip</item>
+        <item name="wifi_signal_color">@color/setup_wizard_wifi_color_dark</item>
+        <item name="wifi_signal">@drawable/wifi_signal_dark</item>
+    </style>
+    <style name="SetupWizardTheme.Light" parent="@style/SuwThemeMaterial.Light">
+        <item name="android:windowBackground">?android:colorBackground</item>
+        <item name="android:alertDialogTheme">@style/ThemeOverlay.AlertDialog</item>
+        <item name="android:listPreferredItemPaddingStart">@dimen/suw_layout_margin_sides</item>
+        <item name="android:listPreferredItemPaddingEnd">@dimen/suw_layout_margin_sides</item>
+        <item name="android:preferencePanelStyle">@android:style/PreferencePanel.Dialog</item>
+        <item name="android:regularColor">@color/setup_lock_pattern_view_regular_color_light</item>
+        <item name="android:errorColor">@color/setup_lock_pattern_view_error_color_light</item>
+        <item name="android:successColor">@color/setup_lock_pattern_view_success_color_light</item>
+        <item name="preferenceBackgroundColor">?android:colorBackground</item>
+        <item name="fingerprint_layout_theme">@style/SetupWizardFingerprintLayoutTheme</item>
+        <item name="fingerprint_progress_bar_size">@dimen/setup_fingerprint_progress_bar_size</item>
+        <item name="fingerprint_ring_radius">@dimen/setup_fingerprint_ring_radius</item>
+        <item name="ic_menu_add">@drawable/ic_menu_add_light</item>
+        <item name="ic_menu_moreoverflow">@android:drawable/ic_menu_moreoverflow_material</item>
+        <item name="ic_wps">@drawable/ic_wps_light</item>
+        <item name="setup_divider_color">@color/setup_divider_color_light</item>
+        <item name="side_margin">0.0dip</item>
+        <item name="wifi_signal_color">@color/setup_wizard_wifi_color_light</item>
+        <item name="wifi_signal">@drawable/wifi_signal_dark</item>
+    </style>
+    <style name="SetupWizardWifiTheme.Light" parent="@android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">?android:colorBackground</item>
+        <item name="android:windowSoftInputMode">adjustPan</item>
+        <item name="android:alertDialogTheme">@style/Theme.Light.WifiDialog</item>
+        <item name="android:listPreferredItemPaddingStart">@dimen/setup_wizard_margin_sides</item>
+        <item name="android:listPreferredItemPaddingEnd">@dimen/setup_wizard_margin_sides</item>
+        <item name="android:colorAccent">@color/setup_wizard_color_accent_light</item>
+        <item name="android:preferencePanelStyle">@android:style/PreferencePanel.Dialog</item>
+        <item name="preferenceBackgroundColor">?android:colorBackground</item>
+        <item name="ic_menu_add">@drawable/ic_menu_add_light</item>
+        <item name="ic_menu_moreoverflow">@android:drawable/ic_menu_moreoverflow_material</item>
+        <item name="ic_wps">@drawable/ic_wps_light</item>
+        <item name="setup_divider_color">@color/setup_divider_color_light</item>
+        <item name="wifi_signal_color">@color/setup_wizard_wifi_color_light</item>
+        <item name="wifi_signal">@drawable/wifi_signal_teal</item>
+    </style>
+    <style name="Theme.WifiDialog" parent="@android:style/Theme.Leui.Dialog.Alert">
+        <item name="android:windowSoftInputMode">adjustResize</item>
+        <item name="android:colorAccent">@color/leui_blue</item>
+        <item name="ic_menu_add">@drawable/ic_menu_add_dark</item>
+        <item name="ic_menu_moreoverflow">@android:drawable/ic_menu_moreoverflow_material</item>
+        <item name="ic_wps">@drawable/ic_wps_dark</item>
+        <item name="wifi_signal">@drawable/wifi_signal_dark</item>
+    </style>
+    <style name="Theme.Light.WifiDialog" parent="@android:style/Theme.Material.Light.Dialog.Alert">
+        <item name="android:windowSoftInputMode">adjustResize</item>
+        <item name="android:colorAccent">@color/leui_blue</item>
+        <item name="ic_menu_add">@drawable/ic_menu_add_light</item>
+        <item name="ic_menu_moreoverflow">@android:drawable/ic_menu_moreoverflow_material</item>
+        <item name="ic_wps">@drawable/ic_wps_light</item>
+        <item name="wifi_signal">@drawable/wifi_signal_light</item>
+    </style>
+    <style name="Theme.SettingsBase" parent="@android:style/Theme.Leui" />
+    <style name="Theme.Settings" parent="@style/Theme.SettingsBase">
+        <item name="android:actionBarStyle">@style/Theme.ActionBar</item>
+        <item name="android:actionModeBackground">@drawable/leui_action_bar_divider</item>
+        <item name="android:actionModeCloseDrawable">@drawable/le_top_btn_icon_cancel</item>
+        <item name="android:alertDialogTheme">@style/Theme.AlertDialog</item>
+        <item name="android:homeAsUpIndicator">@drawable/le_top_btn_icon_reback</item>
+        <item name="android:selectableItemBackground">@android:drawable/le_preference_item_background</item>
+        <item name="android:actionMenuTextAppearance">@style/LeUITextAppearanceActionBar</item>
+        <item name="android:actionMenuTextColor">@color/leui_blue</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:actionModeStyle">@style/LeUIAcionMode</item>
+        <item name="android:colorAccent">@color/leui_blue</item>
+        <item name="android:statusBarColor">@color/leui_status_bar_background</item>
+        <item name="android:preferenceFragmentStyle">@style/PreferenceFragmentStyle</item>
+        <item name="android:preferencePanelStyle">@style/PreferencePanelSinglePane</item>
+        <item name="android:preferenceHeaderPanelStyle">@style/PreferenceHeaderPanelSinglePane</item>
+        <item name="android:preferenceListStyle">@style/PreferenceHeaderListSinglePane</item>
+        <item name="android:preferenceFragmentListStyle">@style/PreferenceFragmentListSinglePane</item>
+        <item name="android:preferenceFragmentPaddingSide">@dimen/settings_side_margin</item>
+        <item name="android:regularColor">@color/lock_pattern_view_regular_color</item>
+        <item name="android:errorColor">@color/lock_pattern_view_error_color</item>
+        <item name="android:successColor">@color/leui_blue</item>
+        <item name="android:leStatusBarIconColor">@android:color/black</item>
+        <item name="apnPreferenceStyle">@style/ApnPreference</item>
+        <item name="switchBarTheme">@style/Theme.SwitchBar.Settings</item>
+        <item name="preferenceBackgroundColor">@drawable/leui_background_white</item>
+        <item name="fingerprint_layout_theme">@style/FingerprintLayoutTheme</item>
+        <item name="fingerprint_progress_bar_size">@dimen/fingerprint_progress_bar_size</item>
+        <item name="fingerprint_ring_radius">@dimen/fingerprint_ring_radius</item>
+        <item name="ic_menu_add">@drawable/ic_menu_add_dark</item>
+        <item name="ic_menu_moreoverflow">@android:drawable/ic_menu_moreoverflow_holo_dark</item>
+        <item name="ic_wps">@drawable/ic_wps_light</item>
+        <item name="side_margin">@dimen/settings_side_margin</item>
+        <item name="wifi_signal_color">?android:colorAccent</item>
+        <item name="wifi_signal">@drawable/wifi_signal_dark</item>
+    </style>
+    <style name="Theme.SubSettings" parent="@style/Theme.Settings">
+        <item name="android:actionBarStyle">@style/Theme.ActionBar.SubSettings</item>
+        <item name="android:actionModeBackground">@drawable/leui_action_bar_divider</item>
+        <item name="android:actionModeStyle">@style/LeUIAcionMode</item>
+        <item name="switchBarTheme">@style/Theme.SwitchBar.SubSettings</item>
+    </style>
+    <style name="Theme.SyncSettings" parent="@style/Theme.Settings">
+        <item name="android:actionBarStyle">@style/Theme.SyncActionBar</item>
+    </style>
+    <style name="Theme.ActionBar" parent="@android:style/Widget.Holo.Light.ActionBar.Solid">
+        <item name="android:textSize">@dimen/actionbar_menu_text_size</item>
+        <item name="android:background">@drawable/leui_action_bar_divider</item>
+        <item name="android:displayOptions">showTitle|useLogo</item>
+        <item name="android:titleTextStyle">@style/actionbar_title_style</item>
+        <item name="android:contentInsetStart">@dimen/actionbar_contentInsetStart</item>
+    </style>
+    <style name="Theme.SyncActionBar" parent="@android:style/Widget.Holo.Light.ActionBar.Solid">
+        <item name="android:textSize">@dimen/actionbar_menu_text_size</item>
+        <item name="android:background">@drawable/leui_sync_settings_action_bar_divider</item>
+        <item name="android:displayOptions">showTitle|useLogo</item>
+        <item name="android:titleTextStyle">@style/actionbar_title_style</item>
+        <item name="android:contentInsetStart">@dimen/actionbar_contentInsetStart</item>
+    </style>
+    <style name="Theme.ActionBar.SubSettings" parent="@style/Theme.ActionBar">
+        <item name="android:contentInsetStart">0.0dip</item>
+    </style>
+    <style name="Theme.SwitchBar.Settings" parent="@android:style/Theme.Leui">
+        <item name="switchBarMarginStart">0.0dip</item>
+        <item name="switchBarMarginEnd">0.0dip</item>
+    </style>
+    <style name="Theme.SwitchBar.SubSettings" parent="@android:style/Theme.Leui">
+        <item name="switchBarMarginStart">0.0dip</item>
+        <item name="switchBarMarginEnd">0.0dip</item>
+    </style>
+    <style name="ThemeOverlay.SwitchBar.Settings" parent="@android:style/ThemeOverlay.Material.Dark.ActionBar">
+        <item name="switchBarMarginStart">0.0dip</item>
+        <item name="switchBarMarginEnd">0.0dip</item>
+    </style>
+    <style name="ThemeOverlay.SwitchBar.SubSettings" parent="@android:style/ThemeOverlay.Material.Dark.ActionBar">
+        <item name="switchBarMarginStart">0.0dip</item>
+        <item name="switchBarMarginEnd">0.0dip</item>
+    </style>
+    <style name="Theme.DialogWhenLarge" parent="@android:style/Theme.Material.Settings.DialogWhenLarge">
+        <item name="android:actionBarStyle">@style/Theme.ActionBar</item>
+        <item name="preferenceBackgroundColor">@drawable/preference_background</item>
+    </style>
+    <style name="Theme.CryptKeeper" parent="@android:style/Theme.Material.NoActionBar">
+        <item name="android:background">@android:color/black</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">false</item>
+        <item name="android:regularColor">@color/unlock_pattern_view_regular_color</item>
+        <item name="android:errorColor">@color/unlock_pattern_view_error_color</item>
+        <item name="android:successColor">@color/unlock_pattern_view_success_color</item>
+    </style>
+    <style name="Theme.SubSettingsDialogWhenLarge" parent="@style/Theme.DialogWhenLarge">
+        <item name="android:actionBarWidgetTheme">@null</item>
+        <item name="android:actionBarTheme">@android:style/ThemeOverlay.Material.Dark.ActionBar</item>
+        <item name="preferenceBackgroundColor">@drawable/preference_background</item>
+    </style>
+    <style name="ThemeOverlay.AlertDialog" parent="@android:style/Theme.Leui.Dialog.Alert">
+        <item name="android:colorBackground">@android:color/white</item>
+        <item name="android:windowSoftInputMode">adjustResize</item>
+    </style>
+    <style name="Theme.AlertDialog" parent="@android:style/Theme.Leui.Dialog.Alert">
+        <item name="android:colorBackground">@android:color/white</item>
+        <item name="android:windowSoftInputMode">adjustResize</item>
+        <item name="android:actionBarStyle">@style/Theme.ActionBar</item>
+        <item name="android:colorPrimary">@color/theme_primary</item>
+        <item name="android:colorPrimaryDark">@color/theme_primary_dark</item>
+        <item name="android:colorAccent">@color/leui_blue</item>
+    </style>
+    <style name="Theme.NotificationStation" parent="@android:style/Theme.Material">
+        <item name="android:actionBarStyle">@style/Theme.ActionBar.SubSettings</item>
+        <item name="android:actionBarSize">@dimen/actionbar_size</item>
+        <item name="preferenceBackgroundColor">@android:color/transparent</item>
+    </style>
+    <style name="ThemeOverlay.SwitchBar" parent="@android:style/ThemeOverlay">
+        <item name="android:colorAccent">@color/switch_accent_color</item>
+    </style>
+    <style name="Theme.ConfirmDeviceCredentials" parent="@style/Theme.SubSettings">
+        <item name="confirmDeviceCredentialsSideMargin">16.0dip</item>
+        <item name="confirmDeviceCredentialsTopMargin">27.0dip</item>
+    </style>
+    <style name="Theme.ConfirmDeviceCredentialsDark" parent="@android:style/Theme.Material">
+        <item name="android:windowBackground">@color/confirm_device_credential_dark_background</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowAnimationStyle">@style/ConfirmDeviceCredentialsAnimationStyle</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:colorPrimary">@android:color/material_blue_grey_900</item>
+        <item name="android:colorPrimaryDark">@android:color/material_blue_grey_950</item>
+        <item name="android:regularColor">@color/lock_pattern_view_regular_color_dark</item>
+        <item name="android:errorColor">@color/lock_pattern_view_error_color</item>
+        <item name="android:successColor">@color/lock_pattern_view_regular_color_dark</item>
+        <item name="confirmDeviceCredentialsSideMargin">32.0dip</item>
+        <item name="confirmDeviceCredentialsTopMargin">32.0dip</item>
+    </style>
+    <style name="Theme.FingerprintEnroll" parent="@style/Theme.Settings">
+        <item name="android:windowAnimationStyle">@style/Animation.SuwWindowAnimation</item>
+    </style>
+    <style name="WifiSetupWizardActionBarStyle" parent="@android:style/Widget.Material.Light.ActionBar">
+        <item name="android:background">@color/bg_setupwizard</item>
+        <item name="android:displayOptions">homeAsUp</item>
+        <item name="android:homeAsUpIndicator">@drawable/le_top_btn_icon_reback</item>
+        <item name="android:elevation">0.0dip</item>
+    </style>
+    <style name="Theme.CloudSync" parent="@style/Theme.Settings">
+        <item name="android:colorPrimaryDark">@android:color/white</item>
+        <item name="android:statusBarColor">@android:color/white</item>
+    </style>
+    <style name="dialog_fullscreen">
+        <item name="android:windowBackground">@android:drawable/screen_background_dark_transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="Access_Control_Button_NumPadKey">
+        <item name="android:textSize">@dimen/access_control_num_padkey_textsize</item>
+        <item name="android:textColor">@color/access_control_num_keypad_color</item>
+        <item name="android:clickable">true</item>
+        <item name="android:layout_width">@dimen/access_control_num_keypad_width</item>
+        <item name="android:layout_height">@dimen/access_control_num_keypad_width</item>
+        <item name="android:fontFamily">helve-neue-light</item>
+    </style>
+    <style name="Access_Control_LinearLayout_NumPadKey">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/access_control_keypad_padding_top</item>
+    </style>
+    <style name="Widget.TextView.AccessNumPadKey" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">@dimen/access_control_num_padkey_textsize</item>
+        <item name="android:textColor">@color/access_control_num_keypad_color</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@null</item>
+        <item name="android:paddingBottom">8.0px</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:fontFamily">helve-neue-thin</item>
+    </style>
+    <style name="Widget.TextView.AccessNumPadKey.Klondike" parent="@style/Widget.TextView.AccessNumPadKey">
+        <item name="android:textSize">@dimen/access_control_num_padkey_klondike_textsize</item>
+        <item name="android:textColor">@color/access_control_num_keypad_color</item>
+        <item name="android:paddingBottom">0.0dip</item>
+        <item name="android:fontFamily">helve-neue-light</item>
+    </style>
+    <style name="Widget.TextView.NumPadKey" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">36.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@null</item>
+        <item name="android:paddingBottom">-16.0dip</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="Widget.TextView.NumPadKey.Klondike" parent="@style/Widget.TextView.NumPadKey">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">#80ffffff</item>
+        <item name="android:paddingBottom">0.0dip</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+</resources>

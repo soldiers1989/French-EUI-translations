@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="config_notificationsBatteryLowChargingARGB">0xFFFF9900</integer>
+    <integer name="default_progress_value">1</integer>
+    <integer name="global_action_bottombar_arc_begin_angle">-60</integer>
+    <integer name="global_action_bottombar_ring_begin_angle">-90</integer>
+    <integer name="leTopWidget_textview_size">16</integer>
+    <integer name="le_bottom_1_tabs_touch_flow_width_2_height_ratio">220</integer>
+    <integer name="le_bottom_2_tabs_screen_ratio">50000</integer>
+    <integer name="le_bottom_2_tabs_touch_flow_width_2_height_ratio">200</integer>
+    <integer name="le_bottom_3_tabs_screen_dialer_ratio">73333</integer>
+    <integer name="le_bottom_3_tabs_screen_ratio">60000</integer>
+    <integer name="le_bottom_3_tabs_touch_flow_width_2_height_ratio">200</integer>
+    <integer name="le_bottom_4_tabs_screen_ratio">75000</integer>
+    <integer name="le_bottom_4_tabs_touch_flow_width_2_height_ratio">200</integer>
+    <integer name="le_bottom_5_tabs_screen_ratio">85000</integer>
+    <integer name="le_bottom_5_tabs_touch_flow_width_2_height_ratio">160</integer>
+    <integer name="le_card_list_ad_count">1</integer>
+    <integer name="le_config_activityShortDur">150</integer>
+    <integer name="le_default_activation_input_text_length">6</integer>
+    <integer name="le_default_switch_animate_time">400</integer>
+    <integer name="le_dial_float_button_view_anim_duration">500</integer>
+    <integer name="le_home_alpha">255</integer>
+    <integer name="le_oled_alpha">255</integer>
+    <integer name="le_preference_screen_header_scrollbarStyle">0x02000000</integer>
+    <integer name="le_rubbish_clean_ad_count">1</integer>
+    <integer name="le_unclickable_alpha">76</integer>
+    <integer name="le_view_disabled_alpha">30</integer>
+    <integer name="le_view_enabled_alpha">100</integer>
+    <integer name="leui_unlock_set_simple_password_length">4</integer>
+    <integer name="wifi_connect_circle_scale_duration">1000</integer>
+    <integer name="wifi_connect_line1_delay">175</integer>
+    <integer name="wifi_connect_line2_delay">245</integer>
+    <integer name="wifi_connect_line3_delay">315</integer>
+    <integer name="wifi_connect_line_duration">500</integer>
+</resources>

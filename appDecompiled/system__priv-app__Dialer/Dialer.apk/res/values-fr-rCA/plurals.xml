@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="duration_seconds">
+        <item quantity="other">%d seconde</item>
+        <item quantity="one">%d secondes</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="other">%d minute</item>
+        <item quantity="one">%d minutes</item>
+    </plurals>
+    <plurals name="duration_hours">
+        <item quantity="other">%d heure</item>
+        <item quantity="one">%d heures</item>
+    </plurals>
+    <plurals name="searchFoundCalllogs">
+        <item quantity="other">"Trouvé %d journaux d'appels"</item>
+        <item quantity="one">"Trouvé1 journal d'appels"</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">%d contacts trouvés</item>
+        <item quantity="one">Trouvé 1 contact</item>
+    </plurals>
+    <plurals name="rington_count">
+        <item quantity="other">A sonné %s fois</item>
+        <item quantity="one">A sonné une fois</item>
+    </plurals>
+    <plurals name="contactsDeleteTip">
+        <item quantity="other">Supprimer %s contacts?</item>
+        <item quantity="one">Supprimer un contact?</item>
+    </plurals>
+    <plurals name="add_to_group_done_success_tip">
+        <item quantity="other">contacts ajoutés</item>
+        <item quantity="one">contacts ajoutés</item>
+    </plurals>
+    <plurals name="import_from_vcard_success">
+        <item quantity="other">Contacts importés</item>
+        <item quantity="one">Contact importé</item>
+    </plurals>
+    <plurals name="le_selected">
+        <item quantity="other">%d sélectionné</item>
+        <item quantity="one">1 sélectionné</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">%1$d messages vocaux</item>
+        <item quantity="one">Messagerie vocale</item>
+    </plurals>
+    <plurals name="count_mult_mode">
+        <item quantity="other">%d contacts sélectionnés</item>
+        <item quantity="one">1 contact sélectionné</item>
+    </plurals>
+    <plurals name="call_redial_time">
+        <item quantity="other">Recomposer %1$d fois</item>
+        <item quantity="one">Recomposer %1$d fois</item>
+    </plurals>
+</resources>

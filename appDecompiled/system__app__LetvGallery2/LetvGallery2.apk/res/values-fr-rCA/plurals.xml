@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="delete_selection">
+        <item quantity="other">Effacer le contenu sélectionné?</item>
+        <item quantity="one">Effacer le contenu sélectionné?</item>
+    </plurals>
+    <plurals name="le_sticker_count_str">
+        <item quantity="other">Total de %1$d morceaux</item>
+        <item quantity="zero">Total de %1$d morceau</item>
+        <item quantity="one">Total de %1$d morceau</item>
+    </plurals>
+    <plurals name="number_of_albums_deleted">
+        <item quantity="other">Supprimer albums %1$d</item>
+        <item quantity="zero">Supprimer album %1$d</item>
+        <item quantity="one">Supprimer album %1$d</item>
+    </plurals>
+    <plurals name="number_of_images_deleted">
+        <item quantity="other">Effacer %1$d images</item>
+        <item quantity="zero">Effacer %1$d image</item>
+        <item quantity="one">Effacer %1$d image</item>
+    </plurals>
+    <plurals name="number_of_images_deleted_have_fav">
+        <item quantity="other">Effacer %1$d images</item>
+        <item quantity="zero">Effacer %1$d image</item>
+        <item quantity="one">Effacer %1$d image</item>
+    </plurals>
+    <plurals name="number_of_images_deleted_in_fav">
+        <item quantity="other">"Effacer des images de vos dossiers favoris supprimera également l'image originale. Si vous voulez retirer une image de vos favoris, veuillez utiliser Retirer des favoris. Voulez-vous vraiment effacer  %1$d images?"</item>
+        <item quantity="zero">"Effacer des images de vos dossiers favoris supprimera également l'image originale. Si vous voulez retirer une image de vos favoris, veuillez utiliser Retirer des favoris. Voulez-vous vraiment effacer %1$d image?"</item>
+        <item quantity="one">"Effacer des images de vos dossiers favoris supprimera également l'image originale. Si vous voulez retirer une image de vos favoris, veuillez utiliser Retirer des favoris. Voulez-vous vraiment effacer %1$d image?"</item>
+    </plurals>
+    <plurals name="number_of_items_deleted">
+        <item quantity="other">Effacer %1$d éléments</item>
+        <item quantity="zero">Effacer %1$d élément</item>
+        <item quantity="one">Effacer %1$d élément</item>
+    </plurals>
+    <plurals name="number_of_items_deleted_have_fav">
+        <item quantity="other">Effacer %1$d éléments</item>
+        <item quantity="zero">Effacer %1$d élément</item>
+        <item quantity="one">Effacer %1$d élément</item>
+    </plurals>
+    <plurals name="number_of_items_deleted_in_fav">
+        <item quantity="other">"Effacer des images ou des vidéos de vos dossiers favoris supprimera également l'image originale. Si vous voulez retirer une image ou une vidéo de vos favoris, veuillez utiliser Retirer des favoris. Voulez-vous vraiment effacer %1$d éléments?"</item>
+        <item quantity="zero">"Effacer des images ou des vidéos de vos dossiers favoris supprimera également l'image originale. Si vous voulez retirer une image ou une vidéo de vos favoris, veuillez utiliser Retirer des favoris. Voulez-vous vraiment effacer l'élément %1$d?"</item>
+        <item quantity="one">"Effacer des images ou des vidéos de vos dossiers favoris supprimera également l'image originale. Si vous voulez retirer une image ou une vidéo de vos favoris, veuillez utiliser Retirer des favoris. Voulez-vous vraiment effacer l'élément %1$d?"</item>
+    </plurals>
+    <plurals name="number_of_items_min_select">
+        <item quantity="other">Sélectionnez au moins %1$d images</item>
+        <item quantity="zero">Sélectionnez au moins %1$d image</item>
+        <item quantity="one">Sélectionnez au moins %1$d image</item>
+    </plurals>
+    <plurals name="number_of_items_min_selected">
+        <item quantity="other">%1$d/%2$d éléments sélectionné</item>
+        <item quantity="zero">%1$d/%2$d élément sélectionné</item>
+        <item quantity="one">%1$d/%2$d élément sélectionné</item>
+    </plurals>
+    <plurals name="number_of_items_perm_delete">
+        <item quantity="other">Effacer %1$d éléments définitivement</item>
+        <item quantity="zero">Effacer %1$d éléments définitivement</item>
+        <item quantity="one">Effacer %1$d élément définitivement</item>
+    </plurals>
+    <plurals name="number_of_items_private">
+        <item quantity="other">%1$d éléments privés</item>
+        <item quantity="zero">%1$d élément privé</item>
+        <item quantity="one">%1$d élément privé</item>
+    </plurals>
+    <plurals name="number_of_items_remote_tag">
+        <item quantity="other">%1$d éléments retirés</item>
+        <item quantity="zero">%1$d élément retiré</item>
+        <item quantity="one">%1$d élément retiré</item>
+    </plurals>
+    <plurals name="number_of_items_restore">
+        <item quantity="other">%1$d éléments restaurés</item>
+        <item quantity="zero">%1$d éléments restaurés</item>
+        <item quantity="one">%1$d élément restauré</item>
+    </plurals>
+    <plurals name="number_of_items_selected">
+        <item quantity="other">%1$d éléments sélectionnés</item>
+        <item quantity="zero">%1$d élément sélectionné</item>
+        <item quantity="one">%1$d élément sélectionné</item>
+    </plurals>
+    <plurals name="number_of_items_trash">
+        <item quantity="other">Effacer %1$d éléments</item>
+        <item quantity="zero">Effacer %1$d éléments</item>
+        <item quantity="one">Effacer %1$d élément</item>
+    </plurals>
+    <plurals name="number_of_items_unprivate">
+        <item quantity="other">%1$d éléments restaurés</item>
+        <item quantity="zero">%1$d éléments restaurés</item>
+        <item quantity="one">%1$d élément restauré</item>
+    </plurals>
+    <plurals name="number_of_videos_deleted">
+        <item quantity="other">Effacer %1$d vidéos</item>
+        <item quantity="zero">Effacer %1$d vidéo</item>
+        <item quantity="one">Effacer %1$d vidéo</item>
+    </plurals>
+    <plurals name="number_of_videos_deleted_have_fav">
+        <item quantity="other">Effacer %1$d vidéos</item>
+        <item quantity="zero">Effacer %1$d vidéo</item>
+        <item quantity="one">Effacer %1$d vidéo</item>
+    </plurals>
+    <plurals name="number_of_videos_deleted_in_fav">
+        <item quantity="other">"Effacer des vidéos de vos dossiers favoris supprimera également l'image originale. Si vous voulez retirer une vidéo de vos favoris, veuillez utiliser Retirer des favoris. Voulez-vous vraiment effacer %1$d vidéos?"</item>
+        <item quantity="zero">"Effacer des vidéos de vos dossiers favoris supprimera également l'image originale. Si vous voulez retirer une vidéo de vos favoris, veuillez utiliser Retirer des favoris. Voulez-vous vraiment effacer %1$d vidéo?"</item>
+        <item quantity="one">"Effacer des vidéos de vos dossiers favoris supprimera également l'image originale. Si vous voulez retirer une vidéo de vos favoris, veuillez utiliser Retirer des favoris. Voulez-vous vraiment effacer %1$d vidéo?"</item>
+    </plurals>
+    <plurals name="number_of_remove_pure_remote_album">
+        <item quantity="other">Effacer %1$d éléments</item>
+        <item quantity="zero">Effacer %1$d éléments</item>
+        <item quantity="one">Effacer %1$d élément</item>
+    </plurals>
+    <plurals name="number_of_pictures_and_videos_sync">
+        <item quantity="other">synchronisation de %1$d images, %2$d vidéos (%3$d/%4$d)</item>
+        <item quantity="zero">synchronisation de %1$d images, %2$d vidéos (%3$d/%4$d)</item>
+        <item quantity="one">synchronisation de %1$d image, %2$d vidéo (%3$d/%4$d)</item>
+    </plurals>
+    <plurals name="number_of_pictures_and_videos_total">
+        <item quantity="other">%1$d images %2$d vidéos</item>
+        <item quantity="zero">%1$d images %2$d vidéos</item>
+        <item quantity="one">%1$d image %2$d vidéo</item>
+    </plurals>
+    <plurals name="number_of_pictures_sync">
+        <item quantity="other">synchronisation de %1$d images (%2$d/%3$d)</item>
+        <item quantity="zero">synchronisation de %1$d images (%2$d/%3$d)</item>
+        <item quantity="one">synchronisation de %1$d image (%2$d/%3$d)</item>
+    </plurals>
+    <plurals name="number_of_pictures_total">
+        <item quantity="other">%1$d images</item>
+        <item quantity="zero">%1$d images</item>
+        <item quantity="one">%1$d image</item>
+    </plurals>
+    <plurals name="number_of_videos_sync">
+        <item quantity="other">synchronisation de %1$d vidéos (%2$d/%3$d)</item>
+        <item quantity="zero">synchronisation de %1$d vidéos (%2$d/%3$d)</item>
+        <item quantity="one">synchronisation de %1$d vidéo (%2$d/%3$d)</item>
+    </plurals>
+    <plurals name="number_of_videos_total">
+        <item quantity="other">%1$d vidéos</item>
+        <item quantity="zero">%1$d vidéos</item>
+        <item quantity="one">%1$d vidéo</item>
+    </plurals>
+</resources>

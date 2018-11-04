@@ -1,0 +1,1377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="carrie_entries">
+        <item>@string/carrie_china_mobile</item>
+        <item>@string/carrie_china_unicom</item>
+        <item>@string/carrie_china_telecom</item>
+    </string-array>
+    <string-array name="province_entries">
+        <item>@string/province_beijing</item>
+        <item>@string/province_guangdong</item>
+        <item>@string/province_shanghai</item>
+        <item>@string/province_tianjin</item>
+        <item>@string/province_chongqing</item>
+        <item>@string/province_liaoning</item>
+        <item>@string/province_jiangsu</item>
+        <item>@string/province_hubei</item>
+        <item>@string/province_sichuan</item>
+        <item>@string/province_shaanxi</item>
+        <item>@string/province_hebei</item>
+        <item>@string/province_shanxi</item>
+        <item>@string/province_henan</item>
+        <item>@string/province_jilin</item>
+        <item>@string/province_heilongjiang</item>
+        <item>@string/province_inner_mongolia_autonomous_region</item>
+        <item>@string/province_shandong</item>
+        <item>@string/province_anhui</item>
+        <item>@string/province_zhejiang</item>
+        <item>@string/province_fujian</item>
+        <item>@string/province_hunan</item>
+        <item>@string/province_guangxi</item>
+        <item>@string/province_jiangxi</item>
+        <item>@string/province_guizhou</item>
+        <item>@string/province_yunnan</item>
+        <item>@string/province_tibet</item>
+        <item>@string/province_hainan</item>
+        <item>@string/province_gansu</item>
+        <item>@string/province_ningxia_hui_autonomous_region</item>
+        <item>@string/province_qinghai</item>
+        <item>@string/province_xinjiang</item>
+    </string-array>
+    <string-array name="le_months_short">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+    <string-array name="le_animals">
+        <item>鼠</item>
+        <item>牛</item>
+        <item>虎</item>
+        <item>兔</item>
+        <item>龙</item>
+        <item>蛇</item>
+        <item>马</item>
+        <item>羊</item>
+        <item>猴</item>
+        <item>鸡</item>
+        <item>狗</item>
+        <item>猪</item>
+    </string-array>
+    <string-array name="le_chinesenumber">
+        <item>一</item>
+        <item>二</item>
+        <item>三</item>
+        <item>四</item>
+        <item>五</item>
+        <item>六</item>
+        <item>七</item>
+        <item>八</item>
+        <item>九</item>
+        <item>十</item>
+    </string-array>
+    <string-array name="le_chineseten">
+        <item>初</item>
+        <item>十</item>
+        <item>廿</item>
+        <item>三</item>
+    </string-array>
+    <string-array name="le_gan">
+        <item>甲</item>
+        <item>乙</item>
+        <item>丙</item>
+        <item>丁</item>
+        <item>戊</item>
+        <item>己</item>
+        <item>庚</item>
+        <item>辛</item>
+        <item>壬</item>
+        <item>癸</item>
+    </string-array>
+    <string-array name="le_lunar_festival">
+        <item>腊月廿九 除夕</item>
+        <item>腊月三十 除夕</item>
+        <item>正月初一 春节</item>
+        <item>二月初二 龙抬头节</item>
+        <item>正月十五 元宵节</item>
+        <item>五月初五 端午节</item>
+        <item>七月初七 七夕节</item>
+        <item>七月十五 中元节</item>
+        <item>八月十五 中秋节</item>
+        <item>九月初九 重阳节</item>
+        <item>腊月初八 腊八节</item>
+        <item>腊月廿三 小年</item>
+    </string-array>
+    <string-array name="le_lunar_month_name">
+        <item>正</item>
+        <item>二</item>
+        <item>三</item>
+        <item>四</item>
+        <item>五</item>
+        <item>六</item>
+        <item>七</item>
+        <item>八</item>
+        <item>九</item>
+        <item>十</item>
+        <item>冬</item>
+        <item>腊</item>
+    </string-array>
+    <string-array name="le_solar_holiday">
+        <item>"01/01 New Year's Day"</item>
+        <item>"02/14 Valentine's Day"</item>
+        <item>"03/08 Women's Day"</item>
+        <item>03/12 Arbor Day</item>
+        <item>03/15 Consumer Day</item>
+        <item>"04/01 April Fool's Day"</item>
+        <item>05/01 Labor Day</item>
+        <item>05/04 Youth Day</item>
+        <item>"06/01 Children's Day"</item>
+        <item>"07/01 Party's Day"</item>
+        <item>"08/01 Army's Day"</item>
+        <item>"08/08 Father's Day"</item>
+        <item>"09/10 Teachers' Day"</item>
+        <item>10/01 National Day</item>
+        <item>10/31 Halloween</item>
+        <item>"11/11 Singles' Day"</item>
+        <item>12/24 Christmas Eve</item>
+        <item>12/25 Christmas</item>
+    </string-array>
+    <string-array name="le_solar_term">
+        <item></item>
+        <item>小寒</item>
+        <item>大寒</item>
+        <item>立春</item>
+        <item>雨水</item>
+        <item>惊蛰</item>
+        <item>春分</item>
+        <item>清明</item>
+        <item>谷雨</item>
+        <item>立夏</item>
+        <item>小满</item>
+        <item>芒种</item>
+        <item>夏至</item>
+        <item>小暑</item>
+        <item>大暑</item>
+        <item>立秋</item>
+        <item>处暑</item>
+        <item>白露</item>
+        <item>秋分</item>
+        <item>寒露</item>
+        <item>霜降</item>
+        <item>立冬</item>
+        <item>小雪</item>
+        <item>大雪</item>
+        <item>冬至</item>
+    </string-array>
+    <string-array name="le_zhi">
+        <item>子</item>
+        <item>丑</item>
+        <item>寅</item>
+        <item>卯</item>
+        <item>辰</item>
+        <item>巳</item>
+        <item>午</item>
+        <item>未</item>
+        <item>申</item>
+        <item>酉</item>
+        <item>戌</item>
+        <item>亥</item>
+    </string-array>
+    <string-array name="app_ops_labels">
+        <item>@string/app_ops_access_location</item>
+        <item>@string/app_ops_access_location</item>
+        <item>@string/app_ops_access_location</item>
+        <item>@string/app_ops_use_vibrate</item>
+        <item>@string/app_ops_read_contacts</item>
+        <item>@string/app_ops_modify_contacts</item>
+        <item>@string/app_ops_read_call_log</item>
+        <item>@string/app_ops_modify_call_log</item>
+        <item>@string/app_ops_read_calendar</item>
+        <item>@string/app_ops_modify_calendar</item>
+        <item>@string/app_ops_access_location</item>
+        <item>@string/app_ops_post_notification</item>
+        <item>@string/app_ops_access_location</item>
+        <item>@string/app_ops_make_phone_call</item>
+        <item>@string/app_ops_read_sms</item>
+        <item>@string/app_ops_write_sms</item>
+        <item>@string/app_ops_receive_sms</item>
+        <item>@string/app_ops_receive_sms</item>
+        <item>@string/app_ops_receive_sms</item>
+        <item>@string/app_ops_receive_sms</item>
+        <item>@string/app_ops_send_sms</item>
+        <item>@string/app_ops_read_sms</item>
+        <item>@string/app_ops_write_sms</item>
+        <item>@string/app_ops_modify_settings</item>
+        <item>@string/app_ops_draw_on_top</item>
+        <item>@string/app_ops_access_notifications</item>
+        <item>@string/app_ops_access_camera</item>
+        <item>@string/app_ops_record_audio</item>
+        <item>@string/app_ops_play_audio</item>
+        <item>@string/app_ops_read_clipboard</item>
+        <item>@string/app_ops_modify_clipboard</item>
+        <item>@string/app_ops_use_media_buttons</item>
+        <item>@string/app_ops_use_audio_focus</item>
+        <item>@string/app_ops_use_master_volume</item>
+        <item>@string/app_ops_use_voice_volume</item>
+        <item>@string/app_ops_use_ring_volume</item>
+        <item>@string/app_ops_use_media_volume</item>
+        <item>@string/app_ops_use_alarm_volume</item>
+        <item>@string/app_ops_use_notification_volume</item>
+        <item>@string/app_ops_use_bluetooth_volume</item>
+        <item>@string/app_ops_keep_device_awake</item>
+        <item>@string/app_ops_access_location</item>
+        <item>@string/app_ops_access_location</item>
+        <item>@string/app_ops_usage_stats</item>
+        <item>@string/app_ops_mute_microphone</item>
+        <item>@string/app_ops_toast_window</item>
+        <item>@string/app_ops_project_media</item>
+        <item>@string/app_ops_activate_vpn</item>
+        <item>@string/app_ops_toggle_wifi</item>
+        <item>@string/app_ops_toggle_bluetooth</item>
+        <item>@string/app_ops_toggle_mobile_data</item>
+        <item>@string/app_ops_alarm_wakeup</item>
+        <item>@string/app_ops_send_mms</item>
+        <item>@string/app_ops_read_mms</item>
+        <item>@string/app_ops_write_mms</item>
+        <item>@string/app_ops_start_at_bootup</item>
+        <item>@string/app_ops_nfc</item>
+        <item>@string/app_ops_notification_sound</item>
+        <item>@string/app_ops_read_phone_state</item>
+        <item>@string/app_ops_notification_favourite</item>
+        <item>@string/app_ops_three_way_calling</item>
+    </string-array>
+    <string-array name="carrie_values">
+        <item>CMCC</item>
+        <item>UNICOM</item>
+        <item>TELECOM</item>
+    </string-array>
+    <string-array name="city_10_entries">
+        <item>@string/province_beijing</item>
+    </string-array>
+    <string-array name="city_10_values">
+        <item>10</item>
+    </string-array>
+    <string-array name="city_20_entries">
+        <item>@string/city_guangzhou</item>
+        <item>@string/city_shenzhen</item>
+        <item>@string/city_zhuhai</item>
+        <item>@string/city_dongguan</item>
+        <item>@string/city_zhongshan</item>
+        <item>@string/city_foshan</item>
+        <item>@string/city_shanwei</item>
+        <item>@string/city_yangjiang</item>
+        <item>@string/city_shantou</item>
+        <item>@string/city_zhanjiang</item>
+        <item>@string/city_meizhou</item>
+        <item>@string/city_jieyang</item>
+        <item>@string/city_maoming</item>
+        <item>@string/city_jiangmen</item>
+        <item>@string/city_shaoguan</item>
+        <item>@string/city_huizhou</item>
+        <item>@string/city_zhaoqing</item>
+        <item>@string/city_chaozhou</item>
+        <item>@string/city_yunfu</item>
+        <item>@string/city_heyuan</item>
+        <item>@string/city_qingyuan</item>
+    </string-array>
+    <string-array name="city_20_values">
+        <item>20</item>
+        <item>755</item>
+        <item>756</item>
+        <item>769</item>
+        <item>760</item>
+        <item>757</item>
+        <item>660</item>
+        <item>662</item>
+        <item>754</item>
+        <item>759</item>
+        <item>753</item>
+        <item>663</item>
+        <item>668</item>
+        <item>750</item>
+        <item>751</item>
+        <item>752</item>
+        <item>758</item>
+        <item>768</item>
+        <item>766</item>
+        <item>762</item>
+        <item>763</item>
+    </string-array>
+    <string-array name="city_21_entries">
+        <item>@string/province_shanghai</item>
+    </string-array>
+    <string-array name="city_21_values">
+        <item>21</item>
+    </string-array>
+    <string-array name="city_22_entries">
+        <item>@string/province_tianjin</item>
+    </string-array>
+    <string-array name="city_22_values">
+        <item>22</item>
+    </string-array>
+    <string-array name="city_23_entries">
+        <item>@string/province_chongqing</item>
+    </string-array>
+    <string-array name="city_23_values">
+        <item>23</item>
+    </string-array>
+    <string-array name="city_24_entries">
+        <item>@string/city_shenyang</item>
+        <item>@string/city_tieling</item>
+        <item>@string/city_dalian</item>
+        <item>@string/city_anshan</item>
+        <item>@string/city_fushun</item>
+        <item>@string/city_benxi</item>
+        <item>@string/city_dandong</item>
+        <item>@string/city_jinzhou</item>
+        <item>@string/city_yingkou</item>
+        <item>@string/city_fuxin</item>
+        <item>@string/city_liaoyang</item>
+        <item>@string/city_chaoyang</item>
+        <item>@string/city_panjin</item>
+        <item>@string/city_huludao</item>
+    </string-array>
+    <string-array name="city_24_values">
+        <item>24</item>
+        <item>247</item>
+        <item>411</item>
+        <item>412</item>
+        <item>245</item>
+        <item>414</item>
+        <item>415</item>
+        <item>416</item>
+        <item>417</item>
+        <item>418</item>
+        <item>419</item>
+        <item>421</item>
+        <item>427</item>
+        <item>429</item>
+    </string-array>
+    <string-array name="city_25_entries">
+        <item>@string/city_nanjing</item>
+        <item>@string/city_wuxi</item>
+        <item>@string/city_zhenjiang</item>
+        <item>@string/city_suzhou</item>
+        <item>@string/city_nantong</item>
+        <item>@string/city_yangzhou</item>
+        <item>@string/city_yancheng</item>
+        <item>@string/city_xuzhou</item>
+        <item>@string/city_huai_an</item>
+        <item>@string/city_lianyungang</item>
+        <item>@string/city_changzhou</item>
+        <item>@string/city_taizhou</item>
+        <item>@string/city_suqian</item>
+    </string-array>
+    <string-array name="city_25_values">
+        <item>25</item>
+        <item>510</item>
+        <item>511</item>
+        <item>512</item>
+        <item>513</item>
+        <item>514</item>
+        <item>515</item>
+        <item>516</item>
+        <item>517</item>
+        <item>518</item>
+        <item>519</item>
+        <item>523</item>
+        <item>527</item>
+    </string-array>
+    <string-array name="city_27_entries">
+        <item>@string/city_wuhan</item>
+        <item>@string/city_xiangyang</item>
+        <item>@string/city_ezhou</item>
+        <item>@string/city_xiaogan</item>
+        <item>@string/city_huanggang</item>
+        <item>@string/city_huangshi</item>
+        <item>@string/city_xianning</item>
+        <item>@string/city_jingzhou</item>
+        <item>@string/city_yichang</item>
+        <item>@string/city_enshi</item>
+        <item>@string/city_shiyan</item>
+        <item>@string/city_suizhou</item>
+        <item>@string/city_jingmen</item>
+        <item>@string/city_jianghan</item>
+    </string-array>
+    <string-array name="city_27_values">
+        <item>27</item>
+        <item>710</item>
+        <item>711</item>
+        <item>712</item>
+        <item>713</item>
+        <item>714</item>
+        <item>715</item>
+        <item>716</item>
+        <item>717</item>
+        <item>718</item>
+        <item>719</item>
+        <item>722</item>
+        <item>724</item>
+        <item>728</item>
+    </string-array>
+    <string-array name="city_28_entries">
+        <item>@string/city_chengdu</item>
+        <item>@string/city_ziyang</item>
+        <item>@string/city_meishan</item>
+        <item>@string/city_panzhihua</item>
+        <item>@string/city_zigong</item>
+        <item>@string/city_mianyang</item>
+        <item>@string/city_nanchong</item>
+        <item>@string/city_dazhou</item>
+        <item>@string/city_suining</item>
+        <item>@string/city_guang_an</item>
+        <item>@string/city_bazhong</item>
+        <item>@string/city_luzhou</item>
+        <item>@string/city_yibin</item>
+        <item>@string/city_neijiang</item>
+        <item>@string/city_leshan</item>
+        <item>@string/city_liangshan_yi_autonomous_prefecture</item>
+        <item>@string/city_ya_an</item>
+        <item>@string/city_ganzi_tibetan_autonomous_prefecture</item>
+        <item>@string/city_aba_tibetan_and_qiang_autonomous_prefecture</item>
+        <item>@string/city_deyang</item>
+        <item>@string/city_guangyuan</item>
+    </string-array>
+    <string-array name="city_28_values">
+        <item>28</item>
+        <item>282</item>
+        <item>283</item>
+        <item>812</item>
+        <item>813</item>
+        <item>816</item>
+        <item>817</item>
+        <item>818</item>
+        <item>825</item>
+        <item>826</item>
+        <item>827</item>
+        <item>830</item>
+        <item>831</item>
+        <item>832</item>
+        <item>833</item>
+        <item>834</item>
+        <item>835</item>
+        <item>836</item>
+        <item>837</item>
+        <item>838</item>
+        <item>839</item>
+    </string-array>
+    <string-array name="city_29_entries">
+        <item>@string/city_xi_an</item>
+        <item>@string/city_xianyang</item>
+        <item>@string/city_yan_an</item>
+        <item>@string/city_yulin</item>
+        <item>@string/city_weinan</item>
+        <item>@string/city_shangluo</item>
+        <item>@string/city_ankang</item>
+        <item>@string/city_hanzhong</item>
+        <item>@string/city_baoji</item>
+        <item>@string/city_tongchuan</item>
+    </string-array>
+    <string-array name="city_29_values">
+        <item>29</item>
+        <item>293</item>
+        <item>911</item>
+        <item>912</item>
+        <item>913</item>
+        <item>914</item>
+        <item>915</item>
+        <item>916</item>
+        <item>917</item>
+        <item>919</item>
+    </string-array>
+    <string-array name="city_311_entries">
+        <item>@string/city_shijiazhuang</item>
+        <item>@string/city_handan</item>
+        <item>@string/city_baoding</item>
+        <item>@string/city_zhangjiakou</item>
+        <item>@string/city_chengde</item>
+        <item>@string/city_tangshan</item>
+        <item>@string/city_langfang</item>
+        <item>@string/city_cangzhou</item>
+        <item>@string/city_hengshui</item>
+        <item>@string/city_xingtai</item>
+        <item>@string/city_qinghuangdao</item>
+    </string-array>
+    <string-array name="city_311_values">
+        <item>311</item>
+        <item>310</item>
+        <item>312</item>
+        <item>313</item>
+        <item>314</item>
+        <item>315</item>
+        <item>316</item>
+        <item>317</item>
+        <item>318</item>
+        <item>319</item>
+        <item>335</item>
+    </string-array>
+    <string-array name="city_351_entries">
+        <item>@string/city_taiyuan</item>
+        <item>@string/city_shuozhou</item>
+        <item>@string/city_xinzhou</item>
+        <item>@string/city_datong</item>
+        <item>@string/city_yangquan</item>
+        <item>@string/city_jinzhong</item>
+        <item>@string/city_changzhi</item>
+        <item>@string/city_jincheng</item>
+        <item>@string/city_linfen</item>
+        <item>@string/city_lvliang</item>
+        <item>@string/city_yuncheng</item>
+    </string-array>
+    <string-array name="city_351_values">
+        <item>351</item>
+        <item>349</item>
+        <item>350</item>
+        <item>352</item>
+        <item>353</item>
+        <item>354</item>
+        <item>355</item>
+        <item>356</item>
+        <item>357</item>
+        <item>358</item>
+        <item>359</item>
+    </string-array>
+    <string-array name="city_371_entries">
+        <item>@string/city_zhengzhou</item>
+        <item>@string/city_shangqiu</item>
+        <item>@string/city_anyang</item>
+        <item>@string/city_xinxiang</item>
+        <item>@string/city_xuchang</item>
+        <item>@string/city_pingdingshan</item>
+        <item>@string/city_xinyang</item>
+        <item>@string/city_nanyang</item>
+        <item>@string/city_kaifeng</item>
+        <item>@string/city_luoyang</item>
+        <item>@string/city_jiaozuo_jiyuan</item>
+        <item>@string/city_hebi</item>
+        <item>@string/city_puyang</item>
+        <item>@string/city_zhoukou</item>
+        <item>@string/city_luohe</item>
+        <item>@string/city_zhumadian</item>
+        <item>@string/city_sanmenxia</item>
+    </string-array>
+    <string-array name="city_371_values">
+        <item>371</item>
+        <item>370</item>
+        <item>372</item>
+        <item>373</item>
+        <item>374</item>
+        <item>375</item>
+        <item>376</item>
+        <item>377</item>
+        <item>378</item>
+        <item>379</item>
+        <item>391</item>
+        <item>392</item>
+        <item>393</item>
+        <item>394</item>
+        <item>395</item>
+        <item>396</item>
+        <item>398</item>
+    </string-array>
+    <string-array name="city_431_entries">
+        <item>@string/city_changchun</item>
+        <item>@string/city_jilin</item>
+        <item>@string/city_yanbian_korean_autonomous_prefecture</item>
+        <item>@string/city_siping</item>
+        <item>@string/city_tonghua</item>
+        <item>@string/city_baicheng</item>
+        <item>@string/city_liaoyuan</item>
+        <item>@string/city_songyuan</item>
+        <item>@string/city_baishan</item>
+    </string-array>
+    <string-array name="city_431_values">
+        <item>431</item>
+        <item>432</item>
+        <item>433</item>
+        <item>434</item>
+        <item>435</item>
+        <item>436</item>
+        <item>437</item>
+        <item>438</item>
+        <item>439</item>
+    </string-array>
+    <string-array name="city_451_entries">
+        <item>@string/city_harbin</item>
+        <item>@string/city_qigihar</item>
+        <item>@string/city_mudanjiang</item>
+        <item>@string/city_jiamusi</item>
+        <item>@string/city_suihua</item>
+        <item>@string/city_heihe</item>
+        <item>@string/city_daxing_anling</item>
+        <item>@string/city_yichun</item>
+        <item>@string/city_daqing</item>
+        <item>@string/city_qitaihe</item>
+        <item>@string/city_jixi</item>
+        <item>@string/city_hegang</item>
+        <item>@string/city_shuangyashan</item>
+    </string-array>
+    <string-array name="city_451_values">
+        <item>451</item>
+        <item>452</item>
+        <item>453</item>
+        <item>454</item>
+        <item>455</item>
+        <item>456</item>
+        <item>457</item>
+        <item>458</item>
+        <item>459</item>
+        <item>464</item>
+        <item>467</item>
+        <item>468</item>
+        <item>469</item>
+    </string-array>
+    <string-array name="city_471_entries">
+        <item>@string/city_hohhot</item>
+        <item>@string/city_hulunbeir_league</item>
+        <item>@string/city_baotou</item>
+        <item>@string/city_wuhai</item>
+        <item>@string/city_ulanqab_league</item>
+        <item>@string/city_tongliao</item>
+        <item>@string/city_chifeng</item>
+        <item>@string/city_erdos</item>
+        <item>@string/city_bayannur_league</item>
+        <item>@string/city_xilin_gol_league</item>
+        <item>@string/city_xinganmeng</item>
+        <item>@string/city_alxa_league</item>
+    </string-array>
+    <string-array name="city_471_values">
+        <item>471</item>
+        <item>470</item>
+        <item>472</item>
+        <item>473</item>
+        <item>474</item>
+        <item>475</item>
+        <item>476</item>
+        <item>477</item>
+        <item>478</item>
+        <item>479</item>
+        <item>482</item>
+        <item>483</item>
+    </string-array>
+    <string-array name="city_531_entries">
+        <item>@string/city_ji_nan</item>
+        <item>@string/city_heze</item>
+        <item>@string/city_qingdao</item>
+        <item>@string/city_zibo</item>
+        <item>@string/city_dezhou</item>
+        <item>@string/city_yantai</item>
+        <item>@string/city_weifang</item>
+        <item>@string/city_ji_ning</item>
+        <item>@string/city_tai_an</item>
+        <item>@string/city_linyi</item>
+        <item>@string/city_binzhou</item>
+        <item>@string/city_dongying</item>
+        <item>@string/city_weihai</item>
+        <item>@string/city_zaozhuang</item>
+        <item>@string/city_rizhao</item>
+        <item>@string/city_laiwu</item>
+        <item>@string/city_liaocheng</item>
+    </string-array>
+    <string-array name="city_531_values">
+        <item>531</item>
+        <item>530</item>
+        <item>532</item>
+        <item>533</item>
+        <item>534</item>
+        <item>535</item>
+        <item>536</item>
+        <item>537</item>
+        <item>538</item>
+        <item>539</item>
+        <item>543</item>
+        <item>546</item>
+        <item>631</item>
+        <item>632</item>
+        <item>633</item>
+        <item>634</item>
+        <item>635</item>
+    </string-array>
+    <string-array name="city_551_entries">
+        <item>@string/city_hefei</item>
+        <item>@string/city_chuzhou</item>
+        <item>@string/city_bengbu</item>
+        <item>@string/city_wuhu</item>
+        <item>@string/city_huainan</item>
+        <item>@string/city_ma_anshan</item>
+        <item>@string/city_anqing</item>
+        <item>@string/city_551_suzhou</item>
+        <item>@string/city_fuyang_bozhou</item>
+        <item>@string/city_huangshan</item>
+        <item>@string/city_huaibei</item>
+        <item>@string/city_tongling</item>
+        <item>@string/city_xuancheng</item>
+        <item>@string/city_lu_an</item>
+        <item>@string/city_chaohu</item>
+        <item>@string/city_chizhou</item>
+    </string-array>
+    <string-array name="city_551_values">
+        <item>551</item>
+        <item>550</item>
+        <item>552</item>
+        <item>553</item>
+        <item>554</item>
+        <item>555</item>
+        <item>556</item>
+        <item>557</item>
+        <item>558</item>
+        <item>559</item>
+        <item>561</item>
+        <item>562</item>
+        <item>563</item>
+        <item>564</item>
+        <item>565</item>
+        <item>566</item>
+    </string-array>
+    <string-array name="city_571_entries">
+        <item>@string/city_hangzhou</item>
+        <item>@string/city_quzhou</item>
+        <item>@string/city_huzhou</item>
+        <item>@string/city_jiaxing</item>
+        <item>@string/city_ningbo</item>
+        <item>@string/city_shaoxing</item>
+        <item>@string/city_571_taizhou</item>
+        <item>@string/city_wenzhou</item>
+        <item>@string/city_lishui</item>
+        <item>@string/city_jinhua</item>
+        <item>@string/city_zhoushan</item>
+    </string-array>
+    <string-array name="city_571_values">
+        <item>571</item>
+        <item>570</item>
+        <item>572</item>
+        <item>573</item>
+        <item>574</item>
+        <item>575</item>
+        <item>576</item>
+        <item>577</item>
+        <item>578</item>
+        <item>579</item>
+        <item>580</item>
+    </string-array>
+    <string-array name="city_591_entries">
+        <item>@string/city_fuzhou</item>
+        <item>@string/city_xiamen</item>
+        <item>@string/city_ningde</item>
+        <item>@string/city_putian</item>
+        <item>@string/city_quanzhou</item>
+        <item>@string/city_zhangzhou</item>
+        <item>@string/city_longyan</item>
+        <item>@string/city_sanming</item>
+        <item>@string/city_nanping</item>
+    </string-array>
+    <string-array name="city_591_values">
+        <item>591</item>
+        <item>592</item>
+        <item>593</item>
+        <item>594</item>
+        <item>595</item>
+        <item>596</item>
+        <item>597</item>
+        <item>598</item>
+        <item>599</item>
+    </string-array>
+    <string-array name="city_731_entries">
+        <item>@string/city_changsha</item>
+        <item>@string/city_yueyang</item>
+        <item>@string/city_hengyang</item>
+        <item>@string/city_chenzhou</item>
+        <item>@string/city_changde</item>
+        <item>@string/city_yiyang</item>
+        <item>@string/city_loudi</item>
+        <item>@string/city_shaoyang</item>
+        <item>@string/city_xiangxi_autonomous_prefecture</item>
+        <item>@string/city_zhangjiajie</item>
+        <item>@string/city_huaihua</item>
+        <item>@string/city_yongzhou</item>
+        <item>@string/city_zhuzhou</item>
+        <item>@string/city_xiangtan</item>
+    </string-array>
+    <string-array name="city_731_values">
+        <item>731</item>
+        <item>730</item>
+        <item>734</item>
+        <item>735</item>
+        <item>736</item>
+        <item>737</item>
+        <item>738</item>
+        <item>739</item>
+        <item>743</item>
+        <item>744</item>
+        <item>745</item>
+        <item>746</item>
+        <item>7312</item>
+        <item>7315</item>
+    </string-array>
+    <string-array name="city_771_entries">
+        <item>@string/city_nanning_chongzuo</item>
+        <item>@string/city_fangchenggang</item>
+        <item>@string/city_liuzhou_laibin</item>
+        <item>@string/city_guilin</item>
+        <item>@string/city_wuzhou_hezhou</item>
+        <item>@string/city_yulin_guigang</item>
+        <item>@string/city_baise</item>
+        <item>@string/city_qinzhou</item>
+        <item>@string/city_hechi</item>
+        <item>@string/city_beihai</item>
+    </string-array>
+    <string-array name="city_771_values">
+        <item>771</item>
+        <item>770</item>
+        <item>772</item>
+        <item>773</item>
+        <item>774</item>
+        <item>775</item>
+        <item>776</item>
+        <item>777</item>
+        <item>778</item>
+        <item>779</item>
+    </string-array>
+    <string-array name="city_791_entries">
+        <item>@string/city_nanchang</item>
+        <item>@string/city_yingtan</item>
+        <item>@string/city_xinyu</item>
+        <item>@string/city_jiujiang</item>
+        <item>@string/city_shangrao</item>
+        <item>@string/city_791_fuzhou</item>
+        <item>@string/city_791_yichun</item>
+        <item>@string/city_ji_an</item>
+        <item>@string/city_ganzhou</item>
+        <item>@string/city_jingdezhen</item>
+        <item>@string/city_pingxiang</item>
+    </string-array>
+    <string-array name="city_791_values">
+        <item>791</item>
+        <item>701</item>
+        <item>790</item>
+        <item>792</item>
+        <item>793</item>
+        <item>794</item>
+        <item>795</item>
+        <item>796</item>
+        <item>797</item>
+        <item>798</item>
+        <item>799</item>
+    </string-array>
+    <string-array name="city_851_entries">
+        <item>@string/city_guiyang</item>
+        <item>@string/city_zunyi</item>
+        <item>@string/city_anshun</item>
+        <item>@string/city_duyun</item>
+        <item>@string/city_kaili</item>
+        <item>@string/city_tongren</item>
+        <item>@string/city_bijie</item>
+        <item>@string/city_liupanshui</item>
+        <item>@string/city_xingyi</item>
+    </string-array>
+    <string-array name="city_851_values">
+        <item>851</item>
+        <item>852</item>
+        <item>853</item>
+        <item>854</item>
+        <item>855</item>
+        <item>856</item>
+        <item>857</item>
+        <item>858</item>
+        <item>859</item>
+    </string-array>
+    <string-array name="city_871_entries">
+        <item>@string/city_kunming</item>
+        <item>@string/city_xishuangbanna</item>
+        <item>@string/city_dehong</item>
+        <item>@string/city_zhaotong</item>
+        <item>@string/city_dali</item>
+        <item>@string/city_honghe_hani_and_yi_autonomous_prefecture</item>
+        <item>@string/city_qujing</item>
+        <item>@string/city_baoshan</item>
+        <item>@string/city_wenshan</item>
+        <item>@string/city_yuxi</item>
+        <item>@string/city_chuxiong</item>
+        <item>@string/city_pu_er</item>
+        <item>@string/city_lincang</item>
+        <item>@string/city_nujiang</item>
+        <item>@string/city_diqing</item>
+        <item>@string/city_lijiang</item>
+    </string-array>
+    <string-array name="city_871_values">
+        <item>871</item>
+        <item>691</item>
+        <item>692</item>
+        <item>870</item>
+        <item>872</item>
+        <item>873</item>
+        <item>874</item>
+        <item>875</item>
+        <item>876</item>
+        <item>877</item>
+        <item>878</item>
+        <item>879</item>
+        <item>883</item>
+        <item>886</item>
+        <item>887</item>
+        <item>888</item>
+    </string-array>
+    <string-array name="city_891_entries">
+        <item>@string/city_lasa</item>
+        <item>@string/city_rikaze</item>
+        <item>@string/city_shannan</item>
+        <item>@string/city_ningzhi</item>
+        <item>@string/city_qamdo</item>
+        <item>@string/city_naqu</item>
+        <item>@string/city_ali</item>
+    </string-array>
+    <string-array name="city_891_values">
+        <item>891</item>
+        <item>892</item>
+        <item>893</item>
+        <item>894</item>
+        <item>895</item>
+        <item>896</item>
+        <item>897</item>
+    </string-array>
+    <string-array name="city_898_entries">
+        <item>@string/city_hainan</item>
+    </string-array>
+    <string-array name="city_898_values">
+        <item>898</item>
+    </string-array>
+    <string-array name="city_931_entries">
+        <item>@string/city_lanzhou</item>
+        <item>@string/city_linxia</item>
+        <item>@string/city_dingxi</item>
+        <item>@string/city_pingliang</item>
+        <item>@string/city_qingyang</item>
+        <item>@string/city_jinchang_wuwei</item>
+        <item>@string/city_zhangye</item>
+        <item>@string/city_jiuquan_jiayuguan</item>
+        <item>@string/city_tianshui</item>
+        <item>@string/city_longnan</item>
+        <item>@string/city_gannan</item>
+        <item>@string/city_baiyin</item>
+    </string-array>
+    <string-array name="city_931_values">
+        <item>931</item>
+        <item>930</item>
+        <item>932</item>
+        <item>933</item>
+        <item>934</item>
+        <item>935</item>
+        <item>936</item>
+        <item>937</item>
+        <item>938</item>
+        <item>939</item>
+        <item>941</item>
+        <item>943</item>
+    </string-array>
+    <string-array name="city_951_entries">
+        <item>@string/city_yinchuan</item>
+        <item>@string/city_shizuishan</item>
+        <item>@string/city_wuzhong</item>
+        <item>@string/city_guyuan</item>
+        <item>@string/city_zhongwei</item>
+    </string-array>
+    <string-array name="city_951_values">
+        <item>951</item>
+        <item>952</item>
+        <item>953</item>
+        <item>954</item>
+        <item>955</item>
+    </string-array>
+    <string-array name="city_971_entries">
+        <item>@string/city_xi_ning</item>
+        <item>@string/city_haibei_autonomous_prefecture</item>
+        <item>@string/city_haidong</item>
+        <item>@string/city_huangnan</item>
+        <item>@string/city_hainanzhou</item>
+        <item>@string/city_guoluo</item>
+        <item>@string/city_yushu</item>
+        <item>@string/city_haixi_autonomous_prefecture</item>
+        <item>@string/city_golmud</item>
+    </string-array>
+    <string-array name="city_971_values">
+        <item>971</item>
+        <item>970</item>
+        <item>972</item>
+        <item>973</item>
+        <item>974</item>
+        <item>975</item>
+        <item>976</item>
+        <item>977</item>
+        <item>979</item>
+    </string-array>
+    <string-array name="city_991_entries">
+        <item>@string/city_urumqi</item>
+        <item>@string/city_tacheng</item>
+        <item>@string/city_hami</item>
+        <item>@string/city_hotan</item>
+        <item>@string/city_altay</item>
+        <item>@string/city_kizilsu_kirghiz_autonomous_prefecture</item>
+        <item>@string/city_bole</item>
+        <item>@string/city_karamay</item>
+        <item>@string/city_kuitun</item>
+        <item>@string/city_shihezi</item>
+        <item>@string/city_changji</item>
+        <item>@string/city_turpan</item>
+        <item>@string/city_korla_bayingolin_mongol_autonomous_prefecture</item>
+        <item>@string/city_aksu</item>
+        <item>@string/city_kashgar</item>
+        <item>@string/city_ili</item>
+    </string-array>
+    <string-array name="city_991_values">
+        <item>991</item>
+        <item>901</item>
+        <item>902</item>
+        <item>903</item>
+        <item>906</item>
+        <item>908</item>
+        <item>909</item>
+        <item>990</item>
+        <item>992</item>
+        <item>993</item>
+        <item>994</item>
+        <item>995</item>
+        <item>996</item>
+        <item>997</item>
+        <item>998</item>
+        <item>999</item>
+    </string-array>
+    <string-array name="cmcc_brand_entries">
+        <item>@string/brand_china_mobile_4g</item>
+        <item>@string/brand_m_zone</item>
+        <item>@string/brand_gotone</item>
+        <item>@string/brand_easyown</item>
+    </string-array>
+    <string-array name="cmcc_brand_values">
+        <item>30001</item>
+        <item>20000</item>
+        <item>10000</item>
+        <item>30000</item>
+    </string-array>
+    <integer-array name="comb_factor_list">
+        <item>8192</item>
+        <item>12288</item>
+    </integer-array>
+    <string-array name="layout_name_list">
+        <item>leui_main_fsw_none_geo</item>
+        <item>leui_main_fsw_geo</item>
+    </string-array>
+    <integer-array name="le_card_list_ad_index">
+        <item>4</item>
+    </integer-array>
+    <string-array name="le_days_31">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+    </string-array>
+    <string-array name="le_lunar_days_29">
+        <item>初一</item>
+        <item>初二</item>
+        <item>初三</item>
+        <item>初四</item>
+        <item>初五</item>
+        <item>初六</item>
+        <item>初七</item>
+        <item>初八</item>
+        <item>初九</item>
+        <item>初十</item>
+        <item>十一</item>
+        <item>十二</item>
+        <item>十三</item>
+        <item>十四</item>
+        <item>十五</item>
+        <item>十六</item>
+        <item>十七</item>
+        <item>十八</item>
+        <item>十九</item>
+        <item>二十</item>
+        <item>廿一</item>
+        <item>廿二</item>
+        <item>廿三</item>
+        <item>廿四</item>
+        <item>廿五</item>
+        <item>廿六</item>
+        <item>廿七</item>
+        <item>廿八</item>
+        <item>廿九</item>
+    </string-array>
+    <string-array name="le_lunar_days_30">
+        <item>初一</item>
+        <item>初二</item>
+        <item>初三</item>
+        <item>初四</item>
+        <item>初五</item>
+        <item>初六</item>
+        <item>初七</item>
+        <item>初八</item>
+        <item>初九</item>
+        <item>初十</item>
+        <item>十一</item>
+        <item>十二</item>
+        <item>十三</item>
+        <item>十四</item>
+        <item>十五</item>
+        <item>十六</item>
+        <item>十七</item>
+        <item>十八</item>
+        <item>十九</item>
+        <item>二十</item>
+        <item>廿一</item>
+        <item>廿二</item>
+        <item>廿三</item>
+        <item>廿四</item>
+        <item>廿五</item>
+        <item>廿六</item>
+        <item>廿七</item>
+        <item>廿八</item>
+        <item>廿九</item>
+        <item>三十</item>
+    </string-array>
+    <string-array name="le_lunar_months">
+        <item>正月</item>
+        <item>二月</item>
+        <item>三月</item>
+        <item>四月</item>
+        <item>五月</item>
+        <item>六月</item>
+        <item>七月</item>
+        <item>八月</item>
+        <item>九月</item>
+        <item>十月</item>
+        <item>冬月</item>
+        <item>腊月</item>
+    </string-array>
+    <string-array name="le_months">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+    <string-array name="le_months_en">
+        <item>Jan</item>
+        <item>Feb</item>
+        <item>Nar</item>
+        <item>Apr</item>
+        <item>May</item>
+        <item>Jun</item>
+        <item>Jul</item>
+        <item>Aug</item>
+        <item>Sep</item>
+        <item>Oct</item>
+        <item>Nov</item>
+        <item>Dec</item>
+    </string-array>
+    <array name="le_quick_contact_badge_background_color_lists">
+        <item>@color/le_color_budge_0</item>
+        <item>@color/le_color_budge_1</item>
+        <item>@color/le_color_budge_2</item>
+        <item>@color/le_color_budge_3</item>
+        <item>@color/le_color_budge_4</item>
+        <item>@color/le_color_budge_5</item>
+        <item>@color/le_color_budge_6</item>
+        <item>@color/le_color_budge_7</item>
+        <item>@color/le_color_budge_8</item>
+        <item>@color/le_color_budge_9</item>
+    </array>
+    <integer-array name="le_rubbish_clean_ad_index">
+        <item>2</item>
+    </integer-array>
+    <string-array name="list_entries">
+        <item>@string/le_string_battery_saver_automatically_never</item>
+        <item>@string/le_string_battery_saver_remainder_middle</item>
+        <item>@string/le_string_battery_saver_remainder_less</item>
+    </string-array>
+    <string-array name="list_entry_values">
+        <item>0</item>
+        <item>20</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="province_values">
+        <item>10</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>311</item>
+        <item>351</item>
+        <item>371</item>
+        <item>431</item>
+        <item>451</item>
+        <item>471</item>
+        <item>531</item>
+        <item>551</item>
+        <item>571</item>
+        <item>591</item>
+        <item>731</item>
+        <item>771</item>
+        <item>791</item>
+        <item>851</item>
+        <item>871</item>
+        <item>891</item>
+        <item>898</item>
+        <item>931</item>
+        <item>951</item>
+        <item>971</item>
+        <item>991</item>
+    </string-array>
+    <string-array name="select_name">
+        <item>@string/always_allow</item>
+        <item>@string/all_allow</item>
+        <item>@string/prohibit</item>
+    </string-array>
+    <string-array name="select_switch_name">
+        <item>@string/all_allow</item>
+        <item>@string/prohibit</item>
+    </string-array>
+    <string-array name="select_switch_value">
+        <item>@string/allow_value</item>
+        <item>@string/prohibit_value</item>
+    </string-array>
+    <string-array name="select_value">
+        <item>@string/always_allow_value</item>
+        <item>@string/allow_value</item>
+        <item>@string/prohibit_value</item>
+    </string-array>
+    <string-array name="sim_info_picker_color_values">
+        <item>@string/blue_value</item>
+        <item>@string/green_value</item>
+        <item>@string/orange_value</item>
+        <item>@string/red_value</item>
+    </string-array>
+    <string-array name="telecom_brand_entries">
+        <item>@string/brand_china_telecom_4g</item>
+        <item>@string/brand_china_telecom_3g</item>
+        <item>@string/brand_china_telecom_2g</item>
+    </string-array>
+    <string-array name="telecom_brand_values">
+        <item>60001</item>
+        <item>60000</item>
+        <item>60002</item>
+    </string-array>
+    <string-array name="today_limit_entries">
+        <item>10M</item>
+        <item>30M</item>
+        <item>50M</item>
+        <item>80M</item>
+        <item>100M</item>
+        <item>300M</item>
+        <item>500M</item>
+        <item>@string/le_string_not_remind</item>
+    </string-array>
+    <string-array name="today_limit_values">
+        <item>10485760</item>
+        <item>31457280</item>
+        <item>52428800</item>
+        <item>83886080</item>
+        <item>104857600</item>
+        <item>314572800</item>
+        <item>524288000</item>
+        <item>-1</item>
+    </string-array>
+    <string-array name="unicom_brand_entries">
+        <item>@string/brand_china_unicom_4g</item>
+        <item>@string/brand_china_unicom_3g</item>
+        <item>@string/brand_china_unicom_2g</item>
+    </string-array>
+    <string-array name="unicom_brand_values">
+        <item>70001</item>
+        <item>70000</item>
+        <item>50000</item>
+    </string-array>
+    <array name="width_info_dmy_alone">
+        <item>270.0dip</item>
+        <item>90.0dip</item>
+        <item>0.0dip</item>
+        <item>90.0dip</item>
+        <item>0.0dip</item>
+        <item>90.0dip</item>
+    </array>
+    <array name="width_info_dmy_mix">
+        <item>198.0dip</item>
+        <item>80.0dip</item>
+        <item>5.0dip</item>
+        <item>38.0dip</item>
+        <item>5.0dip</item>
+        <item>70.0dip</item>
+    </array>
+    <array name="width_info_mdy_alone">
+        <item>270.0dip</item>
+        <item>90.0dip</item>
+        <item>0.0dip</item>
+        <item>90.0dip</item>
+        <item>0.0dip</item>
+        <item>90.0dip</item>
+    </array>
+    <array name="width_info_mdy_mix">
+        <item>198.0dip</item>
+        <item>38.0dip</item>
+        <item>5.0dip</item>
+        <item>80.0dip</item>
+        <item>5.0dip</item>
+        <item>70.0dip</item>
+    </array>
+    <array name="width_info_ymd_alone">
+        <item>270.0dip</item>
+        <item>90.0dip</item>
+        <item>0.0dip</item>
+        <item>90.0dip</item>
+        <item>0.0dip</item>
+        <item>90.0dip</item>
+    </array>
+    <array name="width_info_ymd_mix">
+        <item>198.0dip</item>
+        <item>80.0dip</item>
+        <item>5.0dip</item>
+        <item>70.0dip</item>
+        <item>5.0dip</item>
+        <item>38.0dip</item>
+    </array>
+</resources>

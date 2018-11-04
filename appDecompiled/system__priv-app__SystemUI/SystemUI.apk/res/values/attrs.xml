@@ -1,0 +1,720 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="leAlertDialogDividerColor" format="reference|color" />
+    <attr name="leBottomAlertDialogTheme" format="reference" />
+    <attr name="leCJKTextWeight">
+        <enum name="bold" value="4" />
+        <enum name="light" value="1" />
+        <enum name="medium" value="3" />
+        <enum name="normal" value="2" />
+        <enum name="thin" value="0" />
+    </attr>
+    <attr name="leLinkType">
+        <flag name="all" value="0x0000000f" />
+        <flag name="email" value="0x00000002" />
+        <flag name="map" value="0x00000008" />
+        <flag name="none" value="0x00000000" />
+        <flag name="phone" value="0x00000004" />
+        <flag name="url" value="0x00000001" />
+    </attr>
+    <attr name="leTextWeight">
+        <enum name="bold" value="4" />
+        <enum name="light" value="1" />
+        <enum name="medium" value="3" />
+        <enum name="normal" value="2" />
+        <enum name="thin" value="0" />
+    </attr>
+    <attr name="leMaxOffset" format="dimension" />
+    <attr name="leMoveCount" format="integer" />
+    <attr name="lePopAnimTime" format="integer" />
+    <attr name="leSelectedBg" format="reference" />
+    <attr name="leAlphabetToastBg" format="reference" />
+    <attr name="leToastOffset" format="dimension" />
+    <attr name="leToastTextSize" format="dimension" />
+    <attr name="leAlphabetTextSize" format="dimension" />
+    <attr name="leAlphabetMaxOffset" format="dimension" />
+    <attr name="lePaddingTopBottom" format="dimension" />
+    <attr name="leAlphabetLeftMargin" format="dimension" />
+    <attr name="leAlphabetRightMargin" format="dimension" />
+    <attr name="leSelectedColors" format="reference" />
+    <attr name="ballsLoadingColor" format="color" />
+    <attr name="ballsLoadingRadius" format="dimension" />
+    <attr name="ballsLoadingDistance" format="dimension" />
+    <attr name="ballsLoadingCount" format="integer" />
+    <attr name="ballsLoadingDuration" format="integer" />
+    <attr name="ballsLoadingGravity">
+        <enum name="normal" value="0" />
+        <enum name="center" value="1" />
+        <enum name="center_horizontal" value="3" />
+        <enum name="center_vertical" value="2" />
+    </attr>
+    <attr name="leNoYearWheel" format="boolean" />
+    <attr name="lcDropDownHeight" format="dimension" />
+    <attr name="lcDropDownPaddingLeft" format="dimension" />
+    <attr name="lcDropDownPaddingRight" format="dimension" />
+    <attr name="lcDropDownPaddingTop" format="dimension" />
+    <attr name="lcDropDownPaddingBottom" format="dimension" />
+    <attr name="lcDropDownBlurRadius" format="reference|dimension" />
+    <attr name="lcDropDownBackground" format="reference" />
+    <attr name="lcDropDownCacheColorHint" format="reference|color" />
+    <attr name="lcDropDownDivider" format="reference" />
+    <attr name="lcDropDownDividerHeight" format="dimension" />
+    <attr name="lcDropDownSelector" format="reference|color" />
+    <attr name="lcBackground" format="reference" />
+    <attr name="lcSearchIcon" format="reference" />
+    <attr name="lcClearIcon" format="reference" />
+    <attr name="lcSearchUnfocusAlpha" format="float" />
+    <attr name="lcQueryHint" format="string" />
+    <attr name="lcQueryTextSize" format="dimension" />
+    <attr name="lcQueryTextColor" format="dimension" />
+    <attr name="lcQueryHintColor" format="dimension" />
+    <attr name="lcInputMargin" format="dimension" />
+    <attr name="lcInputMarginLeft" format="dimension" />
+    <attr name="lcInputMarginRight" format="dimension" />
+    <attr name="lcInputMarginTop" format="dimension" />
+    <attr name="lcInputMarginBottom" format="dimension" />
+    <attr name="lcPopupItemLayout" format="reference" />
+    <attr name="lcMatchColor" format="reference|color" />
+    <attr name="lcEditTextStyle" format="reference" />
+    <attr name="lcPopupBackground" format="reference" />
+    <attr name="lcPopupBlurRadius" format="reference|dimension" />
+    <attr name="lcPopupListDivider" format="reference" />
+    <attr name="lcCancelText" format="string" />
+    <attr name="lcCancelTextSize" format="dimension" />
+    <attr name="lcCancelTextColor" format="reference|color" />
+    <attr name="lcAlwaysShowCancel" format="boolean" />
+    <attr name="lcCursorColor" format="reference|color" />
+    <attr name="lcClearIconColor" format="reference|color" />
+    <attr name="lcSearchIconColor" format="reference|color" />
+    <attr name="lcUnderlineColor" format="reference|color" />
+    <attr name="lcSearchIconVisible" format="boolean" />
+    <attr name="leDivideTime" format="float" />
+    <attr name="leExtend" format="float" />
+    <attr name="leFactor" format="float" />
+    <attr name="leValueAtFactor" format="float" />
+    <attr name="leAvatarBorder" format="reference|color" />
+    <attr name="triangle_righttop_color" format="color" />
+    <attr name="triangle_rightbottomup_color" format="color" />
+    <attr name="triangle_rightbottomdwon_color" format="color" />
+    <attr name="leftbottom_text" format="string" />
+    <attr name="righttop_text" format="string" />
+    <attr name="rightbottom_text" format="string" />
+    <attr name="lebanner_title" format="string" />
+    <attr name="showRightTopTriangle" format="boolean" />
+    <attr name="showRightBottomTriangle" format="boolean" />
+    <attr name="showMoreButton" format="boolean" />
+    <attr name="canloop" format="boolean" />
+    <attr name="pagescrollduration" format="integer" />
+    <attr name="isCanScroll" format="boolean" />
+    <attr name="isShowIndicator" format="boolean" />
+    <attr name="le_blur_radius" format="dimension" />
+    <attr name="btnnum" format="integer" />
+    <attr name="leBounceHeight" format="reference" />
+    <attr name="bubbleCornerRadius" format="dimension" />
+    <attr name="bubbleBackgroundColor" format="color" />
+    <attr name="bubbleTextSize" format="dimension" />
+    <attr name="bubbleTextColor" format="color" />
+    <attr name="bubbleText" format="string" />
+    <attr name="bubbleTitleText" format="string" />
+    <attr name="bubbleArrowDirection">
+        <enum name="bottom" value="4" />
+        <enum name="left" value="1" />
+        <enum name="right" value="3" />
+        <enum name="top" value="2" />
+    </attr>
+    <attr name="relativePosition" format="fraction" />
+    <attr name="bubbleBackgroundPressColor" format="color" />
+    <attr name="circle_radius" format="dimension" />
+    <attr name="corner_radius" format="dimension" />
+    <attr name="border_width" format="dimension" />
+    <attr name="border_color" format="color" />
+    <attr name="round_background" format="boolean" />
+    <attr name="round_image" format="boolean" />
+    <attr name="leCycle" format="float" />
+    <attr name="leAtten" format="float" />
+    <attr name="dividerLeft" format="reference|dimension" />
+    <attr name="dividerRight" format="reference|dimension" />
+    <attr name="dividerPaddingColor" format="reference|color" />
+    <attr name="leMaxVisibleItems" format="integer" />
+    <attr name="leInOutDivide" format="float" />
+    <attr name="leHeightAtDivide" format="float" />
+    <attr name="hint" format="reference|string" />
+    <attr name="focusColor" format="reference|color" />
+    <attr name="message" format="reference|string" />
+    <attr name="primaryText" format="reference|string" />
+    <attr name="secondText" format="reference|string" />
+    <attr name="thirdText" format="reference|string" />
+    <attr name="promptColor" format="reference|color" />
+    <attr name="buttonColor" format="reference|color" />
+    <attr name="isFullScreen" format="boolean" />
+    <attr name="autoCalculate" format="boolean" />
+    <attr name="actionType" format="integer">
+        <enum name="NETWORK_ABNORMAL" value="2" />
+        <enum name="NO_NETWORK" value="1" />
+    </attr>
+    <attr name="leFabColorNormal" format="color" />
+    <attr name="leFabColorPressed" format="color" />
+    <attr name="leFabColorDisabled" format="color" />
+    <attr name="leFabShowShadow" format="boolean" />
+    <attr name="leFabShadowColor" format="color" />
+    <attr name="leFabIconSize" format="dimension" />
+    <attr name="leFabSize" format="dimension" />
+    <attr name="leFabSizeStyle">
+        <enum name="normal" value="0" />
+        <enum name="mini" value="1" />
+    </attr>
+    <attr name="leFabShowAnimation" format="reference" />
+    <attr name="leFabHideAnimation" format="reference" />
+    <attr name="leFabMessage" format="string" />
+    <attr name="leFabIcon" format="reference" />
+    <attr name="leFabOpendIcon" format="reference" />
+    <attr name="leFabSpacing" format="dimension" />
+    <attr name="leFabMarginLeft" format="dimension" />
+    <attr name="leFabMarginTop" format="dimension" />
+    <attr name="leFabMarginRight" format="dimension" />
+    <attr name="leFabMarginBottom" format="dimension" />
+    <attr name="leFabOpenDirection">
+        <enum name="down" value="1" />
+        <enum name="up" value="0" />
+    </attr>
+    <attr name="leFabAnimationDelay" format="integer" />
+    <attr name="leExpandBackgroundColor" format="color" />
+    <attr name="leMessageMaxLines" format="integer" />
+    <attr name="leMessageStyle" format="reference" />
+    <attr name="leMessageMargin" format="dimension" />
+    <attr name="leMessageShowAnimation" format="reference" />
+    <attr name="leMessageHideAnimation" format="reference" />
+    <attr name="leMessagePaddingTop" format="dimension" />
+    <attr name="leMessagePaddingLeft" format="dimension" />
+    <attr name="leMessagePaddingRight" format="dimension" />
+    <attr name="leMessagePaddingBottom" format="dimension" />
+    <attr name="leMessagePadding" format="dimension" />
+    <attr name="leMessageTextColor" format="reference|color" />
+    <attr name="leMessageTextSize" format="dimension" />
+    <attr name="leMessageCornerRadius" format="dimension" />
+    <attr name="leMessageColorNormal" format="color" />
+    <attr name="leMessageColorPressed" format="color" />
+    <attr name="leMessageSingleLine" format="boolean" />
+    <attr name="leMessagePosition">
+        <enum name="left" value="0" />
+        <enum name="right" value="1" />
+    </attr>
+    <attr name="leMessageEllipsize">
+        <enum name="none" value="0" />
+        <enum name="end" value="3" />
+        <enum name="marquee" value="4" />
+        <enum name="middle" value="2" />
+        <enum name="start" value="1" />
+    </attr>
+    <attr name="leHorizontalSpacing" format="dimension" />
+    <attr name="leVerticalSpacing" format="dimension" />
+    <attr name="leOrientation">
+        <enum name="horizontal" value="0" />
+        <enum name="vertical" value="1" />
+    </attr>
+    <attr name="leMaxLineNum" format="integer" />
+    <attr name="leDebugDraw" format="boolean" />
+    <attr name="layout_leNewLine" format="boolean" />
+    <attr name="layout_leHorizontalSpacing" format="dimension" />
+    <attr name="layout_leVerticalSpacing" format="dimension" />
+    <attr name="leGlowEnabledAnim" format="boolean" />
+    <attr name="leGlowPressColor" format="integer" />
+    <attr name="leGlowPressScaleMultiple" format="float" />
+    <attr name="leGlowPressScaleAlpha" format="integer" />
+    <attr name="leBDivideHeight" format="dimension" />
+    <attr name="leBDivideColor" format="reference|color" />
+    <attr name="leBStripColor" format="reference|color" />
+    <attr name="leBStripHeight" format="dimension" />
+    <attr name="leStripColors" format="reference" />
+    <attr name="leTabPadding" format="dimension" />
+    <attr name="leTabMaxWidth" format="dimension" />
+    <attr name="leTabFontSize" format="dimension" />
+    <attr name="leTabWidth" format="dimension" />
+    <attr name="leTabHeight" format="dimension" />
+    <attr name="leIsDivide" format="boolean" />
+    <attr name="leIsTabChangeOnClick" format="boolean" />
+    <attr name="leShowImage" format="boolean" />
+    <attr name="leShowTitle" format="boolean" />
+    <attr name="leShowSubTitle" format="boolean" />
+    <attr name="leShowValue" format="boolean" />
+    <attr name="leShowComponent" format="boolean" />
+    <attr name="leImageDrawable" format="reference" />
+    <attr name="leImageLayoutResId" format="reference" />
+    <attr name="leTitleText" format="string" />
+    <attr name="leSubTitleText" format="string" />
+    <attr name="leValueText" format="string" />
+    <attr name="leAlignTitleValue" format="boolean" />
+    <attr name="leComponentMode">
+        <enum name="none" value="0" />
+        <enum name="arrowHorizontal" value="3" />
+        <enum name="arrowPopupWindow" value="4" />
+        <enum name="leCheckBox" value="1" />
+        <enum name="leSwitch" value="2" />
+    </attr>
+    <attr name="leImageWidth" format="dimension" />
+    <attr name="leImageHeight" format="dimension" />
+    <attr name="leItemPaddingTopBottom">
+        <enum name="PADDING_BIG" value="0" />
+        <enum name="PADDING_MEDIUM" value="1" />
+        <enum name="PADDING_SMALL" value="2" />
+    </attr>
+    <attr name="leEntries" format="reference" />
+    <attr name="leEntryValues" format="reference" />
+    <attr name="leListPreferenceMode">
+        <enum name="MODE_BOTTOM_SHEET" value="2" />
+        <enum name="MODE_DIALOG" value="0" />
+        <enum name="MODE_DROPDOWN" value="1" />
+    </attr>
+    <attr name="lePopGravity">
+        <enum name="GRAVITY_END" value="4" />
+        <enum name="GRAVITY_START" value="3" />
+    </attr>
+    <attr name="leDropDownWidth" format="dimension" />
+    <attr name="leMaxDropDownHeight" format="dimension" />
+    <attr name="listSelector" format="reference|color" />
+    <attr name="lePopupBackground" format="reference|color" />
+    <attr name="lePopListBackground" format="reference|color" />
+    <attr name="leListTitleColorNormal" format="reference|color" />
+    <attr name="leListTitleColorSelected" format="reference|color" />
+    <attr name="overlayLayout" format="reference" />
+    <attr name="leSwipeMode">
+        <enum name="none" value="0" />
+        <enum name="left" value="3" />
+        <enum name="right" value="2" />
+        <enum name="both" value="1" />
+    </attr>
+    <attr name="leSwipeActionLeft">
+        <enum name="dismiss" value="1" />
+        <enum name="reveal" value="0" />
+        <enum name="swipeSwitch" value="2" />
+    </attr>
+    <attr name="leSwipeActionRight">
+        <enum name="dismiss" value="1" />
+        <enum name="reveal" value="0" />
+        <enum name="swipeSwitch" value="2" />
+    </attr>
+    <attr name="leSwipeOffsetLeft" format="dimension" />
+    <attr name="leSwipeOffsetRight" format="dimension" />
+    <attr name="leSwipeLeftSwitchLine" format="dimension" />
+    <attr name="leSwipeRightSwitchLine" format="dimension" />
+    <attr name="leSwipeOpenOnLongPress" format="boolean" />
+    <attr name="leSwipeAnimationTime" format="integer" />
+    <attr name="leSwipeCloseAllItemsWhenMoveList" format="boolean" />
+    <attr name="leSwipeDrawableChecked" format="reference" />
+    <attr name="leSwipeDrawableUnchecked" format="reference" />
+    <attr name="leSwipeFrontView" format="reference" />
+    <attr name="leSwipeBackView" format="reference" />
+    <attr name="leSwipeOverOffsetEnabled" format="boolean" />
+    <attr name="leListViewMode">
+        <enum name="leDragSort" value="2" />
+        <enum name="leNone" value="0" />
+        <enum name="leSwipe" value="1" />
+    </attr>
+    <attr name="leSortDragScrollStart" format="float" />
+    <attr name="leSortMaxDragScrollSpeed" format="float" />
+    <attr name="leSortFloatBackgroundColor" format="color" />
+    <attr name="leSortFloatAlpha" format="float" />
+    <attr name="leSortSlideShuffleSpeed" format="float" />
+    <attr name="leSortDropAnimationDuration" format="integer" />
+    <attr name="leSortDragEnabled" format="boolean" />
+    <attr name="leSortEnabled" format="boolean" />
+    <attr name="leSortDragStartMode">
+        <enum name="onDown" value="0" />
+        <enum name="onLongPress" value="2" />
+        <enum name="onMove" value="1" />
+    </attr>
+    <attr name="leSortDragHandleId" format="reference" />
+    <attr name="leSortUseDefaultController" format="boolean" />
+    <attr name="leSortUseDefaultScrollListener" format="boolean" />
+    <attr name="leSwipeFirstLeftViewInBackView" format="reference" />
+    <attr name="leSwipeSecondLeftViewInBackView" format="reference" />
+    <attr name="leSwipeFirstRightViewInBackView" format="reference" />
+    <attr name="leSwipeSecondRightViewInBackView" format="reference" />
+    <attr name="leAllowSwitchLeftOver" format="boolean" />
+    <attr name="leAllowSwitchRightOver" format="boolean" />
+    <attr name="leSwitchChangeLeftMaxDistance" format="dimension" />
+    <attr name="le_lpv_aspect" format="string" />
+    <attr name="le_lpv_lineColor" format="color" />
+    <attr name="le_lpv_innerCircleColor" format="color" />
+    <attr name="le_lpv_ringColor" format="color" />
+    <attr name="le_lpv_outerCircleColor" format="color" />
+    <attr name="lePinnedShadowHeight" format="dimension" />
+    <attr name="lePinnedShadowDrawable" format="reference" />
+    <attr name="le_progress_color" format="color" />
+    <attr name="le_progress_background_color" format="color" />
+    <attr name="le_progress_loading_color" format="color" />
+    <attr name="le_progress_zebra_color" format="color" />
+    <attr name="le_zebra_length" format="dimension" />
+    <attr name="le_progress_bar_height" format="dimension" />
+    <attr name="le_progress_round_radius" format="dimension" />
+    <attr name="le_progress_circle_radius" format="dimension" />
+    <attr name="le_copy_iphone" format="boolean" />
+    <attr name="le_copy_iphone_divider_width" format="dimension" />
+    <attr name="le_progress_text_size" format="dimension" />
+    <attr name="le_progress_text_color" format="color" />
+    <attr name="le_progress_incomplete_color" format="color" />
+    <attr name="le_progress_stroke_width" format="dimension" />
+    <attr name="le_type">
+        <enum name="horizontal" value="1" />
+        <enum name="circle" value="0" />
+        <enum name="circle_text" value="2" />
+    </attr>
+    <attr name="leRadioPreferenceMode">
+        <enum name="MODE_NORMAL" value="0" />
+        <enum name="MODE_RADIO" value="1" />
+    </attr>
+    <attr name="checkedTextColor" format="reference|color" />
+    <attr name="uncheckedTextColor" format="reference|color" />
+    <attr name="leCancelText" format="string" />
+    <attr name="leCancelTextSize" format="dimension" />
+    <attr name="leCancelTextColor" format="reference|color" />
+    <attr name="leAlwaysShowCancel" format="boolean" />
+    <attr name="leSearchCursorColor" format="reference|color" />
+    <attr name="leTextColorHint" format="reference|color" />
+    <attr name="leClearIconColor" format="reference|color" />
+    <attr name="leSearchIconColor" format="reference|color" />
+    <attr name="leSearchIconVisible" format="boolean" />
+    <attr name="lePaddingStart" format="dimension" />
+    <attr name="leBackgroundColor" format="reference|color" />
+    <attr name="leBackgroundBorderColor" format="reference|color" />
+    <attr name="leTopStrip" format="reference" />
+    <attr name="leTopStripHeight" format="dimension" />
+    <attr name="leLinkColor" format="reference|color" />
+    <attr name="leUrlHightlightColor" format="reference|color" />
+    <attr name="leSectionHightlightColor" format="reference|color" />
+    <attr name="leURLSelectedColor" format="reference|color" />
+    <attr name="leUrlPaddingHorizotal" format="dimension" />
+    <attr name="leUrlPaddingVertical" format="dimension" />
+    <attr name="leSetionBoundWidth" format="dimension" />
+    <attr name="leTextSectionHandle" format="reference" />
+    <attr name="leEnableSectionSelect" format="reference|boolean" />
+    <attr name="leEnablePressToDragMode" format="reference|boolean" />
+    <attr name="leTextSelectHandleLeft" format="reference" />
+    <attr name="leTextSelectHandleRight" format="reference" />
+    <attr name="leEnableTextAlignAdjust" format="reference|boolean" />
+    <attr name="leCJKFontFamily" format="string" />
+    <attr name="leCJKTextSize" format="dimension" />
+    <attr name="leIsLineCenterVertical" format="boolean" />
+    <attr name="leCursorColor" format="reference|color" />
+    <attr name="leCursorWidth" format="dimension" />
+    <attr name="leSnapZoomMultiplier" format="float" />
+    <attr name="leFixCursorHeightToTextHeight" format="boolean" />
+    <attr name="leeditorBackground" format="reference" />
+    <attr name="leiconClear" format="reference" />
+    <attr name="leiconTitle" format="reference" />
+    <attr name="letitleText" format="string" />
+    <attr name="letitleTextSize" format="reference|dimension" />
+    <attr name="letitleTextColor" format="reference|color" />
+    <attr name="letitleMarginLeft" format="dimension" />
+    <attr name="letitleMarginRight" format="dimension" />
+    <attr name="letitleMarginTop" format="dimension" />
+    <attr name="letitleMarginBottom" format="dimension" />
+    <attr name="letitlePaddingLeft" format="dimension" />
+    <attr name="letitlePaddingRight" format="dimension" />
+    <attr name="letitlePaddingTop" format="dimension" />
+    <attr name="letitlePaddingBottom" format="dimension" />
+    <attr name="letitleHeight" format="dimension" />
+    <attr name="letitleWidth" format="dimension" />
+    <attr name="leimageRightMarginLeft" format="dimension" />
+    <attr name="leimageRightMarginRight" format="dimension" />
+    <attr name="leimageRightMarginTop" format="dimension" />
+    <attr name="leimageRightMarginBottom" format="dimension" />
+    <attr name="leimageRightPaddingLeft" format="dimension" />
+    <attr name="leimageRightPaddingRight" format="dimension" />
+    <attr name="leimageRightPaddingTop" format="dimension" />
+    <attr name="leimageRightPaddingBottom" format="dimension" />
+    <attr name="leimageRightHeight" format="dimension" />
+    <attr name="leimageRightWidth" format="dimension" />
+    <attr name="leimageRightSrc" format="reference" />
+    <attr name="leshowPwdVisibleSwitch" format="boolean" />
+    <attr name="leeditorHeight" format="dimension" />
+    <attr name="leeditorWidth" format="dimension" />
+    <attr name="leeditTextSize" format="dimension" />
+    <attr name="leeditorTextColor" format="dimension" />
+    <attr name="lehintTextColor" format="dimension" />
+    <attr name="leclearIconSize" format="dimension" />
+    <attr name="leclearIconPadding" format="dimension" />
+    <attr name="letrack_margin" format="dimension" />
+    <attr name="letrack_marginLeft" format="dimension" />
+    <attr name="letrack_marginRight" format="dimension" />
+    <attr name="letrack_marginTop" format="dimension" />
+    <attr name="letrack_marginBottom" format="dimension" />
+    <attr name="lehintText" format="string" />
+    <attr name="leUnderlineColor" format="reference|color" />
+    <attr name="lePwdSwitchColor" format="reference|color" />
+    <attr name="linearLayoutMaxHeight" format="dimension" />
+    <attr name="linearLayoutMaxWidth" format="dimension" />
+    <attr name="letitle" format="string" />
+    <attr name="letitleSize" format="integer" />
+    <attr name="lesubtitle" format="string" />
+    <attr name="NewFunctionView_leBoxArrowColor" format="reference|color" />
+    <attr name="NewFunctionView_leBoxOnColor" format="reference|color" />
+    <attr name="NewFunctionView_leBoxOffColor" format="reference|color" />
+    <attr name="bottomBtnText" format="string" />
+    <attr name="bottomBtnTextColor" format="color" />
+    <attr name="bottomBtnStrokeColor" format="color" />
+    <attr name="bottomBtnUnpressColor" format="color" />
+    <attr name="bottomBtnPressedColor" format="color" />
+    <attr name="NewFunctionView_leBoxText" format="string" />
+    <attr name="lePtrRefreshableViewLayout" format="reference" />
+    <attr name="lePtrRefreshableViewBackground" format="reference|color" />
+    <attr name="lePtrHeaderBackground" format="reference|color" />
+    <attr name="lePtrHeaderTextColor" format="reference|color" />
+    <attr name="lePtrHeaderSubTextColor" format="reference|color" />
+    <attr name="lePtrMode">
+        <flag name="both" value="0x00000003" />
+        <flag name="disabled" value="0x00000000" />
+        <flag name="manualOnly" value="0x00000004" />
+        <flag name="pullFromEnd" value="0x00000002" />
+        <flag name="pullFromStart" value="0x00000001" />
+    </attr>
+    <attr name="lePtrShowIndicator" format="reference|boolean" />
+    <attr name="lePtrDrawable" format="reference" />
+    <attr name="lePtrDrawableStart" format="reference" />
+    <attr name="lePtrDrawableEnd" format="reference" />
+    <attr name="lePtrOverScroll" format="reference|boolean" />
+    <attr name="lePtrHeaderTextAppearance" format="reference" />
+    <attr name="lePtrSubHeaderTextAppearance" format="reference" />
+    <attr name="lePtrAnimationStyle">
+        <flag name="cycloid" value="0x00000002" />
+        <flag name="flip" value="0x00000001" />
+        <flag name="rotate" value="0x00000000" />
+    </attr>
+    <attr name="lePtrScrollingWhileRefreshingEnabled" format="reference|boolean" />
+    <attr name="lePtrListViewExtrasEnabled" format="reference|boolean" />
+    <attr name="lePtrRotateDrawableWhilePulling" format="reference|boolean" />
+    <attr name="lePtrCycloidHasText" format="boolean" />
+    <attr name="simCardGravity">
+        <enum name="normal" value="0" />
+        <enum name="center" value="1" />
+        <enum name="center_horizontal" value="3" />
+        <enum name="center_vertical" value="2" />
+    </attr>
+    <attr name="leDrawSelectorOnTop" format="boolean" />
+    <attr name="leNumColumns" format="integer" />
+    <attr name="leSelector" format="reference" />
+    <attr name="leItemMargin" format="dimension" />
+    <attr name="Leui.LeListViewStyle" format="reference" />
+    <attr name="Leui.StaggeredGridViewStyle" format="reference" />
+    <attr name="Leui.LeSwitchStyle" format="reference" />
+    <attr name="Leui.PullToRefreshListView" format="reference" />
+    <attr name="Leui.ModifiedGalleryStyle" format="reference" />
+    <attr name="Leui.LeTitleEditTextStyle" format="reference" />
+    <attr name="leAlphabetWavesViewStyle" format="reference" />
+    <attr name="leEditTextPreferenceStyle" format="reference" />
+    <attr name="leEditDialogPreferenceStyle" format="reference" />
+    <attr name="leDialogPreferenceStyle" format="reference" />
+    <attr name="leRadioGroupPreferenceStyle" format="reference" />
+    <attr name="leRadioPreferenceStyle" format="reference" />
+    <attr name="lePasswordPreferenceStyle" format="reference" />
+    <attr name="leListPreferenceStyle" format="reference" />
+    <attr name="leMutiSelectListPreferenceStyle" format="reference" />
+    <attr name="lePreferenceArrow" format="reference" />
+    <attr name="lePreferenceSelectableItemBackground" format="reference" />
+    <attr name="lePreferenceItemBackground" format="reference" />
+    <attr name="lePreferenceItemPressedBackground" format="reference" />
+    <attr name="leDialogStyle" format="reference" />
+    <attr name="leAlertDialogStyle" format="reference" />
+    <attr name="Leui.SearchViewStyle" format="reference" />
+    <attr name="Leui.AutoCompleteTextViewStyle" format="reference" />
+    <attr name="lcDropDownItemMatchTextColor" format="reference" />
+    <attr name="lcTextColorSearchUrl" format="reference" />
+    <attr name="leProgressbarStyle" format="reference" />
+    <attr name="textAppearanceItemTitle" format="reference" />
+    <attr name="textAppearanceItemSummary" format="reference" />
+    <attr name="textAppearanceItemValues" format="reference" />
+    <attr name="isThemeLeui" format="boolean" />
+    <attr name="leRequireGaussianBlur" format="boolean" />
+    <attr name="leGaussianBlurRadiusRatio" format="float" />
+    <attr name="leBoxOnColor" format="reference|color" />
+    <attr name="leBoxArrowColor" format="reference|color" />
+    <attr name="leBoxArrowColorWithoutBorder" format="reference|color" />
+    <attr name="leBoxSize" format="dimension" />
+    <attr name="leBoxWithoutBorder" format="boolean" />
+    <attr name="leBoxIsTextOnRight" format="boolean" />
+    <attr name="leBoxInnerPadding" format="dimension" />
+    <attr name="leTextOnColor" format="reference|color" />
+    <attr name="leBoxTrackColor" format="reference|color" />
+    <attr name="leBoxBorderColor" format="reference|color" />
+    <attr name="leSwitchTrackColor" format="reference|color" />
+    <attr name="leSwitchTrackBg" format="reference" />
+    <attr name="leSwitchThumbAnimateTime" format="dimension" />
+    <attr name="leScale" format="float" />
+    <attr name="leTabWidgetLeftSelector" format="reference" />
+    <attr name="leTabWidgetRightSelector" format="reference" />
+    <attr name="leTabWidgetRecSelector" format="reference" />
+    <attr name="leTabWidgetBgSelector" format="reference" />
+    <attr name="leTabWidgetTextColor" format="reference" />
+    <attr name="leTabCounts" format="integer" />
+    <attr name="leTabWidgetTextSize" format="dimension" />
+    <attr name="leftTextViewText" format="string" />
+    <attr name="leftLogo" format="reference" />
+    <attr name="centerTextViewText" format="string" />
+    <attr name="rightTextViewText" format="string" />
+    <attr name="rightLogo" format="reference" />
+    <attr name="leTopWidgetBg" format="reference|color" />
+    <attr name="leftTextViewTextColor" format="reference|color" />
+    <attr name="rightTextViewTextColor" format="reference|color" />
+    <attr name="centerTextViewTextColor" format="reference|color" />
+    <attr name="leftTextViewTextSize" format="dimension" />
+    <attr name="rightTextViewTextSize" format="dimension" />
+    <attr name="centerTextViewTextSize" format="dimension" />
+    <attr name="leftMode">
+        <flag name="noTitleAndLogo" value="0x00000004" />
+        <flag name="onlyLogo" value="0x00000001" />
+        <flag name="onlyTitle" value="0x00000000" />
+        <flag name="titleAndLogo" value="0x00000002" />
+    </attr>
+    <attr name="rightMode">
+        <flag name="noTitleAndLogo" value="0x00000032" />
+        <flag name="onlyLogo" value="0x00000016" />
+        <flag name="onlyTitle" value="0x00000008" />
+    </attr>
+    <attr name="layoutManager" format="string" />
+    <attr name="spanCount" format="integer" />
+    <attr name="reverseLayout" format="boolean" />
+    <attr name="stackFromEnd" format="boolean" />
+    <attr name="keyCode" format="integer" />
+    <attr name="keyRepeat" format="boolean" />
+    <attr name="text" format="string" />
+    <attr name="insetLeft" format="dimension" />
+    <attr name="rowHeight" format="dimension" />
+    <attr name="recentItemLayout" format="reference" />
+    <attr name="minSize" format="dimension" />
+    <attr name="maxSize" format="dimension" />
+    <attr name="holdTime" format="integer" />
+    <attr name="decayTime" format="integer" />
+    <attr name="frameColor" format="color" />
+    <attr name="amPmStyle">
+        <enum name="normal" value="0" />
+        <enum name="gone" value="2" />
+        <enum name="small" value="1" />
+    </attr>
+    <attr name="orientation">
+        <enum name="horizontal" value="0" />
+        <enum name="vertical" value="1" />
+    </attr>
+    <attr name="frameWidth" format="dimension" />
+    <attr name="framePadding" format="dimension" />
+    <attr name="activeFrameColor" format="color" />
+    <attr name="regularFontFamily" format="string" />
+    <attr name="activatedFontFamily" format="string" />
+    <attr name="datePattern" format="string" />
+    <attr name="numColumns" format="integer" />
+    <attr name="verticalSpacing" format="dimension" />
+    <attr name="horizontalSpacing" format="dimension" />
+    <attr name="backgroundColor" format="integer" />
+    <attr name="fillColor" format="integer" />
+    <attr name="singleToneColor" format="integer" />
+    <attr name="ignoreRightInset" format="boolean" />
+    <attr name="hasOverlappingRendering" format="boolean" />
+    <attr name="leuiKeyguard" format="boolean" />
+    <attr name="arc_origin">
+        <flag name="center" value="0x00000011" />
+        <flag name="center_horizontal" value="0x00000001" />
+        <flag name="center_vertical" value="0x00000010" />
+        <flag name="bottom" value="0x00000050" />
+        <flag name="left" value="0x00000003" />
+        <flag name="right" value="0x00000005" />
+        <flag name="top" value="0x00000030" />
+        <flag name="end" value="0x00800005" />
+        <flag name="start" value="0x00800003" />
+    </attr>
+    <attr name="arc_color" format="color" />
+    <attr name="arc_radius" format="dimension" />
+    <attr name="arc_axisRadius" format="dimension" />
+    <attr name="arc_freeAngle" format="boolean" />
+    <attr name="arc_reverseAngle" format="boolean" />
+    <attr name="arc_angle" format="float" />
+    <attr name="thumb" format="reference" />
+    <attr name="slider" format="reference" />
+    <attr name="vpiIconPageIndicatorStyle" format="reference" />
+    <attr name="layout_maxWidth" format="dimension" />
+    <attr name="layout_maxHeight" format="dimension" />
+    <attr name="digit" format="integer" />
+    <attr name="textView" format="reference" />
+    <attr name="background" format="color" />
+    <attr name="layout" format="reference" />
+    <attr name="klondike" format="reference" />
+    <attr name="scaledTextSize" format="integer" />
+    <attr name="dotColor" format="color" />
+    <attr name="dotSize" format="dimension" />
+    <attr name="scaleFontSize" format="boolean" />
+    <attr name="allCaps" format="boolean" />
+    <attr name="slideLayoutStyle" format="reference" />
+    <attr name="layout_role">
+        <enum name="content" value="0" />
+        <enum name="primaryMenu" value="1" />
+        <enum name="secondaryMenu" value="2" />
+    </attr>
+    <attr name="primaryShadowWidth" format="dimension" />
+    <attr name="secondaryShadowWidth" format="dimension" />
+    <attr name="primaryShadowDrawable" format="reference" />
+    <attr name="secondaryShadowDrawable" format="reference" />
+    <attr name="edgeSlide" format="boolean" />
+    <attr name="edgeSlideWidth" format="dimension" />
+    <attr name="slideDirection">
+        <flag name="left" value="0x00000001" />
+        <flag name="right" value="0x00000002" />
+    </attr>
+    <attr name="interpolator" format="reference" />
+    <attr name="tagSuffix" format="string" />
+    <attr name="showIcon" format="boolean" />
+    <attr name="showRange" format="boolean" />
+    <attr name="celsiusOrFahrenheit" format="boolean" />
+    <attr name="showDescription" format="boolean" />
+    <attr name="iconWidth" format="dimension" />
+    <attr name="iconHeight" format="dimension" />
+    <attr name="iconGravity">
+        <enum name="bottom" value="3" />
+        <enum name="left" value="0" />
+        <enum name="right" value="2" />
+        <enum name="top" value="1" />
+    </attr>
+    <attr name="pageTransformer_overlay" format="boolean" />
+    <attr name="orientation_horizontal" format="boolean" />
+    <attr name="rebound" format="boolean" />
+    <attr name="reboundLength" format="float" />
+    <attr name="velocityFlip" format="boolean" />
+    <attr name="velocityFlipSpeed" format="integer" />
+    <attr name="flipLength" format="float" />
+    <attr name="flipBaseLength" format="float" />
+    <attr name="bottomUntouch" format="boolean" />
+    <attr name="bottomUntouchSize" format="integer" />
+    <attr name="tenthPaddingType">
+        <enum name="tenth_padding_type_all" value="3" />
+        <enum name="tenth_padding_type_end" value="2" />
+        <enum name="tenth_padding_type_none" value="0" />
+        <enum name="tenth_padding_type_start" value="1" />
+    </attr>
+    <attr name="isParentPadding" format="boolean" />
+    <attr name="isHandleSystemTime" format="boolean" />
+    <attr name="isPositiveNum" format="boolean" />
+    <attr name="isDimension" format="boolean" />
+    <attr name="paddingStartNormal" format="dimension" />
+    <attr name="paddingStartTenth" format="dimension" />
+    <attr name="paddingEndNormal" format="dimension" />
+    <attr name="paddingEndTenth" format="dimension" />
+    <attr name="paddingStartNormalInt" format="integer" />
+    <attr name="paddingStartTenthInt" format="integer" />
+    <attr name="paddingEndNormalInt" format="integer" />
+    <attr name="paddingEndTenthInt" format="integer" />
+    <attr name="LeSlideFrontContentOffset" format="dimension" />
+    <attr name="LeSlideFrontContentView" format="reference" />
+    <attr name="LeSlideFrontView" format="reference" />
+    <attr name="LeSlideBackView" format="reference" />
+    <attr name="LeSlideBackViewClip" format="boolean" />
+    <attr name="LeSlideMode">
+        <enum name="none" value="0" />
+        <enum name="bottom" value="4" />
+        <enum name="left" value="1" />
+        <enum name="right" value="2" />
+        <enum name="top" value="3" />
+        <enum name="horizontal" value="5" />
+        <enum name="vertical" value="6" />
+    </attr>
+    <attr name="layout_width_landscape" format="dimension" />
+    <attr name="layout_height_landscape" format="dimension" />
+    <attr name="layout_width_portrait" format="dimension" />
+    <attr name="layout_height_portrait" format="dimension" />
+</resources>

@@ -1,0 +1,622 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="device_action_type">
+        <item>Rename</item>
+        <item>Delete</item>
+    </string-array>
+    <string-array name="device_type_array">
+        <item>TV</item>
+        <item>TV set-top box</item>
+        <item>Air conditioning</item>
+        <item>Smart box</item>
+        <item>Universal remote</item>
+    </string-array>
+    <string-array name="signal_type">
+        <item>Video</item>
+        <item>TV</item>
+        <item>Computer</item>
+        <item>HDMI1</item>
+        <item>HDMI2</item>
+        <item>HDMI3</item>
+    </string-array>
+    <string-array name="air_order">
+        <item>GREE</item>
+        <item>Midea</item>
+        <item>Haier</item>
+        <item>Daikin</item>
+        <item>Chigo</item>
+        <item>AUX</item>
+        <item>Hisense</item>
+        <item>Mitsubishi Electric</item>
+        <item>Panasonic</item>
+        <item>Galanz</item>
+        <item>Kelon</item>
+        <item>Changhong</item>
+        <item>TCL</item>
+        <item>Samsung</item>
+        <item>Shinco</item>
+        <item>Chunlan</item>
+        <item>Hitachi</item>
+        <item>Aucma</item>
+        <item>LG</item>
+        <item>Electrolux</item>
+        <item>Whirlpool</item>
+        <item>Sanyo</item>
+        <item>Fujitsu</item>
+        <item>Yair</item>
+        <item>York</item>
+        <item>GE</item>
+        <item>Carrier</item>
+        <item>Trane</item>
+        <item>McQuay</item>
+    </string-array>
+    <string-array name="brand">
+        <item>None</item>
+        <item>Brand News</item>
+        <item>Recommended Wallpaper</item>
+        <item>Brand Music</item>
+        <item>None</item>
+        <item>None</item>
+        <item>None</item>
+        <item>Related Website</item>
+    </string-array>
+    <string-array name="dvd_order">
+        <item>BBK</item>
+        <item>LG</item>
+        <item>Philips</item>
+        <item>Sast</item>
+        <item>Samsung</item>
+        <item>Panasonic</item>
+        <item>Qisheng</item>
+        <item>Sony</item>
+        <item>Pioneer</item>
+        <item>Malata</item>
+    </string-array>
+    <string-array name="le_animals">
+        <item>Rat</item>
+        <item>Ox</item>
+        <item>Tiger</item>
+        <item>Rabbit</item>
+        <item>Dragon</item>
+        <item>Snake</item>
+        <item>Horse</item>
+        <item>Goat</item>
+        <item>Monkey</item>
+        <item>Rooster</item>
+        <item>Dog</item>
+        <item>Pig</item>
+    </string-array>
+    <string-array name="le_chinesenumber">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+    <string-array name="le_chineseten">
+        <item>First</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+    </string-array>
+    <string-array name="le_gan">
+        <item>Jia</item>
+        <item>Yi</item>
+        <item>Bing</item>
+        <item>Ding</item>
+        <item>Wu</item>
+        <item>Ji</item>
+        <item>Geng</item>
+        <item>Xin</item>
+        <item>Ren</item>
+        <item>Gui</item>
+    </string-array>
+    <string-array name="le_lunar_festival">
+        <item>"Layue 19 Chinese New Year's Eve"</item>
+        <item>"Layue 30 Chinese New Year's Eve"</item>
+        <item>Zhengyue 1 Spring Festival</item>
+        <item>2/2 Longtaitou Festival</item>
+        <item>Zhengyue 15 Lantern Festival</item>
+        <item>5/5 Dragon Boat Festival</item>
+        <item>7/7 Qixi Festival</item>
+        <item>7/15 Ghost Festival</item>
+        <item>8/15 Middle Autumn Festival</item>
+        <item>9/9 Double Ninth Festival</item>
+        <item>Layue 8 Laba Festival</item>
+        <item>Layue 23 Preliminary Eve</item>
+    </string-array>
+    <string-array name="le_lunar_month_name">
+        <item>Zhengyue</item>
+        <item>Eryue</item>
+        <item>Sanyue</item>
+        <item>Siyue</item>
+        <item>Wuyue</item>
+        <item>Liuyue</item>
+        <item>Qiyue</item>
+        <item>Bayue</item>
+        <item>Jiuyue</item>
+        <item>Shiyue</item>
+        <item>Dongyue</item>
+        <item>Layue</item>
+    </string-array>
+    <string-array name="le_solar_holiday">
+        <item>01/01 New Years Day</item>
+        <item>"02/14 Valentine's Day"</item>
+        <item>"03/08 Women's Day"</item>
+        <item>03/12 Arbor Day</item>
+        <item>03/15 Consumer Day</item>
+        <item>"04/01 April Fool's Day"</item>
+        <item>05/01 Labor Day</item>
+        <item>05/04 Youth Day</item>
+        <item>"06/01 Children's Day"</item>
+        <item>"07/01 Party's Day"</item>
+        <item>"08/01 Army's Day"</item>
+        <item>"08/08 Father's Day"</item>
+        <item>"09/10 Teachers' Day"</item>
+        <item>10/01 National Day</item>
+        <item>10/31 Halloween</item>
+        <item>"11/11 Singles' Day"</item>
+        <item>12/24 Christmas Eve</item>
+        <item>12/25 Christmas</item>
+    </string-array>
+    <string-array name="le_solar_term">
+        <item></item>
+        <item>小寒</item>
+        <item>大寒</item>
+        <item>立春</item>
+        <item>雨水</item>
+        <item>惊蛰</item>
+        <item>春分</item>
+        <item>清明</item>
+        <item>谷雨</item>
+        <item>立夏</item>
+        <item>小满</item>
+        <item>芒种</item>
+        <item>夏至</item>
+        <item>小暑</item>
+        <item>大暑</item>
+        <item>立秋</item>
+        <item>处暑</item>
+        <item>白露</item>
+        <item>秋分</item>
+        <item>寒露</item>
+        <item>霜降</item>
+        <item>立冬</item>
+        <item>小雪</item>
+        <item>大雪</item>
+        <item>冬至</item>
+    </string-array>
+    <string-array name="le_zhi">
+        <item>Zi</item>
+        <item>Chou</item>
+        <item>Yin</item>
+        <item>Mao</item>
+        <item>Chen</item>
+        <item>Si</item>
+        <item>Wu</item>
+        <item>Wei</item>
+        <item>Shen</item>
+        <item>You</item>
+        <item>Xu</item>
+        <item>Hai</item>
+    </string-array>
+    <string-array name="movie">
+        <item>Film &amp; TV Series</item>
+        <item>Entertainment News</item>
+        <item>Recommended Wallpaper</item>
+        <item>Original Music</item>
+        <item>None</item>
+        <item>Relevant Artist</item>
+        <item>None</item>
+        <item>None</item>
+    </string-array>
+    <string-array name="pa_order">
+        <item>Philips</item>
+        <item>Samsung</item>
+        <item>Sony</item>
+        <item>Pioneer</item>
+        <item>Marantz</item>
+        <item>Denon</item>
+        <item>Onkyo</item>
+        <item>Yamaha</item>
+        <item>Harman Kardon</item>
+        <item>Sansui</item>
+        <item>Chilisin</item>
+        <item>JBL</item>
+        <item>CAV</item>
+        <item>Westding</item>
+        <item>Shinco</item>
+        <item>Dynaudio</item>
+        <item>Hyundai</item>
+    </string-array>
+    <string-array name="player">
+        <item>Film &amp; TV Series</item>
+        <item>Sports News</item>
+        <item>Recommended Wallpaper</item>
+        <item>None</item>
+        <item>Music Album</item>
+        <item>None</item>
+        <item>Related Weibo</item>
+        <item>Related Website</item>
+    </string-array>
+    <string-array name="projector_order">
+        <item>LG</item>
+        <item>Optoma</item>
+        <item>Dell</item>
+        <item>Toshiba</item>
+        <item>Philips</item>
+        <item>Fujitsu</item>
+        <item>Hitachi</item>
+        <item>Mitsubishi Electric</item>
+        <item>Samsung</item>
+        <item>Sanyo</item>
+        <item>Panasonic</item>
+        <item>Sony</item>
+        <item>Sharp</item>
+        <item>Pioneer</item>
+        <item>ViewSonic</item>
+        <item>Skyworth</item>
+        <item>Acer</item>
+        <item>Casio</item>
+        <item>Epson</item>
+        <item>Coolux</item>
+        <item>InFocus</item>
+        <item>BenQ</item>
+        <item>Bolate</item>
+        <item>canon</item>
+        <item>GE</item>
+        <item>JVC</item>
+    </string-array>
+    <string-array name="region">
+        <item>None</item>
+        <item>Relevant Video</item>
+        <item>Recommended Wallpaper</item>
+        <item>None</item>
+        <item>None</item>
+        <item>None</item>
+        <item>None</item>
+        <item>None</item>
+    </string-array>
+    <string-array name="star">
+        <item>Film &amp; TV Series</item>
+        <item>Entertainment News</item>
+        <item>Recommended Wallpaper</item>
+        <item>Popular Music</item>
+        <item>Music Album</item>
+        <item>Relevant Artist</item>
+        <item>Related Weibo</item>
+        <item>Related Website</item>
+    </string-array>
+    <string-array name="stb_order">
+        <item>LeTV</item>
+        <item>Mi</item>
+        <item>Himedia</item>
+        <item>Huawei</item>
+        <item>Skyworth</item>
+        <item>Kaiboer</item>
+        <item>Diyomate</item>
+        <item>Togic</item>
+        <item>Baidu</item>
+        <item>Tmall</item>
+    </string-array>
+    <string-array name="team">
+        <item>Film &amp; TV Series</item>
+        <item>Relevant News</item>
+        <item>Recommended Wallpaper</item>
+        <item>Relevant Music</item>
+        <item>None</item>
+        <item>None</item>
+        <item>None</item>
+        <item>None</item>
+    </string-array>
+    <string-array name="tv_order">
+        <item>Haier</item>
+        <item>Hisense</item>
+        <item>Hitachi</item>
+        <item>LG</item>
+        <item>Panasonic</item>
+        <item>Philips</item>
+        <item>Samsung</item>
+        <item>Sanyo</item>
+        <item>Sharp</item>
+        <item>Skyworth</item>
+        <item>Sony</item>
+        <item>TCL</item>
+        <item>Konka</item>
+        <item>Changhong</item>
+        <item>Toshiba</item>
+        <item>Leader</item>
+        <item>Rowa</item>
+        <item>Lenovo</item>
+        <item>Mi</item>
+        <item>Canca</item>
+        <item>Panda</item>
+        <item>Aoc</item>
+        <item>Melody</item>
+        <item>BOE</item>
+        <item>Hannspree</item>
+        <item>Pangoo</item>
+        <item>Malata</item>
+        <item>DLL</item>
+        <item>HKC</item>
+    </string-array>
+    <string-array name="app_ops_labels">
+        <item>@string/app_ops_access_location</item>
+        <item>@string/app_ops_access_location</item>
+        <item>@string/app_ops_access_location</item>
+        <item>@string/app_ops_use_vibrate</item>
+        <item>@string/app_ops_read_contacts</item>
+        <item>@string/app_ops_modify_contacts</item>
+        <item>@string/app_ops_read_call_log</item>
+        <item>@string/app_ops_modify_call_log</item>
+        <item>@string/app_ops_read_calendar</item>
+        <item>@string/app_ops_modify_calendar</item>
+        <item>@string/app_ops_access_location</item>
+        <item>@string/app_ops_post_notification</item>
+        <item>@string/app_ops_access_location</item>
+        <item>@string/app_ops_make_phone_call</item>
+        <item>@string/app_ops_read_sms</item>
+        <item>@string/app_ops_write_sms</item>
+        <item>@string/app_ops_receive_sms</item>
+        <item>@string/app_ops_receive_sms</item>
+        <item>@string/app_ops_receive_sms</item>
+        <item>@string/app_ops_receive_sms</item>
+        <item>@string/app_ops_send_sms</item>
+        <item>@string/app_ops_read_sms</item>
+        <item>@string/app_ops_write_sms</item>
+        <item>@string/app_ops_modify_settings</item>
+        <item>@string/app_ops_draw_on_top</item>
+        <item>@string/app_ops_access_notifications</item>
+        <item>@string/app_ops_access_camera</item>
+        <item>@string/app_ops_record_audio</item>
+        <item>@string/app_ops_play_audio</item>
+        <item>@string/app_ops_read_clipboard</item>
+        <item>@string/app_ops_modify_clipboard</item>
+        <item>@string/app_ops_use_media_buttons</item>
+        <item>@string/app_ops_use_audio_focus</item>
+        <item>@string/app_ops_use_master_volume</item>
+        <item>@string/app_ops_use_voice_volume</item>
+        <item>@string/app_ops_use_ring_volume</item>
+        <item>@string/app_ops_use_media_volume</item>
+        <item>@string/app_ops_use_alarm_volume</item>
+        <item>@string/app_ops_use_notification_volume</item>
+        <item>@string/app_ops_use_bluetooth_volume</item>
+        <item>@string/app_ops_keep_device_awake</item>
+        <item>@string/app_ops_access_location</item>
+        <item>@string/app_ops_access_location</item>
+        <item>@string/app_ops_usage_stats</item>
+        <item>@string/app_ops_mute_microphone</item>
+        <item>@string/app_ops_toast_window</item>
+        <item>@string/app_ops_project_media</item>
+        <item>@string/app_ops_activate_vpn</item>
+        <item>@string/app_ops_toggle_wifi</item>
+        <item>@string/app_ops_toggle_bluetooth</item>
+        <item>@string/app_ops_toggle_mobile_data</item>
+        <item>@string/app_ops_alarm_wakeup</item>
+        <item>@string/app_ops_send_mms</item>
+        <item>@string/app_ops_read_mms</item>
+        <item>@string/app_ops_write_mms</item>
+        <item>@string/app_ops_start_at_bootup</item>
+        <item>@string/app_ops_nfc</item>
+        <item>@string/app_ops_notification_sound</item>
+        <item>@string/app_ops_read_phone_state</item>
+        <item>@string/app_ops_notification_favourite</item>
+        <item>@string/app_ops_three_way_calling</item>
+    </string-array>
+    <string-array name="channel_array">
+        <item>电视剧</item>
+        <item>电影</item>
+        <item>动漫</item>
+        <item>音乐</item>
+        <item>综艺</item>
+        <item>体育</item>
+        <item>宠物</item>
+        <item>亲子</item>
+        <item>独播</item>
+        <item>韩剧</item>
+        <item>美剧</item>
+        <item>母婴</item>
+        <item>旅游</item>
+        <item>科技</item>
+        <item>娱乐</item>
+        <item>资讯</item>
+    </string-array>
+    <string-array name="le_days_31">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+    </string-array>
+    <string-array name="le_fontsize_enlarge_mode_normal">
+        <item>1</item>
+        <item>1.2</item>
+        <item>1.2</item>
+        <item>1.5</item>
+    </string-array>
+    <string-array name="le_lunar_days_29">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+    </string-array>
+    <string-array name="le_lunar_days_30">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+    </string-array>
+    <string-array name="le_lunar_months">
+        <item>Zhengyue</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>Dongyue</item>
+        <item>Layue</item>
+    </string-array>
+    <string-array name="le_months">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+    <string-array name="le_months_en">
+        <item>Jan</item>
+        <item>Feb</item>
+        <item>Nar</item>
+        <item>Apr</item>
+        <item>May</item>
+        <item>Jun</item>
+        <item>Jul</item>
+        <item>Aug</item>
+        <item>Sep</item>
+        <item>Oct</item>
+        <item>Nov</item>
+        <item>Dec</item>
+    </string-array>
+    <array name="le_quick_contact_badge_background_color_lists">
+        <item>@color/le_color_budge_0</item>
+        <item>@color/le_color_budge_1</item>
+        <item>@color/le_color_budge_2</item>
+        <item>@color/le_color_budge_3</item>
+        <item>@color/le_color_budge_4</item>
+        <item>@color/le_color_budge_5</item>
+        <item>@color/le_color_budge_6</item>
+        <item>@color/le_color_budge_7</item>
+        <item>@color/le_color_budge_8</item>
+        <item>@color/le_color_budge_9</item>
+    </array>
+    <string-array name="select_name">
+        <item>@string/always_allow</item>
+        <item>@string/all_allow</item>
+        <item>@string/prohibit</item>
+    </string-array>
+    <string-array name="select_switch_name">
+        <item>@string/all_allow</item>
+        <item>@string/prohibit</item>
+    </string-array>
+    <string-array name="select_switch_value">
+        <item>@string/allow_value</item>
+        <item>@string/prohibit_value</item>
+    </string-array>
+    <string-array name="select_value">
+        <item>@string/always_allow_value</item>
+        <item>@string/allow_value</item>
+        <item>@string/prohibit_value</item>
+    </string-array>
+    <string-array name="sim_info_picker_color_values">
+        <item>@string/blue_value</item>
+        <item>@string/green_value</item>
+        <item>@string/orange_value</item>
+        <item>@string/red_value</item>
+    </string-array>
+    <string-array name="ww_loacl_type">
+        <item>NORTHAMERICA</item>
+        <item>EUROPE</item>
+        <item>MIDDLEEAST_AFERICA</item>
+        <item>ASIAPACIFIC</item>
+        <item>LATINAMERICA</item>
+        <item>AUSTRALIA_OCEANIA</item>
+        <item>JAPAN</item>
+        <item>KOREA</item>
+        <item>RUSSIA</item>
+    </string-array>
+</resources>

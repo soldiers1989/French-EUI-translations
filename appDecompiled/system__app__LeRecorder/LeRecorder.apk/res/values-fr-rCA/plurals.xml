@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="delete_record_dialog_title">
+        <item quantity="other">Supprimer %d enregistrements</item>
+        <item quantity="one">Supprimer %d enregistrement</item>
+    </plurals>
+    <plurals name="select_item_xliff">
+        <item quantity="other">%d sélectionnés</item>
+        <item quantity="one">%d sélectionné</item>
+    </plurals>
+    <plurals name="decrypt_record_dialog_title">
+        <item quantity="other">Retirer le statut privé à %d enregistrements</item>
+        <item quantity="one">Retirer le statut privé à %d enregistrement</item>
+    </plurals>
+    <plurals name="encrypt_record_dialog_title">
+        <item quantity="other">Marquer %d enregistrements comme privés</item>
+        <item quantity="one">Marquer %d enregistrement comme privé</item>
+    </plurals>
+</resources>

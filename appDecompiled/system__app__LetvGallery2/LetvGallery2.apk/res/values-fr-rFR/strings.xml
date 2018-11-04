@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="le_app_upgrade_name">LeuiAppUpgrade</string>
+    <string name="le_btn_string_cancel">Annuler</string>
+    <string name="le_btn_string_confirm">Confirmer</string>
+    <string name="le_btn_string_exit">Quitter</string>
+    <string name="le_btn_string_remind_later">Me rappeler plus tard</string>
+    <string name="le_btn_string_upgrade_now">Mettre à jour maintenant</string>
+    <string name="le_toast_already_latest_version">Votre logiciel est à jour</string>
+    <string name="le_toast_string_download_failure">Échec du téléchargement de</string>
+    <string name="le_toast_string_start_download_patch">Téléchargement en cours. Veuillez patienter...</string>
+    <string name="le_tv_string_found_new_version">Nouvelle version disponible</string>
+    <string name="le_tv_string_use_mobile_data_download_patch">Utiliser les données mobiles pour télécharger le package?</string>
+</resources>

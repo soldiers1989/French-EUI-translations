@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="alarm_minute">
+        <item quantity="other">Rappel réglé pour : dans %1$d minutes</item>
+        <item quantity="one">Rappel réglé pour : dans une minute</item>
+    </plurals>
+    <plurals name="count_mult_mode">
+        <item quantity="other">%1$d sélectionnés</item>
+        <item quantity="one">1 sélectionné</item>
+    </plurals>
+</resources>

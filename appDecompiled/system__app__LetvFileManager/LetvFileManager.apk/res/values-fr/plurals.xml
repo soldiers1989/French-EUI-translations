@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="n_folders">
+        <item quantity="other">%1$d dossiers</item>
+        <item quantity="one">%1$d dossier</item>
+    </plurals>
+    <plurals name="n_files">
+        <item quantity="other">%1$d fichiers</item>
+        <item quantity="one">%1$d fichier</item>
+    </plurals>
+    <plurals name="search_found_items">
+        <item quantity="other">%d éléments trouvés</item>
+        <item quantity="one">%d élément trouvé</item>
+    </plurals>
+    <plurals name="selection_folders">
+        <item quantity="other">%1$d dossiers sélectionnés</item>
+        <item quantity="one">%1$d dossier sélectionné</item>
+    </plurals>
+    <plurals name="selection_files">
+        <item quantity="other">%1$d fichiers sélectionnés</item>
+        <item quantity="one">%1$d fichier sélectionné</item>
+    </plurals>
+    <plurals name="delate_money_folers">
+        <item quantity="other">Supprimer les %1$d fichiers sélectionnés</item>
+        <item quantity="one">Supprimer le %1$d fichier sélectionné</item>
+    </plurals>
+    <plurals name="pictures_name_singlular">
+        <item quantity="other">Images</item>
+        <item quantity="one">Image</item>
+    </plurals>
+    <plurals name="le_string_file_item">
+        <item quantity="other">" Éléments"</item>
+        <item quantity="one">" Élément"</item>
+    </plurals>
+</resources>

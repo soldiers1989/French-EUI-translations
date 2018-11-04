@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="delete_selection">
+        <item quantity="other">Supprimer le contenu sélectionné ?</item>
+        <item quantity="one">Supprimer le contenu sélectionné ?</item>
+    </plurals>
+    <plurals name="number_of_albums_deleted">
+        <item quantity="other">Supprimer %1$d albums</item>
+        <item quantity="zero">Supprimer %1$d albums</item>
+        <item quantity="one">Supprimer %1$d album</item>
+    </plurals>
+    <plurals name="number_of_images_deleted">
+        <item quantity="other">Supprimer %1$d images</item>
+        <item quantity="zero">Supprimer %1$d images</item>
+        <item quantity="one">Supprimer %1$d image</item>
+    </plurals>
+    <plurals name="number_of_images_deleted_have_fav">
+        <item quantity="other">Supprimer %1$d images</item>
+        <item quantity="zero">Supprimer %1$d images</item>
+        <item quantity="one">Supprimer %1$d image</item>
+    </plurals>
+    <plurals name="number_of_images_deleted_in_fav">
+        <item quantity="other">"Supprimer des images de vos dossiers favoris entraînera également la suppression des images d'origine. Pour retirer une image de vos favoris, utilisez l'option Retirer des favoris. Voulez-vous vraiment supprimer %1$d images ?"</item>
+        <item quantity="zero">"Supprimer des images de vos dossiers favoris entraînera également la suppression des images d'origine. Pour retirer une image de vos favoris, utilisez l'option Retirer des favoris. Voulez-vous vraiment supprimer %1$d images ?"</item>
+        <item quantity="one">"Supprimer des images de vos dossiers favoris entraînera également la suppression des images d'origine. Pour retirer une image de vos favoris, utilisez l'option Retirer des favoris. Voulez-vous vraiment supprimer %1$d image ?"</item>
+    </plurals>
+    <plurals name="number_of_items_deleted">
+        <item quantity="other">Supprimer %1$d éléments</item>
+        <item quantity="zero">Supprimer %1$d éléments</item>
+        <item quantity="one">Supprimer %1$d élément</item>
+    </plurals>
+    <plurals name="number_of_items_deleted_have_fav">
+        <item quantity="other">Supprimer %1$d éléments</item>
+        <item quantity="zero">Supprimer %1$d éléments</item>
+        <item quantity="one">Supprimer %1$d élément</item>
+    </plurals>
+    <plurals name="number_of_items_deleted_in_fav">
+        <item quantity="other">"Supprimer des images ou des vidéos de vos dossiers favoris entraînera également la suppression des fichiers originaux. Pour retirer une image ou une vidéo de vos favoris, utilisez l'option Retirer des favoris. Voulez-vous vraiment supprimer %1$d éléments ?"</item>
+        <item quantity="zero">"Supprimer des images ou des vidéos de vos dossiers favoris entraînera également la suppression des fichiers originaux. Pour retirer une image ou une vidéo de vos favoris, utilisez l'option Retirer des favoris. Voulez-vous vraiment supprimer %1$d éléments ?"</item>
+        <item quantity="one">"Supprimer des images ou des vidéos de vos dossiers favoris entraînera également la suppression des fichiers originaux. Pour retirer une image ou une vidéo de vos favoris, utilisez l'option Retirer des favoris. Voulez-vous vraiment supprimer l'élément %1$d ?"</item>
+    </plurals>
+    <plurals name="number_of_items_min_select">
+        <item quantity="other">Sélectionnez au moins %1$d images</item>
+        <item quantity="zero">Sélectionnez au moins %1$d images</item>
+        <item quantity="one">Sélectionnez au moins %1$d image</item>
+    </plurals>
+    <plurals name="number_of_items_min_selected">
+        <item quantity="other">%1$d/%2$d éléments sélectionnés</item>
+        <item quantity="zero">%1$d/%2$d éléments sélectionné</item>
+        <item quantity="one">%1$d/%2$d élément sélectionné</item>
+    </plurals>
+    <plurals name="number_of_items_private">
+        <item quantity="other">%1$d éléments privés</item>
+        <item quantity="zero">%1$d éléments privés</item>
+        <item quantity="one">%1$d élément privé</item>
+    </plurals>
+    <plurals name="number_of_items_remote_tag">
+        <item quantity="other">%1$d éléments retirés</item>
+        <item quantity="zero">%1$d éléments retirés</item>
+        <item quantity="one">%1$d élément retiré</item>
+    </plurals>
+    <plurals name="number_of_items_selected">
+        <item quantity="other">%1$d éléments sélectionnés</item>
+        <item quantity="zero">%1$d élément sélectionné</item>
+        <item quantity="one">%1$d élément sélectionné</item>
+    </plurals>
+    <plurals name="number_of_videos_deleted">
+        <item quantity="other">Supprimer %1$d vidéos</item>
+        <item quantity="zero">Supprimer %1$d vidéos</item>
+        <item quantity="one">Supprimer %1$d vidéo</item>
+    </plurals>
+    <plurals name="number_of_videos_deleted_have_fav">
+        <item quantity="other">Supprimer %1$d vidéos</item>
+        <item quantity="zero">Supprimer %1$d vidéos</item>
+        <item quantity="one">Supprimer %1$d vidéo</item>
+    </plurals>
+    <plurals name="number_of_videos_deleted_in_fav">
+        <item quantity="other">"Supprimer des vidéos de vos dossiers favoris entraînera également la suppression des vidéos d'origine. Pour retirer une vidéo de vos favoris, utilisez l'option Retirer des favoris. Voulez-vous vraiment supprimer %1$d vidéos ?"</item>
+        <item quantity="zero">"Supprimer des vidéos de vos dossiers favoris entraînera également la suppression des vidéos d'origine. Pour retirer une vidéo de vos favoris, utilisez l'option Retirer des favoris. Voulez-vous vraiment supprimer %1$d vidéos ?"</item>
+        <item quantity="one">"Supprimer des vidéos de vos dossiers favoris entraînera également la suppression des vidéos d'origine. Pour retirer une vidéo de vos favoris, utilisez l'option Retirer des favoris. Voulez-vous vraiment supprimer %1$d vidéo ?"</item>
+    </plurals>
+</resources>

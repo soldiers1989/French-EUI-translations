@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="audio_qulity_entries">
+        <item>Haute qualité</item>
+        <item>Qualité standard</item>
+        <item>Faible qualité</item>
+    </string-array>
+    <string-array name="non_x5_mic_scene_entries">
+        <item>Normal</item>
+        <item>Interview</item>
+    </string-array>
+    <string-array name="scene_entries">
+        <item>Enregistrement vocal</item>
+        <item>Enregistrement musical</item>
+    </string-array>
+    <string-array name="x5_mic_scene_entries">
+        <item>Normal</item>
+        <item>Interview</item>
+        <item>Réunion</item>
+    </string-array>
+</resources>

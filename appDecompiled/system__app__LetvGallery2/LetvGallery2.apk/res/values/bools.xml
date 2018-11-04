@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="abc_action_bar_embed_tabs_pre_jb">false</bool>
+    <bool name="abc_config_allowActionMenuItemTextWithIcon">false</bool>
+    <bool name="abc_action_bar_embed_tabs">true</bool>
+    <bool name="abc_action_bar_expanded_action_views_exclusive">true</bool>
+    <bool name="abc_config_actionMenuItemAllCaps">true</bool>
+    <bool name="abc_config_showMenuShortcutsWhenKeyboardPresent">false</bool>
+    <bool name="emotion_default_circle_centered">true</bool>
+    <bool name="emotion_default_circle_snap">false</bool>
+    <bool name="key_cloud_radio_network_both">false</bool>
+    <bool name="key_cloud_radio_network_wlan">true</bool>
+    <bool name="key_cloud_radio_power_charge">false</bool>
+    <bool name="key_cloud_radio_power_limit_30">false</bool>
+    <bool name="key_cloud_radio_power_no_limit">true</bool>
+    <bool name="key_cloud_shuffle_mobile_download">false</bool>
+    <bool name="key_cloud_shuffle_preview">false</bool>
+    <bool name="key_cloud_shuffle_sync_service">true</bool>
+    <bool name="key_cloud_shuffle_thumb">false</bool>
+    <bool name="le_add_keyguard_wallpaper_window">false</bool>
+    <bool name="le_led_light_battery_policy">true</bool>
+    <bool name="le_led_light_notification_policy">true</bool>
+    <bool name="le_need_show_ime_switch_notification">false</bool>
+    <bool name="le_zen_mode_config_support">false</bool>
+</resources>

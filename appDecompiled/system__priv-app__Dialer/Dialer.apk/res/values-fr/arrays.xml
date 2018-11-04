@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="number_opt">
+        <item>Créer un contact</item>
+        <item>Ajouter à un contact existant</item>
+        <item>Supprimer</item>
+        <item>"Journaux d'appels au premier plan"</item>
+        <item>Ajouter à la liste noire</item>
+        <item>Indicateur</item>
+    </string-array>
+    <string-array name="markLables">
+        <item>Harcèlement par téléphone</item>
+        <item>Canular</item>
+        <item>Agent</item>
+        <item>Marketing</item>
+        <item>Livraison</item>
+        <item>Express</item>
+        <item>Personnalisé</item>
+    </string-array>
+    <string-array name="markLables_for_yellopage">
+        <item>Harcèlement par téléphone</item>
+        <item>Canular</item>
+        <item>Agent</item>
+        <item>Marketing</item>
+        <item>Livraison</item>
+        <item>Express</item>
+        <item>Personnalisé</item>
+    </string-array>
+    <string-array name="blackItmes">
+        <item>Bloquer les appels et les messages</item>
+        <item>Bloquer les appels</item>
+        <item>Bloquer les messages</item>
+    </string-array>
+    <string-array name="leBlockPrimaryItmes">
+        <item>Choisissez ce que vous souhaitez bloquer</item>
+        <item>Retirer de la liste noire</item>
+    </string-array>
+    <string-array name="filterOperator">
+        <item>Tous les appels</item>
+        <item>Appels manqués</item>
+        <item>La carte SIM 1 appelle</item>
+        <item>La carte SIM 2 appelle</item>
+    </string-array>
+    <string-array name="filter_calllog_list">
+        <item>Tout</item>
+        <item>Manqué</item>
+        <item>Appels SIM1</item>
+        <item>Appels SIM2</item>
+    </string-array>
+    <string-array name="filter_calllog_list_single_sim">
+        <item>Tout</item>
+        <item>Manqué</item>
+    </string-array>
+    <string-array name="filter_calllog_list_single_sim_with_hometime">
+        <item>Tout</item>
+        <item>Manqué</item>
+        <item>HomeTime</item>
+    </string-array>
+    <string-array name="filter_calllog_list_with_hometime">
+        <item>Tout</item>
+        <item>Manqué</item>
+        <item>Appels SIM1</item>
+        <item>Appels SIM2</item>
+        <item>HomeTime</item>
+    </string-array>
+    <string-array name="dialer_setting_more_options">
+        <item>Coller le numéro à partir du Presse-papiers</item>
+        <item>Paramètres</item>
+        <item>Commentaires</item>
+    </string-array>
+</resources>

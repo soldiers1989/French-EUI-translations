@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="album_detail_header_menu">
+        <item>Partager</item>
+        <item>Favori</item>
+        <item>Ajouter à</item>
+    </string-array>
+    <string-array name="album_filter">
+        <item>Recommandé</item>
+        <item>Chinois</item>
+        <item>Occidental</item>
+        <item>Corée</item>
+        <item>Japon</item>
+    </string-array>
+    <string-array name="alphabets">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>U</item>
+        <item>V</item>
+        <item>W</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
+    </string-array>
+    <string-array name="array_rank_types_world_media">
+        <item>Hito Chinese</item>
+        <item>Hong Kong Gold</item>
+        <item>UK Singles</item>
+        <item>Billboard</item>
+        <item>ORICON</item>
+        <item>MNET</item>
+    </string-array>
+    <string-array name="array_rank_types_xiami">
+        <item>Populaire</item>
+        <item>Nouveau</item>
+        <item>Original</item>
+        <item>"Démos d'artiste"</item>
+    </string-array>
+    <string-array name="array_setting_auto">
+        <item>Sélection auto</item>
+        <item>@string/music_quality_standard</item>
+        <item>@string/music_quality_hight</item>
+        <item>@string/music_quality_cdla</item>
+    </string-array>
+    <string-array name="artist_region_name">
+        <item>Artistes chinois</item>
+        <item>Artistes chinoises</item>
+        <item>Groupes chinois</item>
+        <item>Artistes occidentaux</item>
+        <item>Artistes occidentales</item>
+        <item>Groupes occidentaux</item>
+        <item>Artistes japonais</item>
+        <item>Artistes japonaises</item>
+        <item>Groupes japonais</item>
+        <item>Artistes coréens</item>
+        <item>Artistes coréennes</item>
+        <item>Groupes coréens</item>
+    </string-array>
+    <string-array name="blank_page_failure_message">
+        <item>Aucun résultat de recherche</item>
+        <item>Pas de paroles</item>
+        <item>Pas de musique</item>
+        <item>Aucune donnée</item>
+        <item>Aucune information inscrite</item>
+    </string-array>
+    <string-array name="listen_music_latest_album_tab_title_array">
+        <item>Chinois</item>
+        <item>Occidental</item>
+        <item>Corée</item>
+        <item>Japon</item>
+    </string-array>
+    <string-array name="listen_music_section_rank_name">
+        <item>Nouveau</item>
+        <item>Populaire</item>
+        <item>Palmarès Oricon</item>
+        <item>Palmarès Billboard</item>
+    </string-array>
+    <string-array name="listen_music_section_title">
+        <item>Plus populaires de la semaine</item>
+        <item>Collections recommandées</item>
+        <item>Recommandations spéciales</item>
+        <item>Classements</item>
+        <item>Nouveaux albums</item>
+        <item>Radio scénario</item>
+    </string-array>
+    <string-array name="listen_music_title_array">
+        <item>"Choix de l'éditeur"</item>
+        <item>Recommandé</item>
+    </string-array>
+    <string-array name="local_music_sort">
+        <item>Trier par date de création (plus ancienne en premier)</item>
+        <item>Trier par date de création (plus récente en premier)</item>
+        <item>Trier par première lettre</item>
+    </string-array>
+    <string-array name="love_music_section_radio_name">
+        <item>Original</item>
+        <item>Scène</item>
+        <item>Genre</item>
+        <item>Ambiance</item>
+    </string-array>
+    <string-array name="love_performance_home_menu_tltle">
+        <item>Concert</item>
+        <item>Prestation</item>
+        <item>Concert</item>
+    </string-array>
+    <string-array name="music_detail_tab_title_array">
+        <item>Chansons</item>
+        <item>Albums</item>
+        <item>Vidéoclips</item>
+    </string-array>
+    <string-array name="overseas_tabs">
+        <item>Chanson</item>
+        <item>Album</item>
+        <item>Artiste</item>
+        <item>Liste de lecture</item>
+        <item>Genre</item>
+    </string-array>
+    <string-array name="performance_order_filter">
+        <item>Trier par date de commande</item>
+        <item>Trier par date de prestation</item>
+        <item>Trier par service de billetterie</item>
+    </string-array>
+    <string-array name="playlist_list_menu">
+        <item>Renommer</item>
+        <item>Supprimer</item>
+    </string-array>
+    <string-array name="radio_name_array">
+        <item>Recommandé</item>
+        <item>Original</item>
+        <item>Scène</item>
+        <item>Genre</item>
+        <item>Ambiance</item>
+    </string-array>
+    <string-array name="rank_category">
+        <item>Palmarès Xiami</item>
+        <item>Palmarès mondiaux</item>
+    </string-array>
+    <string-array name="ranklist">
+        <item>Nouveau</item>
+        <item>Populaire</item>
+        <item>Original</item>
+        <item>Billboard</item>
+        <item>MNUT</item>
+        <item>Oricon</item>
+    </string-array>
+    <string-array name="search_result_title">
+        <item>Simple</item>
+        <item>Artiste</item>
+        <item>Album</item>
+        <item>Vidéoclips</item>
+        <item>Local</item>
+    </string-array>
+    <string-array name="ticket_status">
+        <item>Populaire</item>
+        <item>Prévente</item>
+        <item>Non valide</item>
+        <item>En attente</item>
+        <item>Complet</item>
+        <item>Retardé</item>
+        <item>Annuler</item>
+        <item>Accepté</item>
+    </string-array>
+    <string-array name="week_day">
+        <item>Dimanche</item>
+        <item>Lundi</item>
+        <item>Mardi</item>
+        <item>Mercredi</item>
+        <item>Jeudi</item>
+        <item>Vendredi</item>
+        <item>Samedi</item>
+    </string-array>
+    <string-array name="weeklist">
+        <item>Semaine 1</item>
+        <item>Semaine 2</item>
+        <item>Semaine 3</item>
+        <item>Semaine 4</item>
+        <item>Semaine 5</item>
+        <item>Semaine 6</item>
+        <item>Semaine 7</item>
+        <item>Semaine 8</item>
+        <item>Semaine 9</item>
+        <item>Semaine 10</item>
+        <item>Semaine 11</item>
+        <item>Semaine 12</item>
+    </string-array>
+    <string-array name="scan_filter_duration">
+        <item>0 sec</item>
+        <item>30 sec</item>
+        <item>60 sec</item>
+        <item>90 sec</item>
+        <item>120 sec</item>
+    </string-array>
+    <string-array name="blank_page_failure_description">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+</resources>

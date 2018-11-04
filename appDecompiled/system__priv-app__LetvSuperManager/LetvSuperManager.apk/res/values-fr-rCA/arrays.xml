@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="carrie_entries">
+        <item>China Mobile</item>
+        <item>China Unicom</item>
+        <item>China Telecom</item>
+    </string-array>
+    <string-array name="province_entries">
+        <item>Beijing</item>
+        <item>Guangdong</item>
+        <item>Shanghai</item>
+        <item>Tianjin</item>
+        <item>Chongqing</item>
+        <item>Liaoning</item>
+        <item>Jiangsu</item>
+        <item>Hubei</item>
+        <item>Sichuan</item>
+        <item>Shaanxi</item>
+        <item>Hebei</item>
+        <item>Shanxi</item>
+        <item>Henan</item>
+        <item>Jilin</item>
+        <item>Heilongjiang</item>
+        <item>Région autonome de Mongolie-Intérieure</item>
+        <item>Shandong</item>
+        <item>Anhui</item>
+        <item>Zhejiang</item>
+        <item>Fujian</item>
+        <item>Hunan</item>
+        <item>Guangxi</item>
+        <item>Jiangxi</item>
+        <item>Guizhou</item>
+        <item>Yunnan</item>
+        <item>Tibet</item>
+        <item>Hainan</item>
+        <item>Gansu</item>
+        <item>Région autonome hui du Ningxia</item>
+        <item>Qinghai</item>
+        <item>Xinjiang</item>
+    </string-array>
+</resources>
