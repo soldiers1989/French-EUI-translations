@@ -19,7 +19,7 @@ Actually, there is 3 differents variants :
 -fr (international french) 
 -fr-rCA (canadian french)
 -fr-rFR (french from France)
-But I would like to delete theses variants to make one only.
+
 
 Il faut cloner le repository sur son PC pour plus de facilité (même s'il est possible de le faire en ligne)
 Ensuite, les fichiers à modifier sont dans res/values-XX (XX voulant dire la variante)
@@ -28,7 +28,6 @@ Actuellement il y a 3 varientes possibles :
 -fr (français international) 
 -fr-rCA (français canadien)
 -fr-rFR (français de France)
-Je souhaiterais supprimer ces variantes pour n'en former qu'une seule et unique.
 
 
 # Special thanks/ Remerciements :
