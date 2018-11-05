@@ -20,7 +20,6 @@ Actually, there is 3 differents variants :
 -fr-rCA (canadian french)
 -fr-rFR (french from France)
 
-
 Il faut cloner le repository sur son PC pour plus de facilité (même s'il est possible de le faire en ligne)
 Ensuite, les fichiers à modifier sont dans res/values-XX (XX voulant dire la variante)
 Le dossiers values (sans rien derrière) contient les fichiers sources en anglais
