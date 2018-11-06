@@ -63,4 +63,34 @@
     <string name="le_licence_dialog_use_nfc">utiliser NFC</string>
     <string name="empty_view_data_exception">Exception de données</string>
     <string name="empty_view_no_email">Aucun e-mail</string>
+	<string name="register_error_hint_angle">Maintenez votre visage immobile</string>
+    <string name="register_error_hint_brightness">Lumière insuffisante</string>
+    <string name="register_error_hint_no_face">"Centrer le visage dans l'espace prévu"</string>
+    <string name="register_error_hint_occlusion">Ne pas couvrir votre visage</string>
+    <string name="register_error_hint_sharpness">"L'image est floue, ne bougez pas la tête"</string>
+    <string name="register_suggest">"
+Pour de meilleurs résultats, gardez la tête aussi stable que possible.
+
+Enregistrez votre visage dans des conditions de luminosité satisfaisantes.
+"</string>
+    <string name="toolbar_next">Suivant</string>
+    <string name="face_add">Ajouter un visage</string>
+    <string name="face_added_success_message"><b>Félicitations ! L'enregistrement est terminé, vous pouvez maintenant dévérouiller votre appareil avec votre visage!</b></string>
+    <string name="face_back">Retour</string>
+    <string name="face_cancel">Annuler</string>
+    <string name="face_delete">Supprimer</string>
+    <string name="face_delete_dialog_title">Confirmer la suppression</string>
+    <string name="face_disclaimer_message">"Avant d'utiliser cette fonctionnalité, veuillez noter les points suivants:
+1. Le téléphone peut être dévérouillé par des personnes ou objets ayant une apparence similaire
+2. Le dévérouillage par le visage est moins sécurisé que les mots de passe, schémas et autres combinaisons.
+3. Quand il y a peu de lumière, que le rétroéclairage est faible et que l'appareil est trop éloigné, le taux de réussite sera réduit.
+4. Veuillez garder vos méthodes de dévérouillage du téléphone à l'abri des regards
+5. D'autres situations peuvent aussi affecter l'utilisation du dévérouillage par le visage. Merci de bien y prêter attention."</string>
+    <string name="face_disclaimer_next">Accepter et continuer</string>
+    <string name="face_disclaimer_title">Avertissement</string>
+    <string name="face_manager">Gestion des visages</string>
+    <string name="face_name">Nom</string>
+    <string name="face_name_dialog_back">Retour</string>
+    <string name="face_name_dialog_ok">OK</string>
+    <string name="face_name_input">Entrez votre nom</string>
 </resources>
